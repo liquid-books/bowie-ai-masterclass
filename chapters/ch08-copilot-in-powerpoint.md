@@ -1,97 +1,98 @@
 ---
 title: "Chapter 8: Week 3, Session A — Copilot in PowerPoint"
-subtitle: "From Working Doc to Client-Ready Deck in Minutes"
+subtitle: "From Working Doc to Council-Ready Deck in Minutes"
 short_title: "Copilot in PowerPoint"
-description: "How GES professionals use Microsoft Copilot in PowerPoint to transform Word documents, site survey notes, and show data into client-ready concept decks, organizer RFP responses, post-show recap presentations, and QBR packages — in a fraction of the time."
+description: "How City of Bowie employees use Microsoft Copilot in PowerPoint to transform Word documents, project notes, and program data into City Council briefings, department presentations, grant proposal decks, project closeout presentations, and program performance reviews — in a fraction of the time."
 label: ch-08-copilot-in-powerpoint
-tags: [Copilot in PowerPoint, presentation AI, concept deck, RFP response, post-show recap, QBR, speaker notes, GES, Spiro, Microsoft 365, slide generation, verification discipline]
+tags: [Copilot in PowerPoint, presentation AI, City Council briefing, grant proposal, project closeout, program performance review, speaker notes, City of Bowie, Microsoft 365, slide generation, verification discipline]
 ---
 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
+[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch08-copilot-in-powerpoint.pdf)
 ```
 
 # Chapter 8: Week 3, Session A — Copilot in PowerPoint
 
 :::{figure} ../images/ch08-powerpoint-infographic.png
 :label: fig-ch08-infographic
-:alt: Illustrated explainer infographic summarizing Copilot in PowerPoint capabilities — two entry points at top (PowerPoint Agent Mode and m365.cloud.microsoft), four workflow stages in middle (Prompt, Clarifying Questions, Slide Generation, Refinement), four GES deck types at bottom (Spiro Concept Deck, Organizer RFP Response, Post-Show Recap, Account QBR), and a human verification and design review checkpoint gate at the far right
+:alt: Illustrated explainer infographic summarizing Copilot in PowerPoint capabilities — two entry points at top (PowerPoint Agent Mode and m365.cloud.microsoft), four workflow stages in middle (Prompt, Clarifying Questions, Slide Generation, Refinement), four City of Bowie deck types at bottom (City Council Briefing, Grant Proposal, Project Closeout, Program Performance Review), and a human verification and design review checkpoint gate at the far right
 :width: 80%
 :align: center
 
-Copilot in PowerPoint gives GES professionals two entry points, a structured generation workflow, and four mission-critical deck types. Every output passes through the same endpoint: a professional who verifies and owns every slide before it reaches an organizer, an exhibitor, or a show floor.
+Copilot in PowerPoint gives City of Bowie employees two entry points, a structured generation workflow, and four mission-critical deck types. Every output passes through the same endpoint: a professional who verifies and owns every slide before it reaches the City Council, department leadership, or the public.
 :::
 
-> *"The deck crunch is real. The pitch is tomorrow. The slides are still blank. Copilot changes that math."*
+> *"The presentation is due at tomorrow's Council meeting. The slides are still blank. Copilot changes that math."*
 
-Here is a scene that every senior professional at GES has lived.
+Here is a scene that many City of Bowie employees have lived.
 
-It is 4:30 p.m. on a Thursday. The organizer presentation is at 8:00 a.m. Friday in a hotel conference room three time zones away. The account director needs a 12-slide pre-show planning deck covering floor plan status, freight targets, move-in sequencing, and the exhibitor service kit rollout — and the source material lives in three different Excel files, a Word operations summary, and a set of handwritten notes from last week's site survey. The slides are not started. Building this deck from scratch — pulling the data, designing the layout, writing the talking points, checking the numbers, formatting everything to GES brand standards — is a four-to-five-hour job. That math does not work.
+It is 4:30 p.m. on a Thursday. The City Council briefing is at 7:00 p.m. Monday in the City Hall Council chambers. The department director needs a 12-slide project status deck covering program milestones, budget performance, community impact metrics, and the resident outreach timeline — and the source material lives in three different Excel files, a Word project summary, and a set of notes from last week's site visit. The slides are not started. Building this deck from scratch — pulling the data, designing the layout, writing the talking points, checking the numbers, formatting everything to the city's presentation standards — is a four-to-five-hour job. That math does not work.
 
-Or consider the Spiro exhibit designer who has just been told the client wants a concept presentation in 48 hours. She has the design engineering sketches, the budget parameters, the venue's ceiling height and rigging constraints, the brand guidelines the client sent over, and her own read on what the activation needs to accomplish on the show floor. All of it needs to become a structured, visually credible presentation that the client can react to, question, and approve. Without AI, that is a half-day of assembly work before she gets to spend a single minute on the actual design thinking.
+Or consider the Parks and Recreation coordinator who has just been told the department needs a grant proposal deck in 48 hours. She has the program design documents, the budget parameters, the park's usage data, the community needs assessment, and her own read on what the initiative needs to accomplish for Bowie's ~70,000 residents. All of it needs to become a structured, visually credible presentation that the funding agency can react to, question, and approve. Without AI, that is a half-day of assembly work before she gets to spend a single minute on the actual program thinking.
 
-Or the show operations manager who has to brief a regional leadership group on Monday morning about labor performance and safety across three of the 24 GES production facilities. He has the incident logs. He has the labor hour variances. He needs a clean, professional deck that presents the picture honestly and holds up when someone asks a hard question about a specific move-out. Building it from scratch, after already working a full week on a show floor, is not where he wants to spend his weekend.
+Or the Public Works manager who has to brief a department leadership group on Monday morning about infrastructure project performance and safety compliance across multiple active city construction sites. He has the incident logs. He has the budget variance data. He needs a clean, professional deck that presents the picture honestly and holds up when someone asks a hard question about a specific project delay. Building it from scratch, after already working a full week managing field operations, is not where he wants to spend his weekend.
 
-**Microsoft Copilot in PowerPoint does not eliminate the work of preparing great presentations.** It compresses the structural, mechanical portion of that work — generating slides, organizing content, creating speaker notes, retaining your brand template — so that the time you spend is invested in the things that actually require your expertise: reviewing the content, validating the numbers, refining the argument, sharpening the creative idea, and ensuring every slide earns its place in the room.
+**Microsoft Copilot in PowerPoint does not eliminate the work of preparing great presentations.** It compresses the structural, mechanical portion of that work — generating slides, organizing content, creating speaker notes, retaining your city's presentation template — so that the time you spend is invested in the things that actually require your expertise: reviewing the content, validating the numbers, refining the argument, sharpening the policy recommendation, and ensuring every slide earns its place in the room.
 
-This chapter teaches you exactly how that works — based exclusively on what Microsoft has confirmed and documented — and how GES professionals apply it to the deck types that define our business: client-ready concept decks, organizer RFP responses and new business pitches, post-show recap and ROI presentations, and quarterly business reviews for our largest accounts.
+This chapter teaches you exactly how that works — based exclusively on what Microsoft has confirmed and documented — and how City of Bowie employees apply it to the deck types that define our work: City Council briefings and department presentations, grant proposals and inter-agency partnership decks, project closeout presentations, and program performance reviews.
 
-There is one principle that runs through everything in this chapter, the same one introduced in Chapter 6 on Copilot in Word. Microsoft states it clearly in their own documentation: AI-generated content requires your verification before it goes anywhere. Not because Copilot makes things up at random — it is a genuinely powerful tool. Because every number in a post-show ROI deck, every commitment in an RFP response, and every rendering caption in a Spiro concept presentation has your name on it, and behind your name sits 85+ years of GES reputation. That does not change because a machine helped you build the slide.
+There is one principle that runs through everything in this chapter, the same one introduced in Chapter 6 on Copilot in Word. Microsoft states it clearly in their own documentation: AI-generated content requires your verification before it goes anywhere. Not because Copilot makes things up at random — it is a genuinely powerful tool. Because every number in a program performance review, every commitment in a grant proposal, and every project milestone in a Council briefing has your name on it, and behind your name sits the City of Bowie's reputation for responsible, accountable government service. That does not change because a machine helped you build the slide.
 
-And there is a second principle, specific to us, that you will not find in any generic Copilot training: **at GES, the deck is part of the product.**
+And there is a second principle, specific to public-sector work, that you will not find in any generic Copilot training: **at the City of Bowie, the deck is a public record and a public commitment.**
 
 Let's start there.
 
 ---
 
-## 1. Why the Deck Is Different at a Design Company
+## 1. Why the Deck Is Different in Local Government
 
-At most companies, a presentation is a container. It carries information from one group of people to another. If it is a little ugly, if the type is inconsistent, if one slide uses last year's logo — nobody's core business proposition is damaged.
+At many organizations, a presentation is a container. It carries information from one group of people to another. If it is a little disorganized, if the data is slightly off — the stakes may be manageable.
 
 That is not our situation.
 
-GES sells experience design. We sell the ability to take a brand and translate it into a physical environment that stops a buyer in an aisle. We are the company behind **4,000+ live experiences a year**, serving **150,000+ exhibitors** across **75+ countries**, out of **24 global production and warehouse facilities**. Our creative arm, **Spiro**, competes for work against the best experiential agencies in the world. When a prospective client opens a GES or Spiro deck, they are not just reading our proposal. **They are auditing our taste.**
+The City of Bowie serves the largest city in Prince George's County — more than 70,000 residents who expect their city government to be accountable, responsive, and a careful steward of public resources. When a department director stands before the City Council to present a program update or a budget request, or when a staff member presents at a public meeting, they are not just sharing information. **They are representing the city's credibility and the public's trust.**
 
-A misaligned headline on slide 4 is not a typo. It is evidence. It tells the client that the company asking to design their $2M brand environment cannot keep a text box straight. A cluttered slide with nine bullet points tells a show organizer that the company promising to simplify their move-in has trouble simplifying anything. A stretched, low-resolution rendering tells an exhibitor everything they need to know about how we will treat their graphics on the show floor.
+A misaligned headline on slide 4 is not just a typo. In a Council briefing, it signals that the department presenting a complex infrastructure project cannot organize its own materials. A cluttered slide with nine bullet points tells residents attending a public meeting that the city struggles to communicate clearly. An incorrect budget figure on a grant proposal tells a funding agency that the city may not be a reliable steward of their dollars.
 
-This is why the PowerPoint chapter matters more at GES than it would at a logistics firm, a utility, or a software company. **Visual quality is part of our brand promise.** The deck is the first physical artifact of our craft that a client ever touches.
+This is why the PowerPoint chapter matters enormously at the City of Bowie. **Clarity, accuracy, and professionalism in presentations are part of our service commitment to residents.** The deck is the first artifact of city work that many stakeholders — Council members, community groups, grant reviewers, partner agencies — ever directly engage with.
 
-::::{admonition} 🎯 T.R.U.E. Check: Excellence
+::::{admonition} 🎯 City Values Check: Accountability
 :class: note
 
-**Excellence** — *provide excellent service and execution.*
+**Accountability** — *be responsible for our actions and deliver on our commitments.*
 
-Here is the uncomfortable version of Excellence in this context. A sloppy deck from GES does more damage than a sloppy deck from almost any other kind of company, because we are literally in the business of making things look extraordinary. The gap between what we promise and what we hand over is the whole argument against hiring us.
+Here is the real version of Accountability in this context. An inaccurate or poorly prepared presentation from the City of Bowie does more than fail internally — it can undermine Council confidence, confuse residents at a public meeting, or jeopardize a grant award. The gap between the quality we promise and the materials we hand over affects how the community sees their city government.
 
-Copilot will get you to a structurally sound deck in fifteen minutes instead of four hours. That is not permission to ship in fifteen minutes. It is permission to spend the three hours and forty-five minutes you just recovered on the part a client actually notices: the idea, the imagery, the flow, the moment on slide 6 where the concept lands.
+Copilot will get you to a structurally sound deck in fifteen minutes instead of four hours. That is not permission to ship in fifteen minutes. It is permission to spend the three hours and forty-five minutes you just recovered on the part stakeholders actually notice: the accuracy of the data, the clarity of the recommendation, the moment on slide 6 where the policy rationale lands.
 
-**AI raises the floor. Craft raises the ceiling.**
+**AI raises the floor. Careful verification raises the ceiling.**
 ::::
 
 ### What the Deck Crunch Actually Costs
 
-Building a professional presentation is not a simple task. It is a composite of five distinct types of work, most of which have nothing to do with the substance of what you are trying to communicate.
+Building a professional government presentation is not a simple task. It is a composite of five distinct types of work, most of which have nothing to do with the substance of what you are trying to communicate.
 
-**Content assembly** — gathering the information, data, summaries, drawings, and analysis that will go into the deck — is intellectual work. It requires judgment. It requires knowing what matters to this organizer, this exhibitor, this agency partner, and what does not.
+**Content assembly** — gathering the information, data, summaries, and analysis that will go into the deck — is intellectual work. It requires judgment. It requires knowing what matters to this Council committee, this resident group, this grant agency, and what does not.
 
-**Structural design** — deciding how many slides to have, what order they should appear in, what kind of layout fits each type of content — is narrative work. It benefits from experience and pattern recognition. It is the difference between a recap deck that tells a story and one that dumps data.
+**Structural design** — deciding how many slides to have, what order they should appear in, what kind of layout fits each type of content — is narrative work. It benefits from experience and pattern recognition. It is the difference between a project closeout deck that tells a coherent story and one that merely dumps data.
 
-**Prose writing** — turning raw show data and design notes into professional, readable slide text and speaker notes — is writing work. It requires skill and attention to tone and precision.
+**Prose writing** — turning raw project data and program notes into professional, readable slide text and speaker notes — is writing work. It requires skill and attention to tone and precision.
 
-**Formatting** — applying brand colors, fonts, layout guidelines, logo placement, visual hierarchy — is mechanical work. It is time-consuming, repetitive, and requires no judgment whatsoever.
+**Formatting** — applying consistent design, proper layout, visual hierarchy — is mechanical work. It is time-consuming, repetitive, and requires no judgment whatsoever.
 
-**Verification and design review** — checking every number, every claim, every commitment against the underlying data, and checking every visual decision against our creative standard — is critical work. It is irreplaceable and cannot be delegated.
+**Verification and review** — checking every number, every claim, every commitment against the underlying data — is critical work. It is irreplaceable and cannot be delegated.
 
-Copilot in PowerPoint targets the structural design, prose writing, and formatting categories. It does not replace content assembly (you still need to know what you're presenting) and it absolutely does not replace verification or design review (you still need to check everything, and someone with a designer's eye still needs to look at it). But it compresses three categories of work that can together consume three to four hours of a senior professional's time into a task that takes ten to twenty minutes of prompting and review.
+Copilot in PowerPoint targets the structural design, prose writing, and formatting categories. It does not replace content assembly (you still need to know what you're presenting) and it absolutely does not replace verification (you still need to check everything against the actual records). But it compresses three categories of work that can together consume three to four hours of a staff member's time into a task that takes ten to twenty minutes of prompting and review.
 
-For a company whose people spend a large share of their working life in transit — between Las Vegas and Chicago, between ExCeL London and Dubai World Trade Centre, between a marshaling yard and a client office — that compression is not trivial. It is the difference between building a deck on a red-eye and building it at your desk with a designer looking over your shoulder. Over thousands of presentations per year, across hundreds of professionals, it represents a measurable shift in capacity.
+For a city department staff — balancing Council meeting preparation with day-to-day constituent services, field operations, and program management — that compression is not trivial. It is the difference between rushing together a deck at the end of a 50-hour week and building it thoughtfully with your supervisor reviewing the substance. Over hundreds of presentations per year, across all of Bowie's departments, it represents a measurable shift in the city's communication capacity.
 
 :::{note}
-**The deck crunch in event-industry numbers:** Research on professional service firms consistently shows that knowledge workers spend 15–25% of their total work time creating presentations. During show season — when a GES account or operations professional is regularly running 50-plus-hour weeks — that is 7.5 to 12.5 hours per week on decks. Copilot in PowerPoint does not eliminate that time. But compressing structural and formatting work by 60–70% frees 5–9 hours per week per professional. In an industry where the show date never moves, recovered hours are the only hours you get.
+**The deck crunch in local government numbers:** Research on knowledge workers consistently shows they spend 15–25% of their total work time creating presentations. During busy Council cycles — when a department is regularly managing multiple active projects, budget cycles, and community meetings — that translates to significant hours per week on slide production. Copilot in PowerPoint does not eliminate that time. But compressing structural and formatting work by 60–70% frees hours that can be redirected to program delivery, resident engagement, and the actual policy work that serves Bowie's community.
 :::
 
-The blank slide is not a creative opportunity. It is an obstacle standing between you and the creative opportunity. Copilot eliminates the obstacle so you can focus on the substance.
+The blank slide is not a creative opportunity. It is an obstacle standing between you and the substantive work. Copilot eliminates the obstacle so you can focus on what matters.
 
 ---
 
@@ -105,7 +106,7 @@ There are two confirmed, fully operational ways to use Copilot to create and wor
 :width: 80%
 :align: center
 
-Two entry points, one outcome: a professionally structured PowerPoint presentation grounded in your content and retained in your GES Microsoft 365 environment.
+Two entry points, one outcome: a professionally structured PowerPoint presentation grounded in your content and retained in the City of Bowie's Microsoft 365 environment.
 :::
 
 ### Entry Point 1 — In PowerPoint: Agent Mode
@@ -120,21 +121,21 @@ After generation, the Copilot panel remains open. You can continue chatting with
 
 ### Entry Point 2 — Microsoft 365 Copilot at m365.cloud.microsoft
 
-The second entry point is the Microsoft 365 Copilot chat interface available at **m365.cloud.microsoft**. Sign in with your GES Microsoft 365 account, open the Copilot chat, and ask it directly to create a presentation.
+The second entry point is the Microsoft 365 Copilot chat interface available at **m365.cloud.microsoft**. Sign in with your City of Bowie Microsoft 365 account, open the Copilot chat, and ask it directly to create a presentation.
 
-For example: *"Create a presentation summarizing post-show results for our top ten exhibitors at the spring technology exposition. Eight slides. Audience is the show organizer's leadership team."*
+For example: *"Create a presentation summarizing the Bowie Community Center renovation project status for the City Council. Eight slides. Audience is the Mayor and City Council members."*
 
 Copilot may respond with information it has gathered, offer an outline, or ask clarifying questions before proceeding. When you confirm your intent to create a presentation, Copilot generates a `.pptx` file and saves it automatically to your OneDrive, providing you with a direct link to open it in PowerPoint.
 
-This entry point is particularly useful when you want to initiate the presentation workflow from a broader Microsoft 365 chat context — for instance, when you are already in Copilot researching a venue, a vertical, or a competitor's show presence and want to convert that research directly into a deck.
+This entry point is particularly useful when you want to initiate the presentation workflow from a broader Microsoft 365 chat context — for instance, when you are already in Copilot researching a program, a regulation, or a grant requirement and want to convert that research directly into a deck.
 
-**The critical architectural point for both entry points:** All of this operates within the Microsoft 365 service boundary. Your data does not leave Microsoft's environment. The presentations are saved to OneDrive or SharePoint. Copilot only accesses content that you have permission to access. The security and compliance architecture that governs all of GES's Microsoft 365 work — including the confidentiality obligations we carry for client floor plans, exhibitor lists, and unreleased brand campaigns — applies equally here.
+**The critical architectural point for both entry points:** All of this operates within the Microsoft 365 service boundary. Your data does not leave Microsoft's environment. The presentations are saved to OneDrive or SharePoint. Copilot only accesses content that you have permission to access. The security and compliance architecture that governs all of the city's Microsoft 365 work — including the confidentiality obligations we carry for personnel records, pending litigation, and unreleased budget proposals — applies equally here.
 
 :::{tip}
 **Which entry point to use:**
-- Use **Agent Mode in PowerPoint** when you are starting inside the PowerPoint application and want an interactive, in-app workflow with the ability to prompt and refine in real time. This is the right choice for anything design-sensitive, because you are working inside the branded template from the first slide.
-- Use **m365.cloud.microsoft** when you want to initiate from a broader AI conversation, or when you want Copilot to generate the file and deliver it to OneDrive as a complete artifact ready to open. This is the right choice from a hotel room at 11 p.m. with a laptop and a bad Wi-Fi connection.
-- Both produce real PowerPoint files. Both maintain your brand template. Both can generate speaker notes. The right choice depends on where you are in your workflow — and, honestly, where you are in the world.
+- Use **Agent Mode in PowerPoint** when you are starting inside the PowerPoint application and want an interactive, in-app workflow with the ability to prompt and refine in real time. This is the right choice for anything that requires precise formatting, because you are working inside the city's standard template from the first slide.
+- Use **m365.cloud.microsoft** when you want to initiate from a broader AI conversation, or when you want Copilot to generate the file and deliver it to OneDrive as a complete artifact ready to open. This is the right choice when you are working remotely or need to quickly produce a full first draft.
+- Both produce real PowerPoint files. Both can generate speaker notes. The right choice depends on where you are in your workflow.
 :::
 
 ---
@@ -156,24 +157,24 @@ The prompt-to-deck workflow has six stages. Your active participation at Stages 
 
 Everything starts with the prompt. You describe, in natural language, the presentation you need. The more context you provide, the better the result.
 
-A thin prompt sounds like: *"Create a presentation about our exhibitor services."*
+A thin prompt sounds like: *"Create a presentation about our parks program."*
 
-A professional-grade prompt sounds like this: *"Create a 10-slide pre-show planning presentation for the organizer of a 400,000-square-foot medical device exposition at a convention center in Chicago. Audience is the organizer's show director and operations lead. Include: an executive summary of the operating plan, a floor plan status slide covering aisle carpet layout and booth counts by size band, a move-in sequencing slide with target dates for the advance warehouse and direct-to-show freight, a material handling and drayage overview with anticipated freight volumes, a labor plan slide addressing union jurisdiction and crew sizing for I&D, an exhibitor service kit rollout timeline with ordering portal launch dates, a sustainability slide covering our reuse and waste-diversion approach, a risk and contingency slide, and a closing slide with decisions we need from the organizer this week. Operationally confident, partnership-focused tone. GES brand standards."*
+A professional-grade prompt sounds like this: *"Create a 10-slide City Council briefing on the Bowie Community Park Improvement Project. Audience is the Mayor and City Council. Include: an executive summary of the project status, a slide covering current project milestones against the approved timeline, a budget performance slide showing expenditures to date versus appropriation, a community engagement summary covering resident outreach and feedback received, a slide on contractor performance and any change orders, a safety and compliance status slide, a slide on anticipated project completion and ribbon-cutting planning, a risk and contingency slide, an environmental sustainability outcomes slide, and a closing slide with the specific Council action or information acknowledgment requested. Professional, factual, service-oriented tone aligned with City of Bowie standards."*
 
-The difference between these two prompts is the difference between receiving a generic template and receiving a structured first draft that a show director can actually engage with. The additional context in the rich prompt takes three to five minutes to write — and consistently saves thirty to sixty minutes of post-generation revision.
+The difference between these two prompts is the difference between receiving a generic template and receiving a structured first draft that a Council member can actually engage with. The additional context in the rich prompt takes three to five minutes to write — and consistently saves thirty to sixty minutes of post-generation revision.
 
 **What to include in a strong prompt:**
 - The specific purpose and context of the presentation
-- The intended audience (show organizer, exhibitor, agency partner, internal leadership, facility team)
-- The show, venue, and scale, if relevant — a 40,000-square-foot regional show and a 1,000,000-square-foot international exposition require different decks
+- The intended audience (City Council, department leadership, residents at a public meeting, grant reviewers, partner agencies)
+- The department and program, if relevant — a parks project briefing and a public works infrastructure update require very different decks
 - The number of slides (or an approximate range)
 - The key content areas to cover, listed explicitly
-- The desired tone (executive summary, formal, educational, persuasive, creative pitch)
-- Any specific data points or themes to emphasize
+- The desired tone (executive briefing, formal, educational, public-facing, grant narrative)
+- Any specific data points or policy themes to emphasize
 - Reference to existing documents where relevant
 
 :::{tip}
-**Prompt with GES vocabulary and Copilot writes like GES.** If your prompt says "shipping" and "setup," you will get slides that say shipping and setup. If your prompt says "drayage," "material handling," "advance warehouse," "marshaling yard," "move-in/move-out," "I&D," "freight targets," "union jurisdiction," and "carnet," Copilot will pick up the register and produce slides that sound like they came from someone who has actually stood on a show floor at 5 a.m. Language is context. Give it ours.
+**Prompt with City of Bowie vocabulary and Copilot writes like city government.** If your prompt says "meeting" and "project," you will get slides that say meeting and project. If your prompt says "City Council action," "appropriation," "capital improvement program," "resident outreach," "Prince George's County," "inter-agency coordination," "grant award," "program performance metrics," and "constituent services," Copilot will pick up the register and produce slides that sound like they came from someone who actually works at City Hall. Language is context. Give it ours.
 :::
 
 ### Stage 2: Copilot Asks Clarifying Questions
@@ -186,7 +187,7 @@ After you submit your prompt, Copilot will often ask clarifying questions before
 
 These questions are Copilot's way of narrowing its output to match your actual need. Answer them directly and specifically. Do not skip or rush past them — they are the mechanism by which Copilot tunes the generation to your context.
 
-That third question deserves a note for GES users. For internal ops reviews and data-heavy recap decks, generic AI imagery is usually noise — ask for text and charts. For anything client-facing, and especially for Spiro concept work, you almost never want Copilot's generic imagery either. You want the real renderings, the real photography from the last activation, the real material samples. Tell Copilot to leave image placeholders and structure, and let the creative team fill them properly.
+That third question deserves a note for city employees. For internal department reviews and data-heavy performance decks, generic AI imagery is usually noise — ask for text and charts. For public-facing community planning presentations or park improvement concepts, consider requesting image placeholders where real project photography or site renderings can be inserted by staff who know what those locations actually look like.
 
 If your initial prompt was already comprehensive, Copilot may skip the questions and move directly to the outline.
 
@@ -196,7 +197,7 @@ Before building the slides, Copilot generates a proposed outline of the presenta
 
 **This is the most important moment in the workflow.** Review the outline carefully. If the structure is not right — if slides are missing, in the wrong order, or addressing the wrong content — adjust it here, before the slides are built. It is vastly more efficient to correct the structure at the outline stage than to rebuild slides after they have been generated.
 
-You can tell Copilot: *"Add a slide on venue rigging constraints before the design concept slides."* Or: *"Combine slides 3 and 4 — they are both covering freight logistics."* Or: *"The third slide should focus specifically on move-out sequencing, not the overall operating plan."*
+You can tell Copilot: *"Add a slide on resident feedback summary before the project timeline slide."* Or: *"Combine slides 3 and 4 — they are both covering budget performance."* Or: *"The third slide should focus specifically on the capital improvement program schedule, not the overall department budget."*
 
 Once you confirm the outline — or after you have refined it to your satisfaction — Copilot builds the full slide deck.
 
@@ -204,22 +205,22 @@ Once you confirm the outline — or after you have refined it to your satisfacti
 
 Copilot produces the full presentation. Each slide is built according to the confirmed outline, with content drawn from its understanding of the topic and (where available) any source materials you have referenced. The slides will include titles, body content, and — if you have started with your organization's PowerPoint template — they will adopt the visual design of that template.
 
-The output is a starting point, not a finished product. Expect to find placeholder-level content, slide text that is directionally correct but may need tightening, and numbers that need to be replaced with your actual show data. This is not a flaw — it is the design. Copilot gives you structure and language; you provide the verified facts and the creative judgment.
+The output is a starting point, not a finished product. Expect to find placeholder-level content, slide text that is directionally correct but may need tightening, and numbers that need to be replaced with your actual program data. This is not a flaw — it is the design. Copilot gives you structure and language; you provide the verified facts and the policy judgment.
 
 ### Stage 5: Refine via Chat
 
 After the slides are generated, the Copilot panel remains active. You can continue the conversation to refine the deck. Verified refinement capabilities include:
 
-- **Adding slides:** *"Add a slide before the closing that summarizes the top three operational risks for move-in weekend."*
-- **Adjusting slide content:** *"Rewrite slide 4 to focus specifically on drayage cost drivers and how the advance warehouse option reduces them."*
+- **Adding slides:** *"Add a slide before the closing that summarizes the top three risks to project completion on schedule."*
+- **Adjusting slide content:** *"Rewrite slide 4 to focus specifically on how the grant funding reduces the burden on the city's general fund."*
 - **Changing tone or wording:** *"Make slide 2 more concise — reduce to three bullet points maximum."*
 - **Requesting speaker notes:** *"Add speaker notes to every slide. Each note should give the key talking point and a suggested transition to the next slide."*
-- **Changing layout:** *"Change slide 6 to a two-column layout with the floor plan graphic on the left and the freight target table on the right."*
+- **Changing layout:** *"Change slide 6 to a two-column layout with the project timeline on the left and the budget status table on the right."*
 
 This iterative refinement cycle is where the workflow becomes genuinely collaborative. You are not accepting a single output — you are having a conversation that progressively improves the deck until it meets your standard.
 
 :::{warning}
-**What still requires your judgment:** Copilot generates plausible-sounding content. It does not verify that the numbers it uses are correct, that the claims it makes are accurate, or that the operating plan it describes reflects what your team has actually committed to. Every specific number, square footage, weight, rate, date, and factual claim in a Copilot-generated slide requires you to verify it against your source data before that slide appears in front of an audience. And every commitment — every "we will" — requires confirmation from the person who has to deliver it. This is the verification discipline, covered in detail in Section 10.
+**What still requires your judgment:** Copilot generates plausible-sounding content. It does not verify that the numbers it uses are correct, that the claims it makes are accurate, or that the project plan it describes reflects what your department has actually committed to. Every specific budget figure, project date, program metric, and factual claim in a Copilot-generated slide requires you to verify it against your source data before that slide appears in front of any audience. And every commitment — every "the City will" — requires confirmation from the supervisor or department head who has authority to make it. This is the verification discipline, covered in detail in Section 10.
 :::
 
 ---
@@ -228,24 +229,24 @@ This iterative refinement cycle is where the workflow becomes genuinely collabor
 
 If creating from a prompt is the front door to Copilot in PowerPoint, creating from a Word document is the express elevator.
 
-This is the workflow that produces the most professionally useful results, the fastest, for GES professionals who are already generating Word-based working documents — RFP responses, show operations manuals, site survey reports, design briefs, scopes of work, post-show reports, and safety documentation.
+This is the workflow that produces the most professionally useful results, the fastest, for City of Bowie employees who are already generating Word-based working documents — project status reports, program narratives, budget justifications, grant applications, community planning documents, site assessment reports, and policy memos.
 
 :::{figure} ../images/ch08-word-to-pptx-workflow.png
 :label: fig-ch08-word-to-pptx
-:alt: Workflow diagram showing Word document on left with best practice badges — Use Word Styles, Include Images, Under 24MB — flowing through Copilot conversion to a PowerPoint deck on the right with GES template theme retained
+:alt: Workflow diagram showing Word document on left with best practice badges — Use Word Styles, Include Images, Under 24MB — flowing through Copilot conversion to a PowerPoint deck on the right with city template theme retained
 :width: 80%
 :align: center
 
-The Word-to-PowerPoint workflow is the highest-leverage use of Copilot for GES professionals. Three best practices — Word Styles, included images, and file size — determine how well Copilot interprets and converts your working document.
+The Word-to-PowerPoint workflow is the highest-leverage use of Copilot for City of Bowie employees. Three best practices — Word Styles, included images, and file size — determine how well Copilot interprets and converts your working document.
 :::
 
-The workflow is straightforward: in PowerPoint's Copilot Agent Mode, use a prompt that references your Word document. For example: *"Create a 12-slide client presentation based on / [Site Survey Report — Hall C Rigging and Load-In]."* Using the `/` reference (when the file referencing feature is available in Agent Mode — check your version) tells Copilot to ground its slide generation in the actual content of that document, not just its general knowledge about trade show logistics.
+The workflow is straightforward: in PowerPoint's Copilot Agent Mode, use a prompt that references your Word document. For example: *"Create a 12-slide City Council briefing based on / [Q2 Parks and Recreation Program Report]."* Using the `/` reference (when the file referencing feature is available in Agent Mode — check your version) tells Copilot to ground its slide generation in the actual content of that document, not just its general knowledge about government programs.
 
 Alternatively, via **m365.cloud.microsoft**, you can ask Copilot directly to create a presentation from a document you reference in the chat. Copilot reads the document, proposes an outline or generates slides, and saves the resulting `.pptx` to your OneDrive.
 
-**Why this workflow is more powerful:** When Copilot generates from a prompt alone, it draws on its training knowledge of what a given type of document should look like. When it generates from your actual Word document, it draws on the specific content, language, data, and analysis you have already written. The resulting slides are grounded in your work, not in a generic template. The freight target table in the slide is the freight target table from your operations manual — not a placeholder version of one. The design rationale on the concept slide is the rationale from your creative brief — not a generic paragraph about "brand storytelling."
+**Why this workflow is more powerful:** When Copilot generates from a prompt alone, it draws on its training knowledge of what a given type of document should look like. When it generates from your actual Word document, it draws on the specific content, language, data, and analysis you have already written. The resulting slides are grounded in your work, not in a generic template. The budget performance table in the slide is the budget performance table from your project report — not a placeholder version of one. The community engagement summary on the Council briefing slide is the summary from your program narrative — not a generic paragraph about "public outreach."
 
-This matters enormously in our business, because so much of what we do already begins as a Word document. The RFP response exists before the pitch deck. The site survey report exists before the findings presentation. The design brief exists before the concept deck. The post-show reconciliation summary exists before the recap. **We are already doing the hard part in Word. Copilot's job is to stop us from doing it twice.**
+This matters enormously in city government, because so much of what we do already begins as a Word document. The grant narrative exists before the grant proposal deck. The project status report exists before the Council briefing. The community needs assessment exists before the planning presentation. The program closeout summary exists before the performance review. **We are already doing the hard part in Word. Copilot's job is to stop us from doing it twice.**
 
 ### The Best Practices (from Microsoft Documentation)
 
@@ -257,28 +258,28 @@ Word's built-in Styles feature (Heading 1, Heading 2, Heading 3, Body Text) is n
 
 Think of it this way: if your Word document uses Heading 1 for major sections, Heading 2 for subsections, and Body Text for content, Copilot can interpret each Heading 1 as a potential slide title, each Heading 2 as a slide section, and each Body paragraph as slide content. Without Styles, Copilot is reading a flat text file and guessing at structure. With Styles, Copilot is reading a document with an explicit organizational hierarchy.
 
-The practical implication: when you write RFP responses, site survey reports, design briefs, or any working document you intend to convert to a presentation, apply Styles from the beginning. GES professionals who adopt this discipline as a standard practice will find every Word-to-PowerPoint conversion significantly smoother.
+The practical implication: when you write program reports, grant narratives, project updates, or any working document you intend to convert to a presentation, apply Styles from the beginning. City of Bowie employees who adopt this discipline as a standard practice will find every Word-to-PowerPoint conversion significantly smoother.
 
 **Best Practice 2: Include Images in Your Word Document**
 
-Microsoft's documentation states that Copilot will attempt to incorporate images from your Word document into the generated presentation. If your Word report includes floor plan excerpts, elevation drawings, site survey photographs, material samples, or charts, they have a path into the slide deck automatically.
+Microsoft's documentation states that Copilot will attempt to incorporate images from your Word document into the generated presentation. If your Word report includes site photographs, project progress images, maps, charts, or renderings, they have a path into the slide deck automatically.
 
-This matters practically: rather than separately finding and inserting your hall photographs and freight volume charts into both a Word report and a PowerPoint presentation, you can include them once in the Word document and let Copilot carry them through to the slides. You will still need to verify that the images landed correctly, in the right slides, at the right crop and resolution — but the manual image insertion step is reduced.
+This matters practically: rather than separately finding and inserting your project photographs and budget charts into both a Word report and a PowerPoint presentation, you can include them once in the Word document and let Copilot carry them through to the slides. You will still need to verify that the images landed correctly, in the right slides, at the right crop and resolution — but the manual image insertion step is reduced.
 
-One caution specific to a design company: automatic image placement is a *transport* mechanism, not a *composition* mechanism. Copilot will get the rendering onto the slide. It will not decide whether the rendering should bleed full-frame with the headline reversed out over the darkest quadrant. That is still a human call, and at GES it is usually a call worth making.
+One note for community-facing presentations: automatic image placement is a *transport* mechanism, not a *composition* mechanism. Copilot will get the site photograph onto the slide. It will not decide whether a particular image of construction activity is the right one to show residents at a community planning meeting. That is still a human call, and it is a call worth making carefully.
 
 **Best Practice 3: Start with Your Organization's Template**
 
 Microsoft confirms that when you begin a presentation in PowerPoint using your organization's established template — with its brand colors, fonts, slide master, and layout options — Copilot will retain that design when it generates content. The slides Copilot builds will use your template's visual system, not a generic Microsoft default.
 
-The implication for GES: always start your PowerPoint file using the correct GES Collective template before invoking Copilot — and "correct" is doing real work in that sentence, because we do not have one brand. We have five. More on that in Section 8. Do not let Copilot generate slides into a blank default presentation and then try to apply the template afterward. Begin with the template, then generate.
+The implication for City of Bowie employees: always start your PowerPoint file using the city's approved presentation template before invoking Copilot. Do not let Copilot generate slides into a blank default presentation and then try to apply the template afterward. Begin with the template, then generate.
 
 **Best Practice 4: File Size**
 
-Microsoft's documentation specifies that Word documents should be **smaller than 24 MB** for best results. Large documents with many embedded images or complex formatting can exceed this threshold — and in our world, that happens constantly, because a full show operations manual with embedded floor plans and photography can be enormous. If you are working with a large document, create a focused summary or extract the relevant section into its own file rather than feeding the entire manual. You will get better performance *and* more relevant slides.
+Microsoft's documentation specifies that Word documents should be **smaller than 24 MB** for best results. Large documents with many embedded images or complex formatting can exceed this threshold — and in city government work, that happens, because a comprehensive project report with embedded photographs, site maps, and engineering drawings can be enormous. If you are working with a large document, create a focused summary or extract the relevant section into its own file rather than feeding the entire report. You will get better performance *and* more relevant slides.
 
 :::{tip}
-**The GES working document discipline:** The professionals who get the best results from Word-to-PowerPoint Copilot conversions are those who have already adopted good document hygiene: consistent use of Word Styles, structured document organization, images embedded at usable resolution, and files saved to OneDrive/SharePoint rather than local drives or a laptop desktop that is currently in a rolling case somewhere between two venues. These are practices worth building now, regardless of how often you use Copilot — they improve collaboration, searchability, and document reuse across every show team.
+**The City of Bowie working document discipline:** The employees who get the best results from Word-to-PowerPoint Copilot conversions are those who have already adopted good document hygiene: consistent use of Word Styles, structured document organization, images embedded at usable resolution, and files saved to OneDrive/SharePoint rather than local drives or a desktop that is only accessible in the office. These are practices worth building now, regardless of how often you use Copilot — they improve collaboration, records management, and document reuse across every department team.
 :::
 
 ---
@@ -300,57 +301,55 @@ The refinement chat operates through the Copilot panel in PowerPoint. After your
 
 ### Adding and Removing Slides
 
-*"Add a slide after slide 3 that shows our top five venues by exhibitor volume for this account over the last three years."*
+*"Add a slide after slide 3 that shows the community engagement events held over the past six months and estimated resident participation."*
 
 *"Remove slide 7 — it is redundant with the executive summary."*
 
-*"Add a title slide with the following text: 'Pre-Show Operating Plan — Spring Medical Device Exposition — GES Exhibitions — March 2026.'"*
+*"Add a title slide with the following text: 'Bowie Community Park Improvement Project — City Council Briefing — City of Bowie, Maryland — October 2026.'"*
 
 Copilot adds or removes slides in context — it understands the surrounding deck structure and positions new content appropriately.
 
 ### Adjusting Slide Content
 
-*"Rewrite slide 4. The current version is too operational for a marketing audience. Simplify the language and lead with the attendee experience outcome rather than the install sequence."*
+*"Rewrite slide 4. The current version is too technical for a public meeting audience. Simplify the language and lead with the resident impact rather than the engineering specifications."*
 
-*"Slide 6 has too many bullet points. Consolidate to three key points and move the detailed material handling breakdown to the speaker notes."*
+*"Slide 6 has too many bullet points. Consolidate to three key points and move the detailed budget breakdown to the speaker notes."*
 
-*"Change the figures on slide 5 — replace the placeholder numbers with the actual values I'm providing: 218 exhibiting companies, 412,000 net square feet, 1.9 million pounds of inbound freight, 96% on-time freight target performance."*
+*"Change the figures on slide 5 — replace the placeholder numbers with the actual values I'm providing: 12,400 residents served, \$2.3 million appropriated, \$1.87 million expended to date, 94% of milestones on schedule."*
 
-These content adjustments are where your actual show data enters the deck. Copilot generates the structure and the language; you provide the verified numbers.
+These content adjustments are where your actual program data enters the deck. Copilot generates the structure and the language; you provide the verified numbers.
 
 ### Changing Layouts and Formatting
 
-*"Change slide 3 to a two-column layout — floor plan graphic on the left, key metrics list on the right."*
+*"Change slide 3 to a two-column layout — project timeline graphic on the left, key milestones checklist on the right."*
 
 *"Make the slide titles across the entire deck more concise — they should be eight words or fewer."*
 
-*"The font on slide 8 looks inconsistent with the rest of the deck. Apply the standard heading style."*
-
-*"Convert the bulleted list on slide 9 into a three-column comparison so the organizer can see the turnkey, custom, and modular options side by side."*
+*"Convert the bulleted list on slide 9 into a three-column comparison so the Council can see the three program options side by side."*
 
 ### Requesting a Reorganization
 
-*"Move the safety and risk section to appear before the schedule slides — we lead with safety in every operations review."*
+*"Move the community feedback section to appear before the project timeline slides — Council members at this stage want to hear from residents first."*
 
 *"Reorganize the deck so the executive summary is on slide 2, immediately after the title slide."*
 
-*"Move the sustainability and waste-diversion slide up to slide 4. This organizer has made it a stated priority, and burying it at the back sends the wrong signal."*
+*"Move the grant funding status slide up to slide 3. This briefing needs to anchor the budget discussion in the external funding context before getting into city expenditures."*
 
-The ability to reorganize through chat — rather than manually dragging and reordering slides — is particularly valuable for complex decks where the narrative logic needs adjustment after you see the first draft assembled. Narrative order is a design decision. Being able to test three different orders in ninety seconds is a genuine creative advantage.
+The ability to reorganize through chat — rather than manually dragging and reordering slides — is particularly valuable for complex briefings where the narrative logic needs adjustment after you see the first draft assembled.
 
 ---
 
 ## 6. Generating Speaker Notes — Copilot Writes What You Will Say
 
-Presenting to a room of client stakeholders, or to a show organizer's leadership team, or to a facility crew at a 6 a.m. safety briefing, is a performance. The pressure is real, and it is often happening at the end of a very long week on a show floor. One of the most underused capabilities of Copilot in PowerPoint is speaker note generation — and it is one of the most immediately valuable for GES professionals.
+Presenting to the City Council, to residents at a public meeting, or to department leadership at a budget review is a significant professional responsibility. The stakes are real, and it is often happening alongside the normal demands of managing city programs and services. One of the most underused capabilities of Copilot in PowerPoint is speaker note generation — and it is one of the most immediately valuable for city employees.
 
 :::{figure} ../images/ch08-speaker-notes-generation.png
 :label: fig-ch08-speaker-notes
-:alt: Infographic showing Copilot generating speaker notes for a PowerPoint slide — top half shows slide with show performance data, bottom half shows speaker notes panel with detailed talking points, statistics to mention, and transition phrases — Copilot chat prompt visible requesting notes with key talking points and transitions
+:alt: Infographic showing Copilot generating speaker notes for a PowerPoint slide — top half shows slide with program performance data, bottom half shows speaker notes panel with detailed talking points, statistics to mention, and transition phrases — Copilot chat prompt visible requesting notes with key talking points and transitions
 :width: 80%
 :align: center
 
-Speaker notes generated by Copilot give you a script to work from — not to read verbatim, but to anchor your delivery and ensure you cover the right points in the right order. For high-stakes presentations, they are a game-changer.
+Speaker notes generated by Copilot give you a script to work from — not to read verbatim, but to anchor your delivery and ensure you cover the right points in the right order. For high-stakes presentations to City Council, they are a game-changer.
 :::
 
 Microsoft has confirmed that Copilot can generate speaker notes for your slides. Here is how to invoke this capability and get useful results.
@@ -363,24 +362,24 @@ This single prompt produces a full set of speaker notes across the entire deck �
 
 ### Generating Notes for a Specific Slide
 
-*"Write speaker notes for slide 4. The audience is the show organizer's operations team. The slide shows our proposed move-in sequence by freight target. The note should explain in plain language why the advance warehouse option reduces show-site congestion, highlight the change from last year's sequence, and flag the two target windows that are tight without making it sound like a problem we can't manage."*
+*"Write speaker notes for slide 4. The audience is the City Council. The slide shows the project budget performance versus appropriation. The note should explain in plain language why we are under budget at this stage, highlight what changed from the last briefing, and address the timeline for the remaining expenditures — without making the underspend sound like a problem when it actually reflects good procurement discipline."*
 
 This level of specificity produces notes that are genuinely useful — not generic bullet points, but actual talking-point language calibrated to your specific audience and context.
 
 ### The Value for High-Stakes Presentations
 
-Consider the new business pitch scenario. The room is not a monolithic audience. It includes a procurement lead who wants the commercial terms to be airtight, a marketing director who cares about the creative idea and almost nothing else, an operations person who has been burned before and is listening for whether we understand their move-in constraints, and a senior executive who will decide based on whether we sound like a partner or a vendor. A good presenter reads the room and adjusts. Good speaker notes anticipate that range and give you material to draw from for each type of question.
+Consider the City Council briefing scenario. The room is not a monolithic audience. It includes a Council member focused on the budget, another deeply invested in the constituent services impact, a third who represents the ward where the project is located and will be asked about it by residents, and a Mayor who will decide tone and priority based on whether the presentation builds confidence. Good speaker notes anticipate that range and give you material to draw from for each type of question.
 
-Copilot can draft that range of notes faster than you can write them. You then refine them — adding your specific account knowledge, the history of this relationship, the thing the client said off-hand in the site survey that tells you what they actually care about. The result is a presentation you can deliver with confidence because the intellectual scaffolding is already built.
+Copilot can draft that range of notes faster than you can write them. You then refine them — adding your specific program knowledge, the history of this project, the thing a resident said at the last community meeting that tells you what they actually care about. The result is a presentation you can deliver with confidence because the intellectual scaffolding is already built.
 
-Speaker notes are also disproportionately valuable in two GES-specific situations:
+Speaker notes are also disproportionately valuable in two city-specific situations:
 
-**Handoffs.** Our people move. The account manager who built the deck may be on a plane to a different show when it gets presented. A deck with strong speaker notes can be delivered by a colleague without a two-hour briefing call.
+**Handoffs.** Staff transitions happen. The program manager who built the deck may be on leave or handling an emergency when the presentation is scheduled. A deck with strong speaker notes can be delivered by a colleague without an extensive briefing.
 
-**Multilingual and cross-cultural delivery.** We operate in 75+ countries. A presenter delivering in their second language benefits enormously from having the key phrasing already written out. Ask Copilot for notes that avoid idioms and keep sentences short — it will comply, and the delivery gets noticeably cleaner.
+**Multi-department briefings.** When a presentation spans multiple departments — say, a community development project involving Planning, Public Works, and Parks — strong speaker notes help each presenter understand what was said on the previous slides and how to pick up the thread cleanly.
 
 :::{note}
-**Verification applies to speaker notes too.** Any number or claim that appears in your speaker notes — even if you do not read it verbatim — should be verified against your source data. Organizers, exhibitors, and agency partners ask follow-up questions based on what they heard, not just what was on the slide. If a note contains an inaccurate freight figure or an overstated on-time percentage, you will be asked about it, and "that came from the notes" is not an answer anyone accepts.
+**Verification applies to speaker notes too.** Any number or claim that appears in your speaker notes — even if you do not read it verbatim — should be verified against your source data. Council members and residents ask follow-up questions based on what they heard, not just what was on the slide. If a note contains an inaccurate budget figure or an overstated program metric, you will be asked about it, and the city's credibility is what answers for the error.
 :::
 
 ---
@@ -391,132 +390,133 @@ Not every use of Copilot in PowerPoint involves creating something new. One of i
 
 :::{figure} ../images/ch08-summarize-presentation.png
 :label: fig-ch08-summarize
-:alt: Infographic showing Copilot summarizing a 40-slide show package into a concise executive summary — left shows thick stack of 40 slides, center shows Copilot chat with summarization prompt, right shows clean one-page output with 5 key points and a decision box, funnel graphic illustrating compression
+:alt: Infographic showing Copilot summarizing a 40-slide report into a concise executive summary — left shows thick stack of 40 slides, center shows Copilot chat with summarization prompt, right shows clean one-page output with 5 key points and a decision box, funnel graphic illustrating compression
 :width: 80%
 :align: center
 
-Summarization inverts the usual workflow. Instead of building up from nothing, you compress down from an existing deck. The use case is everywhere in live events: pre-meeting prep, executive briefings, and RFP package overviews.
+Summarization inverts the usual workflow. Instead of building up from nothing, you compress down from an existing deck. The use case is everywhere in city government: pre-meeting prep, department briefings, and grant package overviews.
 :::
 
-The scenario: you have received a 40-slide show prospectus from an organizer, or a 60-slide brand guidelines deck from an exhibitor's agency, or last year's operating review for a show you are inheriting. You need to understand it quickly and brief your team on the key points. Reading 40 slides carefully takes time you do not have during show season. Having Copilot summarize it takes seconds.
+The scenario: you have received a 40-slide county planning report, or a 60-slide state agency guidelines deck, or last year's comprehensive annual program review for a program you are inheriting. You need to understand it quickly and brief your team on the key points. Reading 40 slides carefully takes time you do not have while managing active city programs. Having Copilot summarize it takes seconds.
 
-*"Summarize this presentation. Give me the five most important points, the key decision we are being asked to make, and any risks or concerns that are flagged."*
+*"Summarize this presentation. Give me the five most important points, the key decision we are being asked to make or respond to, and any risks or concerns that are flagged."*
 
-Or, for a more directed summary: *"This is a 38-slide organizer RFP package. Summarize the scope requirements. Focus on anything relating to material handling and drayage, union jurisdiction at the venue, sustainability and waste-diversion requirements, and any service levels the organizer is asking us to guarantee."*
+Or, for a more directed summary: *"This is a 38-slide Prince George's County infrastructure planning report. Summarize the sections relevant to City of Bowie. Focus on anything relating to road improvement priorities, utility coordination requirements, environmental compliance timelines, and any service levels or commitments the county is asking municipal partners to confirm."*
 
 Copilot reads the presentation — which must be saved in OneDrive or SharePoint — and produces the summary in the chat panel. You get the signal without having to extract it manually from all the noise.
 
-### Use Cases for Summarization at GES
+### Use Cases for Summarization at City of Bowie
 
-**Pre-meeting preparation:** Before a QBR with a major account where other GES Collective teams will be presenting, ask Copilot to summarize the combined package so you walk into the room already knowing what onPeak is going to say about housing pickup and what Spiro is going to show.
+**Pre-meeting preparation:** Before a joint meeting with Prince George's County or a state agency where other departments will also be presenting, ask Copilot to summarize the combined agenda materials so you walk in already knowing the full picture.
 
-**Executive briefing:** A regional leader needs to understand the key points of a 35-slide venue partnership proposal before a call. Copilot summarizes it in two minutes. The executive reads a focused one-page digest instead of the full deck.
+**Department director briefing:** A director needs to understand the key points of a multi-agency grant proposal before a call. Copilot summarizes it in two minutes. The director reads a focused digest instead of the full deck.
 
-**Cross-team alignment:** An operations team at another facility has prepared a detailed post-show review that affects an account you manage. Copilot extracts the sections relevant to your client so you can respond quickly and accurately.
+**Cross-department alignment:** A Public Works team has prepared a detailed project closeout review that affects constituent services in Planning's area. Copilot extracts the relevant sections so the Planning team can respond quickly and accurately.
 
-**Inherited shows and account transitions:** You are picking up a show that ran for six years under a colleague who has moved on. There are five annual review decks in SharePoint. Ask Copilot to summarize the recurring issues across all of them and you will find the pattern — the same hall, the same tight move-out, the same complaint — in minutes instead of an afternoon.
+**Program transition and staff onboarding:** You are taking over a program that has run for five years under a colleague who has moved on. There are five annual review decks in SharePoint. Ask Copilot to summarize the recurring issues and outcomes across all of them, and you will find the pattern — the same infrastructure constraint, the same community feedback theme — in minutes instead of an afternoon.
 
-**Vendor, venue, and partner evaluation:** A 50-slide proposal from a technology or logistics partner lands in your inbox. Before committing time to a full review, ask Copilot to summarize the key claims, pricing structure, and implementation requirements.
+**Grant and partner proposal evaluation:** A 50-slide proposal from a non-profit or inter-agency partner lands in your inbox. Before committing time to a full review, ask Copilot to summarize the key claims, budget structure, and implementation requirements.
 
-In each case, the summary is a starting point for your review — not a replacement for it. When the stakes are high — when you are about to commit GES to a service level, a date, or a price — read the original. Use the summary to orient yourself, not to substitute for the primary source.
+In each case, the summary is a starting point for your review — not a replacement for it. When the stakes are high — when you are about to commit the city to a service level, a date, or a budget position — read the original. Use the summary to orient yourself, not to substitute for the primary source.
 
 ---
 
-## 8. Working with the GES Collective Brand System
+## 8. Working with the City of Bowie Presentation Standards
 
-Every presentation that leaves GES carries a visual identity. And here is the wrinkle that makes our situation more demanding than most companies': **we are not one brand. We are a collective.**
+Every presentation that leaves City Hall carries a visual identity. And here is the reality that makes our situation more demanding than a single-brand private organization: **we serve multiple audiences with distinctly different needs.**
 
 :::{figure} ../images/ch08-brand-template.png
 :label: fig-ch08-brand
-:alt: Infographic showing GES brand template preservation through Copilot generation — blank branded template on left, Copilot generation in center, finished branded deck on right with checklist overlay showing Brand Colors Retained, Logo Placement Correct, Font Guidelines Followed, Slide Master Respected
+:alt: Infographic showing city presentation template preservation through Copilot generation — blank city-branded template on left, Copilot generation in center, finished branded deck on right with checklist overlay showing Brand Colors Retained, Logo Placement Correct, Font Guidelines Followed, Slide Master Respected
 :width: 80%
 :align: center
 
-The GES brand template is the visual foundation that Copilot builds on. Start every Copilot presentation session inside the correct template — never in a blank default file. The brand is preserved when the template comes first.
+The city's presentation template is the visual foundation that Copilot builds on. Start every Copilot presentation session inside the correct template — never in a blank default file. The city's brand is preserved when the template comes first.
 :::
 
-Under the GES umbrella sit five distinct businesses, each with its own audience, its own tone, and its own visual expression.
+City of Bowie presentations serve residents, the City Council, grant agencies, partner organizations, and internal leadership — each with distinct expectations for tone, formality, and content depth.
 
 ::::{card-carousel} 2
 
-:::{card} 🏗️ GES Exhibitions
-Core general service contractor (GSC) work — exhibitions, logistics, labor, floor plan and show operations. Decks lean operational, precise, and confidence-building. The audience is organizers and exhibitors who need to know it will be handled.
+:::{card} 🏛️ City Council Briefings
+Formal presentations to the Mayor and City Council — legislative briefings, budget requests, project approvals, policy updates. Decks are precise, data-supported, and action-oriented. Council members need to understand the issue and the requested action clearly.
 :::
 
-:::{card} ✨ Spiro
-Our global experiential agency and Exhibitor Appointed Contractor (EAC) — custom exhibits, brand environments, corporate events. Decks lean creative, visual, and idea-forward. Imagery does the heavy lifting; text stays out of the way.
+:::{card} 🌳 Resident-Facing & Public Meeting Materials
+Community planning presentations, neighborhood engagement sessions, park improvement concepts, public hearing materials. Decks prioritize clarity, accessibility, and human impact. Plain language and images of real Bowie places beat dense data.
 :::
 
-:::{card} 🏨 onPeak
-Event accommodation solutions — hotel block management and attendee housing. Decks lean data-forward: pickup rates, block performance, attendee patterns. Clean charts beat clever headlines.
+:::{card} 💰 Grant Proposals & Inter-Agency Partnership Decks
+Funding applications to state agencies, federal programs, foundations, and county partners. Decks emphasize need, evidence, program design, and stewardship capacity. Every claim must be sourced and every budget figure reconciled.
 :::
 
-:::{card} 💡 SHOWTECH
-Power and lighting services. Decks are technical and specification-driven. Accuracy in the numbers matters more than anything else on the page.
+:::{card} 📊 Program Performance Reviews
+Internal department reviews, quarterly reports, program closeouts. Decks are data-forward and honest — including what did not go as planned and what we will do differently.
 :::
 
-:::{card} 📱 Visit by GES
-Event technology — registration, lead capture, organizer tools, visitor apps, NFC Touchpoints. Decks are product-led: screens, flows, and outcomes.
+:::{card} 🏗️ Project Closeout Presentations
+Infrastructure project completions, capital improvement program updates, construction project summaries. Decks lead with outcomes — what was built, what it cost, how it serves residents.
 :::
 
 ::::
 
-The brand is not a cosmetic consideration. It is a signal of professionalism, consistency, and credibility. An organizer who receives a polished, consistently branded deck is looking at a partner that has its systems together. An exhibitor who receives a beautifully designed presentation is looking at an account team that takes the relationship seriously. And a client considering a Spiro engagement is, whether they articulate it or not, treating the deck as a sample of the work.
+The presentation standard is not a cosmetic consideration. It is a signal of professional competence and respect for the audience. A City Council member who receives a clean, well-organized briefing is looking at a department that takes its accountability seriously. A resident attending a public meeting who sees a clear, accessible presentation feels the city is communicating with them honestly. A grant agency reviewing a well-structured proposal is looking at a municipal government that will be a reliable steward of their investment.
 
-Microsoft has confirmed that Copilot retains your organization's theme and design when you start with an established PowerPoint template. The mechanism is the **Slide Master** — PowerPoint's underlying design system that defines colors, fonts, layouts, and logo placement. When Copilot generates slides within a file that is using your organization's Slide Master, the generated content adopts the Slide Master's design.
+Microsoft has confirmed that Copilot retains your organization's theme and design when you start with an established PowerPoint template. The mechanism is the **Slide Master** — PowerPoint's underlying design system that defines colors, fonts, layouts, and logo placement. When Copilot generates slides within a file that is using the city's Slide Master, the generated content adopts the Slide Master's design.
 
 ### The Rule: Correct Template First, Always
 
-The single most important practice for brand-consistent Copilot presentations is this: **always open the correct GES Collective PowerPoint template before invoking Copilot.** Never start in a blank default presentation and then try to apply branding afterward.
+The single most important practice for presentation-consistent Copilot work is this: **always open the approved City of Bowie PowerPoint template before invoking Copilot.** Never start in a blank default presentation and then try to apply branding afterward.
 
 The workflow:
-1. Identify which brand this deck belongs to — GES Exhibitions, Spiro, onPeak, SHOWTECH, or Visit by GES. If the deck spans multiple brands, use the GES master template and follow the collective's co-branding guidance.
-2. Open the approved PowerPoint template from the brand template library in SharePoint
-3. Save the file with your show or account name to your OneDrive folder
+1. Identify which audience and context this deck serves — City Council briefing, public meeting, grant proposal, internal department review, etc.
+2. Open the appropriate city presentation template from the shared template library in SharePoint
+3. Save the file with your project or program name to your OneDrive folder
 4. Open Copilot (Agent Mode) within that template file
 5. Begin your prompt-based generation
 
-Everything Copilot builds will be in the correct visual system. Titles will use the approved font. Colors will be the approved palette. Logo placement and footer elements will be consistent.
+Everything Copilot builds will be in the correct visual system. Titles will use the approved font. Colors will be consistent. Logo placement and footer elements will be correct.
 
 ### What Copilot Does and Does Not Handle
 
 Copilot will respect your Slide Master design — colors, fonts, layout options, background elements. What it will not automatically do is select the specific slide layout most appropriate for each content type. A Slide Master typically includes multiple layout options (title slide, content slide, two-column layout, full-bleed image, section divider, and so on). Copilot will select from these layouts, but may not always choose the one you would select for a given slide.
 
-It also will not make the judgment calls that separate a competent deck from a compelling one. It will not know that this particular client responds to big single images and hates dense slides. It will not know that the concept only works if the reveal happens on slide 7 and not slide 3. It will not know that the photograph you have of last year's activation is the single most persuasive asset in the entire pitch and belongs full-bleed on the opening.
+It also will not make the judgment calls that separate a competent deck from a truly effective one. It will not know that this particular Council committee responds to clear recommendation statements upfront and does not like to dig for the ask. It will not know that the resident audience for this community meeting is particularly concerned about traffic impact and needs that addressed early. It will not know that the photograph you have of the completed park renovation is the single most persuasive asset in the entire program review.
 
-After generation, review each slide's layout choice and adjust where needed. This is a ten-minute task for a twelve-slide deck — far less time than formatting every slide from scratch, and far more consistent with brand standards than generating in a default template and reformatting manually.
+After generation, review each slide's layout choice and adjust where needed. This is a ten-minute task for a twelve-slide deck — far less time than formatting every slide from scratch.
 
-::::{admonition} 🎯 T.R.U.E. Check: Trust
+::::{admonition} 🎯 City Values Check: Stewardship
 :class: note
 
-**Trust** — *we trust each other to always be honest and do what's right.*
+**Stewardship** — *be responsible stewards of public resources.*
 
-Copilot inside your Microsoft 365 tenant only sees what you can see, and what you produce stays inside the GES trust boundary. That is the technical guarantee, and it is real.
+Copilot inside your Microsoft 365 tenant only sees what you can see, and what you produce stays inside the city's trust boundary. That is the technical guarantee, and it is real.
 
-The human guarantee is on you. Client floor plans, unreleased product reveals, exhibitor lists, negotiated rates, and Spiro concepts under NDA are among the most sensitive things we hold. Do not paste them into consumer AI tools outside our environment to "just get a quick draft." A concept leaked before a client's launch is not a formatting error. It is a broken relationship — and possibly a broken contract.
+The human obligation is on you. Personnel records, pending litigation details, pre-decisional budget proposals, and sensitive constituent information are among the most sensitive things we hold. Do not paste them into consumer AI tools outside our environment to "just get a quick draft." Information shared outside city systems is not a formatting error. It is a potential breach of public trust — and possibly a legal exposure.
 
-Use the tools we sanction, inside the boundary we control. That is what doing what's right looks like here.
+Use the tools the city sanctions, inside the boundary we control. That is what responsible stewardship looks like here.
 ::::
 
 :::{tip}
-**Saving templates to OneDrive:** Make sure the GES Collective PowerPoint templates you use are saved to your OneDrive or accessible from SharePoint — not just to a local drive or an external network share. Copilot can only work with files within the Microsoft 365 ecosystem. If a template is sitting on a local C: drive, move it. Create a folder like `Templates > GES Collective` in your OneDrive and store the approved templates there for easy access every time — GES Exhibitions, Spiro, onPeak, SHOWTECH, and Visit by GES side by side, so picking the right one takes two seconds instead of two emails.
+**Saving templates to OneDrive:** Make sure the City of Bowie PowerPoint templates you use are saved to your OneDrive or accessible from SharePoint — not just to a local drive. Copilot can only work with files within the Microsoft 365 ecosystem. Create a folder like `Templates > City of Bowie` in your OneDrive and store the approved templates there for easy access — Council briefing, public meeting, grant proposal, and internal review templates side by side, so picking the right one takes two seconds instead of two emails.
 :::
 
 ---
+
 
 ## 9. Extending PowerPoint Work with Copilot Cowork
 
 Everything up to this point in the chapter describes Copilot *in* PowerPoint — you are in the app, or in the chat, and you are steering each step. That is one mode of working, and it is the right one when you are actively building.
 
-There is a second mode, and it changes the economics of deck production entirely.
+There is a second mode, and it changes the economics of presentation production entirely.
 
 **Copilot Cowork** — generally available worldwide since June 16, 2026 — executes complex, long-running, multi-tool tasks end-to-end across Microsoft 365 and returns *finished artifacts*, not drafts or recommendations. Chapter 14 covers Cowork in depth. What matters here is one specific property: **a deck is rarely the only thing you need.**
 
-Think about what actually surrounds a presentation in our business.
+Think about what actually surrounds a City Council briefing in our work.
 
-A Spiro concept presentation does not exist alone. It sits alongside a design brief that captured what the client asked for, a specification document covering materials and build approach, a budget framework, and a follow-up email to the client with the deck attached. That is four deliverables, and they all have to say the same thing.
+A project status briefing does not exist alone. It sits alongside the written project status report that went into the Council packet, the budget summary in Excel, and the follow-up email to the City Manager summarizing the presentation. That is four deliverables, and they all have to say the same thing.
 
-A post-show recap deck does not exist alone. It sits alongside the reconciliation summary, the labor variance analysis, and the email to the exhibitor's marketing lead explaining what the numbers mean.
+A program performance review does not exist alone. It sits alongside the data analysis, the program narrative for the department record, and the communication to the program team on what changes are being made.
 
 Building those one at a time, in four different apps, is where the hours go.
 
@@ -524,35 +524,35 @@ Building those one at a time, in four different apps, is where the hours go.
 
 Copilot Chat is a conversation: you prompt, it responds, you decide what's next. Cowork is an assignment: you describe the outcome, step away, and check in at milestones. It plans the work, moves across Word, Excel, PowerPoint, Outlook, and Teams, and delivers a connected set of finished files.
 
-Three properties make this genuinely useful for GES specifically:
+Three properties make this genuinely useful for City of Bowie employees specifically:
 
-**It keeps running when your laptop is closed.** Cowork is cloud-hosted. Tasks continue while you are on a plane between Las Vegas and London, or standing in a hall with your laptop in a case. For a workforce that is regularly in motion between 24 facilities and hundreds of venues, this is not a footnote. It is the entire value proposition.
+**It keeps running when you are away from your desk.** Cowork is cloud-hosted. Tasks continue while you are in the field managing a project, at a community meeting, or attending a Council session. For staff who regularly split time between City Hall and active project sites, this is significant.
 
 **It is grounded in Work IQ.** Cowork pulls from the documents, messages, and meetings your organization already runs on — with your permissions and only what you can already see.
 
 **It stays inside the trust boundary.** Same Microsoft 365 security, compliance, and audit posture as everything else in this chapter. Cowork actions are auditable, and it pauses to ask permission before sensitive actions like sending an email or posting in Teams.
 
-### A GES Example — The Spiro Design Package
+### A City of Bowie Example — The Parks Project Briefing Package
 
-Here is a real-shaped scenario. A Spiro designer and an account lead have a client concept presentation due Friday. The site survey happened Tuesday, the internal design review was Wednesday morning, and there is a Teams thread with fourteen messages of client feedback on the first-round direction.
+Here is a real-shaped scenario. A Parks and Recreation coordinator and a department director have a City Council briefing on the Bowie Community Park Improvement Project due Monday. The site visit happened Tuesday, the internal project review was Wednesday morning, and there is a Teams thread with notes from resident feedback at last week's community meeting.
 
 Instead of building four deliverables sequentially, they give Cowork a scoped assignment using the five-part structure from Chapter 14:
 
-**Outcome:** A complete client concept package for the [Client] activation at the June exposition, ready for internal design review Thursday morning.
+**Outcome:** A complete City Council briefing package for the Bowie Community Park Improvement Project, ready for department director review Friday afternoon.
 
-**Inputs:** The site survey report in OneDrive, the design review meeting recording from Wednesday, the client feedback thread in the project Teams channel, the venue rigging and load-in constraints document, and the current budget worksheet.
+**Inputs:** The project status report in OneDrive, the project review meeting notes from Wednesday, the resident feedback summary from the community meeting Teams channel, the project budget worksheet, and the capital improvement program schedule.
 
-**Definition of done:** Three files saved to the project SharePoint folder — (1) a design brief in Word capturing the client's stated objectives and the constraints we are designing against, (2) a specification and budget summary in Excel with materials, build approach, and cost ranges by zone, and (3) a client-ready concept deck in PowerPoint using the Spiro template, structured as: opening insight, the big idea, the environment, the visitor journey, the build approach, sustainability approach, and next steps. Plus a draft email to the account lead summarizing what is ready for review.
+**Definition of done:** Three files saved to the project SharePoint folder — (1) an updated project status memo in Word capturing current status, key decisions, and next steps; (2) a budget and milestone tracking update in Excel with expenditures to date and schedule performance; and (3) a 10-slide City Council briefing in PowerPoint using the Council briefing template, structured as: executive summary, project background, current status and milestones, budget performance, community engagement summary, upcoming work and timeline, risks and mitigations, sustainability outcomes, Council action requested, and contact information. Plus a draft email to the department director summarizing what is ready for review.
 
-**Constraints:** Use the Spiro brand template only. Leave image placeholders with descriptive captions for the renderings — do not generate imagery. Do not contact the client. Do not commit to any date not already confirmed in the site survey report.
+**Constraints:** Use the Council briefing template only. Leave image placeholders with descriptive captions for project site photographs — do not generate imagery. Do not contact Council members or the City Manager. Do not commit to any date not already confirmed in the project schedule.
 
-**Approval scope:** Review before anything is sent externally.
+**Approval scope:** Director review before anything is submitted to the Council office.
 
-Cowork works through this, step by step and visibly, and comes back with a connected package. The design brief, the spec document, and the deck all reflect the same constraints and the same idea, because they were produced from the same inputs in the same task.
+Cowork works through this, step by step and visibly, and comes back with a connected package. The status memo, the budget tracker, and the briefing deck all reflect the same project status and the same data, because they were produced from the same inputs in the same task.
 
-The designer's Thursday is then spent on what only the designer can do: the actual design.
+The coordinator's Friday is then spent on what only the coordinator can do: confirming the facts, reviewing the slides with the director, and preparing to answer Council members' questions.
 
-```{list-table} Chat vs. Cowork for Presentation Work at GES
+```{list-table} Chat vs. Cowork for Presentation Work at City of Bowie
 :header-rows: 1
 :label: table-ch08-chat-vs-cowork
 
@@ -561,7 +561,7 @@ The designer's Thursday is then spent on what only the designer can do: the actu
   - Copilot Cowork
 * - **What you get back**
   - One deck, refined interactively
-  - A connected set of deliverables — brief, analysis, deck, draft email
+  - A connected set of deliverables — memo, analysis, deck, draft email
 * - **How you interact**
   - You steer each step in the flow of work
   - You describe an outcome and review like a manager
@@ -570,25 +570,25 @@ The designer's Thursday is then spent on what only the designer can do: the actu
   - Producing a full package that spans Word, Excel, PowerPoint, and Outlook
 * - **Where it runs**
   - Interactive, with you present
-  - Cloud-hosted — keeps working when your laptop is closed
-* - **GES scenario**
-  - Tightening a recap deck the night before an exhibitor debrief
-  - Turning a site survey, a design review recording, and a Teams feedback thread into a full concept package
+  - Cloud-hosted — keeps working when you are in the field or in a meeting
+* - **City of Bowie scenario**
+  - Tightening a program performance deck before a department briefing
+  - Turning a project visit, a team review meeting, and resident feedback notes into a full Council briefing package
 * - **What it does not replace**
-  - Verification and design review
-  - Verification and design review
+  - Verification and staff review
+  - Verification and staff review
 ```
 
 Notice the last row. It is the same in both columns, and that is not an accident.
 
-::::{admonition} 🎯 T.R.U.E. Check: Responsibility
+::::{admonition} 🎯 City Values Check: Accountability
 :class: note
 
-**Responsibility** — *be responsible for our actions and deliver on our commitments.*
+**Accountability** — *be responsible for our actions and deliver on our commitments.*
 
-Cowork will happily draft an email, populate a budget range, and write a slide that says "GES will complete move-in by 6 p.m. Thursday." It has no idea whether we can.
+Cowork will happily draft an email, populate a budget timeline, and write a slide that says "the City will complete the park renovation by June 30." It has no idea whether that is achievable.
 
-Delegating the *production* of a deliverable never delegates the *commitment* inside it. Before anything with a date, a rate, a weight, or a service level goes to a client, the person who has to deliver it confirms it. That is not bureaucracy. That is the difference between a partner and a vendor — and it is why organizers renew with us.
+Delegating the *production* of a deliverable never delegates the *commitment* inside it. Before anything with a date, a budget figure, a service level, or a policy position goes to Council or the public, the person with the authority and knowledge to make that commitment confirms it. That is not bureaucracy. That is accountable government — and it is why residents trust City Hall.
 ::::
 
 ---
@@ -599,181 +599,174 @@ This section is not optional. It is the professional obligation that makes every
 
 :::{figure} ../images/ch08-verification-discipline.png
 :label: fig-ch08-verification
-:alt: Infographic showing the five-step verification discipline for AI-generated PowerPoint presentations — Copilot Generates Draft Deck, Every Number Verified, Every Claim Traced to Source, Design and Brand Review If Client-Facing, Professional Signs Off — with DRAFT watermark on initial slides removed after verification
+:alt: Infographic showing the five-step verification discipline for AI-generated PowerPoint presentations — Copilot Generates Draft Deck, Every Number Verified, Every Claim Traced to Source, Design and Clarity Review If Public-Facing, Professional Signs Off — with DRAFT watermark on initial slides removed after verification
 :width: 80%
 :align: center
 
-The verification discipline is the professional standard that makes AI-generated presentations safe to use. AI generates the structure. The human verifies the substance — and, at GES, a second human checks the craft. Every number, every commitment, every slide, before it reaches any audience.
+The verification discipline is the professional standard that makes AI-generated presentations safe to use in city government. AI generates the structure. The human verifies the substance — and a second staff member checks public-facing materials. Every number, every commitment, every slide, before it reaches any audience.
 :::
 
 Microsoft itself is explicit about this in their documentation. Copilot generates a draft. You need to verify and modify details to make sure it is accurate and fits your tone and style. This is not a disclaimer buried in a footnote. It is the fundamental design premise of the tool.
 
-For GES professionals, the stakes of presenting inaccurate content are not hypothetical. Consider:
+For City of Bowie employees, the stakes of presenting inaccurate content are significant. Consider:
 
-**In a pre-show planning deck:** A show organizer notices that the net square footage on slide 5 is inconsistent with the floor plan they approved two weeks ago. They question it in the meeting. Thirty minutes go to resolving a data error instead of to the three decisions you needed from them. Confidence in the operating plan — and in the team presenting it — takes a hit that lasts the whole show cycle.
+**In a City Council briefing:** A Council member notices that the project completion date on slide 5 is inconsistent with the capital improvement schedule the Council approved two months ago. They question it publicly. Time goes to resolving a data error instead of to the substantive discussion. Council's confidence in the department's project management — and in the staff presenting it — takes a hit.
 
-**In a post-show ROI presentation:** An account manager presents lead-capture and booth-traffic figures that Copilot populated as plausible placeholders. The exhibitor's marketing lead compares them to their own Visit Connect export. The numbers do not match. The single most valuable thing we produce for an exhibitor is a credible account of what their investment returned. That credibility is now gone, and it is very difficult to get back.
+**In a program performance review:** A program coordinator presents resident participation figures that Copilot populated as plausible placeholders. Leadership compares them to the actual registration system data. The numbers do not match. The most important thing a performance review does is build confidence in the program's integrity. That confidence is now in question.
 
-**In an RFP response deck:** A slide states a material handling rate and a move-in window that were never confirmed with the operations team. The organizer scores the bid on those terms. We win the work on a commitment we cannot deliver — which is worse than losing it.
+**In a grant proposal deck:** A slide states a budget match and a program timeline that were never confirmed with the Finance department or the program manager. The grant agency scores the proposal on those terms. The city is awarded funding on a commitment it cannot deliver — which is worse than not winning the grant.
 
-**In a Spiro concept presentation:** A specification slide lists a material and a build approach that engineering has not validated against the venue's rigging capacity. The client falls in love with the concept. We then have to walk it back. Nothing damages a creative relationship faster than showing someone something beautiful and then taking it away.
+**In a community planning presentation:** A slide describes a park amenity and a construction timeline that the Public Works team has not confirmed is feasible given available budget and materials. Residents at the meeting become excited about features the city may have to walk back. Nothing damages community trust faster than promises that cannot be kept.
 
-None of these scenarios requires malice or negligence to occur. They require only the assumption — deadly in professional life — that because the output looks right, it is right. AI generates plausible outputs. Plausible is not the same as accurate.
+None of these scenarios requires bad intent to occur. They require only the assumption — dangerous in public service — that because the output looks polished, it is accurate. AI generates plausible outputs. Plausible is not the same as correct.
 
 ### The Verification Protocol
 
 For every Copilot-generated PowerPoint before it is presented or distributed:
 
-**Step 1 — Every number, verified.** Open each slide. Find every square footage, weight, freight target, rate, percentage, count, booth dimension, cost figure, and date. Locate the primary source for each one. Confirm that the number in the slide matches the primary source. If Copilot generated a placeholder number — which it will sometimes do — replace it with the actual figure.
+**Step 1 — Every number, verified.** Open each slide. Find every budget figure, program metric, project milestone, percentage, count, and date. Locate the primary source for each one. Confirm that the number in the slide matches the primary source. If Copilot generated a placeholder number — which it will sometimes do — replace it with the actual figure from the city's records.
 
-**Step 2 — Every commitment, confirmed with the person who has to deliver it.** This is the GES-specific step, and it is the one most likely to save you. Any slide that says GES *will* do something on a date, at a rate, or to a standard needs a named human who has confirmed it. Move-in and move-out windows go to show operations. Material handling and drayage figures go to logistics. Labor and union jurisdiction assumptions go to the labor coordinator. International freight, customs, and carnet timelines go to the team that handles them. Build feasibility goes to design engineering. Never let AI-generated confidence become a client commitment.
+**Step 2 — Every commitment, confirmed with the person who has authority to make it.** This is the most important step. Any slide that says the City *will* do something on a date, at a cost, or to a standard needs a named staff member or supervisor who has confirmed it. Timeline commitments go to the project manager. Budget commitments go to Finance. Policy commitments go to the department director. Service level commitments go to the responsible department head. Never let AI-generated confidence become a public commitment without authorization.
 
-**Step 3 — Every factual claim, traced.** Copilot may generate claims like "GES has served this vertical at more than 200 events over the past three years." That claim may be accurate — or it may be something Copilot generated because it sounds plausible for a company of our size. Verify every substantive claim, especially company statistics, client references, and competitive comparisons, against actual data. If you cannot source it, cut it.
+**Step 3 — Every factual claim, traced.** Copilot may generate claims like "City of Bowie has served more than 12,000 residents through this program over the past three years." That claim may be accurate — or it may be something Copilot generated because it sounds plausible for a city program of our size. Verify every substantive claim against actual records. If you cannot source it, cut it.
 
-**Step 4 — Design and brand review for anything client-facing.** For internal ops reviews, Steps 1 through 3 may be enough. For anything that goes to an organizer, an exhibitor, an agency partner, or a prospect — and *always* for Spiro concept work — a second set of eyes with a designer's judgment reviews the deck before it leaves the building. Correct brand template. Correct logo lockups if multiple GES Collective brands appear. Image resolution and crop. Type hierarchy consistent across every slide. Nothing stretched, nothing pixelated, nothing left in a Copilot-default layout that fights the template. This is non-negotiable, and Section 11 explains why.
+**Step 4 — Clarity and accessibility review for anything public-facing.** For internal department reviews, Steps 1 through 3 may be enough. For anything that goes to the City Council, to residents at a public meeting, or to a grant agency — review the deck with a reader's eye, not an author's eye. Is the language plain enough for a resident who is not a subject-matter expert? Is the action or recommendation clear? Is every chart labeled so someone seeing it for the first time understands it?
 
-**Step 5 — Final professional sign-off.** The person who presents the deck owns it. Not Copilot. Not the tool. The professional who stands in front of the organizer, the client, or the crew and delivers the slides is responsible for their accuracy. That responsibility does not transfer to the AI that helped build the structure.
+**Step 5 — Final staff sign-off.** The person who presents the deck owns it. Not Copilot. Not the tool. The employee who stands before the City Council or at a public meeting and delivers the slides is responsible for their accuracy. That responsibility does not transfer to the AI that helped build the structure.
 
 :::{warning}
-**The "looks right" trap:** The most dangerous moment in AI-assisted work is when the output looks so professional and polished that you are tempted to skip verification. Copilot produces clean, confident-sounding content. That polish can create a false sense of accuracy. The more polished the output, the more important it is to verify — because the audience will trust it more, and the consequences of an error are proportionally higher.
+**The "looks right" trap:** The most dangerous moment in AI-assisted work is when the output looks so professional and polished that you are tempted to skip verification. Copilot produces clean, confident-sounding content. That polish can create a false sense of accuracy. The more polished the output, the more important it is to verify — because the audience will trust it more, and the consequences of an error in a Council briefing or a public meeting are proportionally significant.
 :::
 
 ---
 
-## 11. The Design Review Is Non-Negotiable
+## 11. The Clarity Review Is Non-Negotiable
 
-This deserves its own section, because it is the point most likely to be skipped and the one that costs us the most when it is.
+This deserves its own section, because it is the step most likely to be skipped — and in public-sector communication, it is often the one that matters most to residents.
 
-**A Copilot-generated deck is a starting structure. It is not a finished creative product.**
+**A Copilot-generated deck is a starting structure. It is not a finished communication product.**
 
-That distinction is easy to state and hard to hold onto at 11 p.m. the night before a pitch, when the deck looks... fine. It has the right slides. The text reads well. The template colors are correct. The temptation to call it done is enormous.
+That distinction is easy to state and hard to hold onto at the end of a long week when the presentation deadline is tomorrow morning.
 
 Here is what Copilot cannot do, and will not do, no matter how good your prompt is:
 
-**It cannot have an idea.** Structure is not concept. Copilot will give you a slide titled "The Big Idea." It will not give you the big idea. That comes from a designer who walked the hall, looked at the sightlines, understood the brand, and saw something nobody else saw.
+**It cannot know your specific audience's concerns.** Structure is not context. Copilot will give you a slide titled "Community Impact." It will not know that the residents near this particular park have been frustrated by construction delays for two years and need to hear acknowledgment before they will hear progress updates.
 
-**It cannot judge visual hierarchy against a room.** A deck presented on a laptop across a table and a deck projected in a 60-person room are different objects. Copilot does not know which one you are building.
+**It cannot judge whether language is truly accessible.** A deck reviewed by the program team and a deck read by a resident who has never attended a city meeting are different experiences. Copilot does not know which one you are building for.
 
-**It cannot pace a reveal.** The moment where a concept lands is a designed moment. It depends on what came before it and how much white space surrounds it. That is craft.
+**It cannot pace a Council briefing.** The moment where the recommendation lands clearly — where Council members understand exactly what they are being asked to do — is a designed moment. That requires knowing this Council's preferences, this committee's past questions, and this issue's political context.
 
-**It cannot tell you the deck is boring.** It will happily generate twelve competent, forgettable slides. Competent and forgettable loses pitches to competitors who are neither.
+**It cannot tell you the deck is missing the point.** It will happily generate twelve technically complete, substantively hollow slides. Complete and hollow loses the argument.
 
-**It cannot protect the brand at the level clients judge us on.** Copilot will honor the Slide Master. It will not notice that the logo is sitting 4 pixels off the safe margin on slide 9, or that two different blues from the palette are fighting on slide 6, or that the rendering has been scaled non-proportionally.
+**It cannot protect accuracy at the level stakeholders require.** Copilot will honor the Slide Master. It will not notice that a percentage figure was calculated on an incorrect base, or that a project completion date slipped two weeks ago and was not updated in the source document it read.
 
 ### The Rule
 
-For any client-facing deck, and unconditionally for Spiro concept work:
+For any public-facing deck, and unconditionally for City Council briefings:
 
 1. **Copilot builds the structure.** Fast. That is the point.
 2. **The subject-matter owner verifies the substance.** Numbers, commitments, claims — Section 10.
-3. **A creative reviewer checks the craft.** Layout, imagery, hierarchy, brand accuracy, narrative pacing.
+3. **A second staff member reviews for clarity and audience appropriateness.** Is the language plain? Is the recommendation clear? Does the deck tell the right story for this audience?
 4. **Then it goes out.**
 
-Step 3 is not a formality and it is not a courtesy review. At a company that sells design, it is quality control on the product itself.
+Step 3 is not a formality. At a city government whose mission is to serve residents effectively, it is quality control on our communication itself.
 
-::::{admonition} 🎯 T.R.U.E. Check: Understanding
+::::{admonition} 🎯 City Values Check: Pride
 :class: note
 
-**Understanding** — *people come first. Be understanding and compassionate.*
+**Pride** — *take pride in our work and our community.*
 
-There is a version of this chapter that reads as a warning to designers: the machine builds decks now, be careful.
+There is a version of this chapter that reads as if AI is going to make city communications generic. That is not the message. Copilot builds *slide containers*. It does not know Bowie. It does not know that the tree canopy along Collington Road matters deeply to residents. It does not know the history of the Bowie Crofton area or why a particular park improvement carries meaning to the community that built it. It does not have the institutional knowledge that a five-year city employee has developed through real engagement with residents and Council members.
 
-That is not the message. Copilot builds *slide containers*. It does not build ideas, and it does not build taste. What it actually removes is the part of a designer's job that was never design — resizing text boxes at midnight, rebuilding the same operational overview for the ninth show this quarter, retyping the site survey into bullet points.
-
-If you are a designer at GES or Spiro, this tool is not competing with you. It is clearing the desk so that more of your week is spent doing the thing you were hired for. And if you are an account or operations person, treat the designer's review as the most valuable fifteen minutes in the process — not the last obstacle before you can send.
+What Copilot removes is the mechanical burden of building slide structures at midnight. If you are a program coordinator or a planner, this tool is not replacing your expertise — it is clearing the desk so that more of your time is spent on the work that requires your knowledge of Bowie and your relationship with this community. Use the time it frees to make the presentation better, not just faster.
 ::::
 
 ---
 
-## 12. GES-Specific Workflows
+## 12. City of Bowie–Specific Workflows
 
-The four deck types that follow represent the most frequent, highest-stakes presentation scenarios for GES professionals. Each one has a specific recommended Copilot workflow that accounts for the audience, the content requirements, and the verification obligations.
+The four presentation types that follow represent the most frequent, highest-stakes communication scenarios for City of Bowie employees. Each one has a specific recommended Copilot workflow that accounts for the audience, the content requirements, and the verification obligations.
 
 :::{figure} ../images/ch08-ges-workflows.png
 :label: fig-ch08-workflows
-:alt: Four-quadrant matrix diagram showing GES-specific Copilot in PowerPoint workflows — Spiro Concept Deck in top-left, Organizer RFP Response and New Business Pitch in top-right, Post-Show Recap and ROI in bottom-left, Account QBR in bottom-right — each quadrant with relevant slide examples and Copilot AI spark icon
+:alt: Four-quadrant matrix diagram showing City of Bowie–specific Copilot in PowerPoint workflows — City Council Briefing in top-left, Grant Proposal and Partnership Deck in top-right, Project Closeout Presentation in bottom-left, Program Performance Review in bottom-right — each quadrant with relevant slide examples and Copilot AI spark icon
 :width: 80%
 :align: center
 
-Four deck types, four distinct workflows. The GES professional who masters all four has the AI-assisted presentation skills to operate at the highest level of the organization.
+Four presentation types, four distinct workflows. The City of Bowie employee who masters all four has the AI-assisted presentation skills to serve the Council, residents, and program partners at the highest professional level.
 :::
 
-### Workflow 1 — Spiro Client Concept Deck
+### Workflow 1 — City Council Briefing
 
-**The scenario:** Presenting a custom exhibit or brand environment concept to an exhibitor or agency client. Often the deciding moment in a competitive pursuit.
+**The scenario:** Presenting a program update, project status, policy recommendation, or budget request to the Mayor and City Council.
 
-**Audience:** Brand marketers, agency creative leads, and executive sponsors. They are visual thinkers. They will judge the idea, and they will judge the craft of how the idea is presented — often without separating the two.
-
-**Recommended Copilot workflow:**
-
-1. Start from the Word design brief and site survey report in OneDrive — both written with proper Word Styles
-2. Open the **Spiro** PowerPoint template — not the GES Exhibitions template
-3. Invoke Copilot Agent Mode with a prompt referencing the brief: *"Create a 12-slide client concept presentation based on [Design Brief — Client Activation, June Exposition]. Structure: Opening Insight → The Big Idea → The Environment → Visitor Journey → Key Moments → Materials and Build Approach → Sustainability Approach → Scale and Footprint → Timeline and Milestones → Investment Framework → Why Spiro → Next Steps. Creative, confident, client-facing tone. Leave descriptive image placeholders for renderings — do not generate imagery."*
-4. Review and refine the outline before slide generation — narrative order is the whole game in a concept deck
-5. After generation, ask Copilot to: tighten every slide title to six words or fewer, move detail into speaker notes, and add speaker notes anticipating client questions on budget and timeline
-6. The design team replaces every placeholder with real renderings, photography, and material samples, and rebuilds layout where the concept demands a full-bleed treatment
-7. Verify every specification and cost range with design engineering before the deck leaves
-8. **Mandatory creative review before it goes to the client**
-
-**The concept deck standard:** This deck *is* a sample of our work. Copilot should have touched the structure and none of the soul. If a client could tell it was AI-assembled, we have failed — not because AI assistance is wrong, but because the finishing was skipped.
-
-### Workflow 2 — Organizer RFP Response and New Business Pitch
-
-**The scenario:** Responding to a show organizer's RFP for general service contractor work, or pitching a new account against Freeman, Shepard, or a regional competitor.
-
-**Audience:** Show directors, association executives, procurement leads, and operations managers. They are comparing us line by line against other bidders. They have been disappointed before and they are listening for whether we actually understand their show.
+**Audience:** Elected officials representing Bowie's residents. They are decision-makers. They will judge whether the presentation gives them what they need to act — and they will judge the professionalism of the department presenting. Council members often have limited time to review materials in advance and rely on clear, well-organized briefings to make informed decisions.
 
 **Recommended Copilot workflow:**
 
-1. Ensure the Word RFP response document is complete and in OneDrive, with Styles applied — the written response comes first, always
-2. Open the **GES Exhibitions** template
-3. Prompt: *"Create a 14-slide RFP response presentation based on [RFP Response — Regional Manufacturing Exposition]. Structure: Understanding Your Show → Our Team → Operating Plan and Move-In Sequence → Material Handling and Drayage Approach → Labor Plan and Union Jurisdiction → Exhibitor Experience and Service Kit → Technology (Visit by GES) → Housing (onPeak) → Sustainability Commitment → Safety Record and Approach → Global Capability → Transition Plan → Commercial Summary → Why GES. Partnership-focused, operationally precise tone. No overstatement."*
-4. Replace every service level, rate, and date with terms confirmed by operations, logistics, and the commercial lead
-5. Anchor the credibility slides in real facts: founded 1939, 4,000+ live experiences a year, 150,000+ exhibitors served, 75+ countries, 24 global production and warehouse facilities, roughly 2,600 people
-6. Ask Copilot to generate speaker notes that anticipate the three toughest questions on each slide
-7. Brand and design review before submission
+1. Start from the Word project status report or policy memo in OneDrive — written with proper Word Styles
+2. Open the **Council Briefing** PowerPoint template
+3. Invoke Copilot Agent Mode with a prompt referencing the report: *"Create a 10-slide City Council briefing based on [Q3 Bowie Community Park Project Status Report]. Structure: Executive Summary and Requested Action → Project Background and Council Authorization → Current Status and Milestones → Budget Performance → Community Engagement and Resident Feedback → Risks and Mitigations → Upcoming Work and Timeline → Sustainability Outcomes → Supporting Attachments → Contact Information. Professional, factual, service-oriented tone."*
+4. Review and refine the outline before slide generation — the order of information in a Council briefing shapes how the issue is understood
+5. After generation, ask Copilot to: sharpen every slide title to lead with the key finding, move supporting detail into speaker notes, and add speaker notes anticipating the three most likely Council questions on each slide
+6. Verify every figure — budget numbers, milestone dates, program metrics — against the current project records
+7. **Mandatory director review before submission to the Council office**
 
-**The RFP verification standard:** Every commitment in this deck becomes contractual if we win. Nothing goes on a slide that operations has not confirmed. An unverified promise is not an aggressive bid — it is a service failure scheduled twelve months out.
+**The Council briefing standard:** This deck represents the department's judgment and professionalism. Copilot should have built the structure. The content accuracy and policy framing are yours.
 
-:::{note}
-**Use the independence story where it fits.** On December 31, 2024, GES separated from Viad Corp after 55 years and became an independent company under Truelink Capital. That is not a slide for every deck — but in a competitive pursuit where an organizer is asking whether we will still be investing in their show in three years, it is a genuine differentiator. We now set our own priorities, our own investment pace, and our own roadmap for the first time in five and a half decades. Copilot will not know to say that. You will.
-:::
+### Workflow 2 — Grant Proposal and Inter-Agency Partnership Deck
 
-### Workflow 3 — Post-Show Recap and ROI Presentation
+**The scenario:** Submitting a presentation as part of a grant application to a state or federal agency, or developing a partnership deck for coordination with Prince George's County, the State of Maryland, or a community organization.
 
-**The scenario:** Presenting results back to an exhibitor or organizer after move-out — what happened, what it cost, what it returned, and what to change next year.
-
-**Audience:** Exhibitor marketing leads, show organizers, and agency partners. They want an honest account, not a victory lap. The recap deck is where accounts are renewed or lost.
+**Audience:** Grant reviewers, program officers, and agency partners. They are evaluating whether Bowie has the need, the program design, and the administrative capacity to be a good steward of the investment. They compare us against other applicants. They have been disappointed before and are listening for whether we understand the requirements.
 
 **Recommended Copilot workflow:**
 
-1. Gather sources in OneDrive/SharePoint: the post-show reconciliation summary, labor hour actuals versus forecast, freight and material handling totals, Visit Connect lead-capture data if the exhibitor used it, onPeak housing pickup if relevant, and any incident or service escalation log
-2. Consider building the underlying analysis in Excel first (Chapter 7) and the summary in Word (Chapter 6), then converting — grounded slides beat prompted slides every time
-3. Open the correct brand template
-4. Prompt: *"Create a 10-slide post-show recap presentation based on [Post-Show Summary — Spring Exposition]. Structure: Show at a Glance → What We Delivered → Freight and Material Handling Performance → Move-In and Move-Out Against Target → Booth Traffic and Lead Capture Results → Service Levels and Issue Resolution → Sustainability and Waste Diversion Results → Cost Summary → What We'd Change Next Year → Recommendations for Next Cycle. Honest, data-forward, partnership tone. Acknowledge misses directly."*
-5. Replace every metric with verified figures from the reconciliation — this is the deck where placeholder numbers do the most damage
-6. Keep the "what we'd change" slide honest. Clients trust the recap that admits something went sideways far more than the one that claims everything was perfect
-7. Ask Copilot for speaker notes that explain each metric in plain language for a non-operational audience
+1. Ensure the Word grant narrative is complete and in OneDrive, with Styles applied — the written narrative comes first, always
+2. Open the appropriate template — city standard for grant proposals, or a co-branded template for county partnerships
+3. Prompt: *"Create a 12-slide grant proposal presentation based on [Bowie Parks Accessibility Improvement Grant Narrative]. Structure: Community Need and Context → Program Design and Goals → Target Population and Impact → Bowie's Qualifications and Track Record → Project Timeline and Milestones → Budget Summary and Match Sources → Evaluation Plan → Sustainability Plan → Community Engagement Approach → Partnerships and Letters of Support → Compliance and Reporting Plan → Contact and Next Steps. Evidence-based, professional, grant-narrative tone."*
+4. Replace every program metric, budget figure, and population estimate with verified data from city records and the approved grant narrative
+5. Anchor the credibility sections in real facts: City of Bowie founding in 1963, largest city in Prince George's County, ~70,000+ residents, specific program histories and outcomes
+6. Ask Copilot to generate speaker notes that anticipate the three most likely reviewer questions on each section
+7. Finance and department director review of all budget figures before submission
 
-**The recap verification standard:** Every figure reconciles to the final invoice and the operational record. If a number in the recap deck does not match what the client was billed, you will spend the meeting defending arithmetic instead of selling next year.
+**The grant proposal verification standard:** Every number in this deck may be audited. Budget figures must reconcile to the formal grant application. Program metrics must come from city records. An unverified claim in a grant presentation is not an aggressive pitch — it is a liability.
 
-### Workflow 4 — Account QBR and Internal Ops Review
+### Workflow 3 — Project Closeout Presentation
 
-**The scenario:** A quarterly business review with a major account, or an internal operations review covering performance across facilities and shows.
+**The scenario:** Presenting completed project results to department leadership, the City Council, or community stakeholders — what was delivered, what it cost, what it produced for residents, and what we learned.
 
-**Audience:** For a QBR — client executives and procurement, looking for evidence the partnership is delivering. For an internal review — GES regional and functional leadership, looking for the real picture.
+**Audience:** For a Council closeout — elected officials seeking accountability for the investment. For a community presentation — residents who want to see what happened with their park, road, or public facility. For an internal review — leadership who need to understand performance for future planning. All of them want an honest account, not just a victory report.
 
 **Recommended Copilot workflow:**
 
-1. Sources: quarterly performance data in Excel, show-by-show summaries, service escalation logs, safety incident records, labor variance analysis, and the prior quarter's QBR deck for continuity
-2. Open the correct template — GES Exhibitions for most QBRs; use the collective master where multiple brands are represented
-3. Prompt for a QBR: *"Create a 12-slide quarterly business review presentation for a major account based on [Q2 Account Summary]. Structure: Quarter at a Glance → Shows Delivered → Service Level Performance Against Agreed Metrics → Exhibitor Satisfaction → Freight and Material Handling Summary → Cost Performance and Savings Delivered → Safety Performance → Sustainability Progress → Issues and Resolutions → Innovation and What's New (Visit by GES, Show Ready) → Next Quarter Priorities → Open Decisions. Executive tone. Lead with conclusions, support with data."*
-4. Prompt for an internal ops review: *"Create a 10-slide operations review covering three production facilities. Structure: Summary Scorecard → Labor Hours Forecast vs. Actual → Freight Volume and Advance Warehouse Utilization → Move-In/Move-Out On-Time Performance → Safety Incidents and Corrective Actions → Equipment and Asset Status → Staffing and Overtime → Cost Drivers → Issues Requiring Regional Support → Next Quarter Focus. Direct, internal, no-spin tone."*
-5. Verify every metric against the system of record
-6. For safety content specifically: never let AI paraphrase an incident. Safety facts are stated exactly as recorded, in the language of the record
-7. For a client QBR, run the design review. For an internal ops review, prioritize clarity over polish — but do not let "internal" become an excuse for a deck nobody can read
+1. Gather sources in OneDrive/SharePoint: the final project report, budget closeout data, contractor performance record, resident and community feedback, any incident or escalation log, and sustainability outcomes
+2. Consider building the underlying data analysis in Excel first (Chapter 7) and the summary in Word (Chapter 6), then converting — grounded slides beat prompted slides every time
+3. Open the correct template
+4. Prompt: *"Create a 10-slide project closeout presentation based on [Bowie Community Park Renovation Final Report]. Structure: Project at a Glance → What We Set Out to Do → What Was Delivered → Budget Performance → Community Engagement and Resident Feedback → Safety and Compliance Record → Sustainability and Environmental Outcomes → What We'd Change Next Time → Lessons Learned for Future Projects → Acknowledgments and Contact. Honest, data-forward, accountability-focused tone. Acknowledge what didn't go as planned."*
+5. Replace every metric with verified figures from the project closeout records — this is the deck where placeholder numbers cause the most damage to credibility
+6. Keep the "what we'd change" slide honest. Stakeholders trust the closeout that addresses challenges far more than the one that claims everything was perfect
+7. For public-facing community presentations, add the plain-language review from Section 11
 
-**The QBR verification standard:** A QBR is a trust exercise. If leadership finds one metric they cannot reconcile, the entire deck is discounted. Verify everything, and present the misses before the client finds them.
+**The closeout verification standard:** Every figure reconciles to the final project accounting and the city's official records. If a number in the closeout deck does not match the financial records, you will spend the presentation defending arithmetic instead of celebrating the work done for residents.
+
+### Workflow 4 — Program Performance Review
+
+**The scenario:** A quarterly or annual performance review for a city program — Parks and Recreation activities, Public Works service metrics, Finance reporting, HR compliance, or Constituent Services responsiveness — for department leadership or the City Council.
+
+**Audience:** For a Council performance briefing — elected officials seeking accountability for program investments. For an internal department review — leadership looking for the real picture to guide management decisions.
+
+**Recommended Copilot workflow:**
+
+1. Sources: quarterly performance data in Excel, program activity logs, service level metrics, resident or constituent feedback, and the prior period's performance deck for continuity
+2. Open the correct template — Council briefing template for formal performance briefings; department review template for internal use
+3. Prompt for a Council program performance briefing: *"Create a 10-slide program performance presentation for City Council based on [Parks and Recreation Q2 Performance Report]. Structure: Quarter at a Glance → Programs Delivered and Resident Participation → Service Level Performance Against Goals → Resident Satisfaction and Feedback → Budget Performance → Safety and Compliance Status → Sustainability Progress → Issues, Resolutions, and Lessons Learned → Next Quarter Priorities → Open Items and Council Questions. Lead with outcomes, support with data. Professional, accountable tone."*
+4. Prompt for an internal department review: *"Create an 8-slide department performance review covering three program areas. Structure: Summary Scorecard → Activity and Participation Metrics by Program → Budget Performance by Area → Service Level and Responsiveness Data → Staffing and Capacity Status → Issues Requiring Director Attention → Cost Drivers and Variances → Next Quarter Focus Areas. Direct, internal, honest tone."*
+5. Verify every metric against the city's program management records
+6. For safety or compliance content specifically: never let AI paraphrase an incident or compliance finding. Safety and compliance facts are stated exactly as recorded in the official record
+7. For public Council presentations, run the clarity review from Section 11. For internal department reviews, prioritize directness over polish
+
+**The performance review standard:** A performance review is a trust exercise. If a Council member or department director finds one metric they cannot reconcile to underlying data, the entire presentation is discounted. Verify everything, and present the areas of underperformance before they are found.
 
 ---
 
@@ -782,14 +775,14 @@ Four deck types, four distinct workflows. The GES professional who masters all f
 This exercise connects directly to the work you did in Chapter 6.
 
 :::{note}
-**Before you begin:** Locate the Word document you created in Chapter 6 using Copilot in Word. If you do not have it, create a short Word document (two to three pages) summarizing a hypothetical post-show recap for an exhibitor at a mid-size exposition — include freight and material handling totals, move-in and move-out performance against target, and two things that went wrong. Save it to your OneDrive and ensure it uses proper Word Styles (Heading 1, Heading 2, Body Text).
+**Before you begin:** Locate the Word document you created in Chapter 6 using Copilot in Word. If you do not have it, create a short Word document (two to three pages) summarizing a hypothetical program performance report for a City of Bowie parks or public works program — include program metrics, budget performance to date, resident feedback, and two things that did not go as planned. Save it to your OneDrive and ensure it uses proper Word Styles (Heading 1, Heading 2, Body Text).
 :::
 
 **Step 1 — Initiate from m365.cloud.microsoft**
 
-Sign in at m365.cloud.microsoft with your GES Microsoft 365 account. In the Copilot chat interface, type:
+Sign in at m365.cloud.microsoft with your City of Bowie Microsoft 365 account. In the Copilot chat interface, type:
 
-*"I need to create an 8-slide post-show recap deck based on a Word summary I have. The audience is the exhibitor's marketing lead and their agency partner. The tone should be honest and data-forward — we acknowledge what didn't go well. Please help me create a professional presentation."*
+*"I need to create an 8-slide program performance briefing for City Council based on a Word summary I have. The audience is the Mayor and City Council. The tone should be honest and data-forward — we acknowledge what didn't go as planned. Please help me create a professional presentation."*
 
 Observe how Copilot responds — whether it asks clarifying questions, whether it requests to see the document, or whether it proceeds with an outline directly.
 
@@ -800,45 +793,45 @@ Once Copilot is ready, provide the reference to your Word document (using the fi
 **Step 3 — Review the output**
 
 When Copilot generates the .pptx and provides the OneDrive link, open the file. Review it critically:
-- Does the structure tell the story a client needs to hear, in the right order?
+- Does the structure tell the story a Council member needs to hear, in the right order?
 - Are there slides that should not be there?
-- Are any important sections missing — sustainability, service escalations, next-year recommendations?
-- Does the visual design match GES brand standards if you started in the template?
-- **Would you be comfortable if a client assumed this deck represented our design capability?**
+- Are any important sections missing — resident feedback, budget performance, recommendations for next quarter?
+- Does the visual design match City of Bowie presentation standards if you started in the template?
+- **Would a Council member who has not read the underlying report understand what is being reported and what action, if any, is requested?**
 
 **Step 4 — Four refinement prompts**
 
 Return to Copilot (in the chat or in PowerPoint's Agent Mode) and apply these follow-up prompts in sequence:
 
-*Prompt 1:* "Add an executive summary slide as slide 2. It should include the three most important takeaways from this recap in three concise bullet points."
+*Prompt 1:* "Add an executive summary slide as slide 2. It should include the three most important takeaways from this performance report in three concise bullet points."
 
-*Prompt 2:* "Add speaker notes to every slide. Each note should give me the key point to deliver verbally, plain-language context for any operational term, and a suggested transition to the next slide."
+*Prompt 2:* "Add speaker notes to every slide. Each note should give me the key point to deliver verbally, plain-language context for any technical or programmatic term, and a suggested transition to the next slide."
 
-*Prompt 3:* "Add a slide before the closing titled 'What We'd Change Next Year.' It should present two honest operational improvements as recommendations, not excuses."
+*Prompt 3:* "Add a slide before the closing titled 'What We'd Change Next Quarter.' It should present two honest operational improvements as recommendations, not excuses."
 
-*Prompt 4:* "The closing slide should include a clear call to action — what we need the client to decide or confirm for next year's show. Rewrite it with a specific recommendation and a decision point."
+*Prompt 4:* "The closing slide should include a clear action item or information acknowledgment — what we need Council to note, approve, or direct. Rewrite it with a specific recommendation and a clear ask."
 
 **Step 5 — Verify, review, and reflect**
 
-Review the refined deck slide by slide. Apply the verification protocol from Section 10. Then apply Section 11 — look at it as a designer would, not as an author would. Note how many placeholders, inaccurate details, and craft problems you find that would need correction before this deck could actually go to a client.
+Review the refined deck slide by slide. Apply the verification protocol from Section 10. Then apply Section 11 — look at it as a Council member seeing it for the first time, not as the author. Note how many placeholders, inaccurate details, and clarity issues you find that would need correction before this deck could actually go to the City Council.
 
-Reflect on this: how long would this eight-slide deck have taken you to build from scratch? How long did it take with Copilot? What percentage of your time was spent on structure and formatting versus verification, design, and sharpening the argument? **That last ratio is the whole point of this chapter.**
+Reflect on this: how long would this eight-slide deck have taken you to build from scratch? How long did it take with Copilot? What percentage of your time was spent on structure and formatting versus verification, content review, and ensuring the recommendation is clear? **That last ratio is the whole point of this chapter.**
 
-**Bonus — if Cowork is enabled in your tenant:** Instead of building only the deck, give Cowork the full assignment from Section 9. Ask for the recap deck *plus* a one-page Word summary for the account file *plus* a draft email to the client with the deck attached. Compare the connected package to what you would have produced app-by-app.
+**Bonus — if Cowork is enabled in your tenant:** Instead of building only the deck, give Cowork the full assignment from Section 9. Ask for the Council briefing deck *plus* a one-page Word memo summarizing the performance quarter for the department file *plus* a draft email to the department director with the deck attached for review. Compare the connected package to what you would have produced app-by-app.
 
 ---
 
 ## The Deck Crunch, Solved — and What Comes Next
 
-The blank slide is no longer the obstacle it was. With Copilot in PowerPoint — whether through Agent Mode inside the application, through the Microsoft 365 Copilot interface at m365.cloud.microsoft, or through Cowork as part of a larger package — GES professionals have access to a genuinely powerful tool for converting working documents, show data, and design thinking into professional presentations in a fraction of the time it previously required.
+The blank slide is no longer the obstacle it was. With Copilot in PowerPoint — whether through Agent Mode inside the application, through the Microsoft 365 Copilot interface at m365.cloud.microsoft, or through Cowork as part of a larger package — City of Bowie employees have access to a genuinely powerful tool for converting working documents, program data, and project analysis into professional presentations in a fraction of the time it previously required.
 
-But the tool is only as valuable as the discipline surrounding it. The verification protocol is not bureaucratic overhead. It is the professional standard that makes AI-assisted presentations trustworthy in the environments where GES operates — in front of show organizers deciding who runs their event, exhibitors deciding whether their investment paid off, agency partners deciding whether to bring us the next brief, and colleagues on a facility floor who need the operations picture to be accurate.
+But the tool is only as valuable as the discipline surrounding it. The verification protocol is not bureaucratic overhead. It is the professional standard that makes AI-assisted presentations trustworthy in the environments where city government operates — before a City Council deciding how to invest public resources, at a public meeting with residents who deserve accurate information, in a grant application where the city's reputation as a reliable partner is on the line, and in department reviews where honest performance data drives real management decisions.
 
-And the design review is not overhead either. At a company founded in 1939 that has spent more than eight decades building a reputation for making things look extraordinary, the deck is not a container for the work. **It is a piece of the work.** Copilot gives you back the hours that formatting used to eat. Spend them on the craft.
+And the clarity review is not overhead either. At a city founded in 1963 that has spent more than six decades building a community where residents trust their local government, the presentation is not a container for the work. **It is a piece of the work.** Copilot gives you back the hours that formatting used to eat. Spend them on accuracy, on clarity, and on the substance that actually serves Bowie's 70,000+ residents.
 
-The professionals who master Copilot in PowerPoint — who learn to write rich prompts in real GES vocabulary, who maintain their Word documents with Styles, who always start in the correct GES Collective template, who run every output through rigorous verification, and who never let a client-facing deck skip the designer's eye — those professionals gain a real advantage in how they prepare, present, and win work inside and outside the organization.
+The City of Bowie employees who master Copilot in PowerPoint — who learn to write rich prompts that communicate government context clearly, who maintain their Word documents with Styles, who always start in the correct presentation template, who run every output through rigorous verification, and who never let a Council-facing or public-facing deck skip the clarity review — those employees gain a real advantage in how they prepare, communicate, and serve the community.
 
-Chapter 9 continues the application-specific training with Copilot in Teams — where AI transforms how show teams run meetings, capture decisions, and hand off between pre-show planning and on-site crews across time zones. The tools keep building. The discipline stays the same.
+Chapter 9 continues the application-specific training with Copilot in Teams — where AI transforms how city teams run meetings, capture decisions, and hand off between departments coordinating on shared projects. The tools keep building. The discipline stays the same.
 
 ---
 
@@ -851,8 +844,7 @@ Chapter 9 continues the application-specific training with Copilot in Teams — 
 - 🧠 Microsoft 365 Copilot: [m365.cloud.microsoft](https://m365.cloud.microsoft)
 - 📊 Microsoft 365 Adoption Hub — Copilot: [adoption.microsoft.com/copilot](https://adoption.microsoft.com/en-us/copilot/)
 - 🔒 Copilot Data Privacy and Security: [learn.microsoft.com — Copilot Privacy](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy)
-- 🌐 GES: [ges.com](https://ges.com)
-- ✨ Spiro: [thisisspiro.com](https://www.thisisspiro.com)
+- 🏛️ City of Bowie, Maryland: [cityofbowie.org](https://www.cityofbowie.org)
 :::
 
 ---
@@ -867,7 +859,7 @@ Slide Master
   PowerPoint's underlying design template system that defines the visual rules for a presentation — colors, fonts, logo placement, layout options, and background elements. Copilot retains the Slide Master's design when generating slides within a template file.
 
 Deck Crunch
-  The time pressure live-event professionals experience when presentation demands — organizer meetings, client pitches, post-show recaps, quarterly reviews — require high-quality slide decks on compressed timelines that the show calendar will not move.
+  The time pressure city employees experience when presentation demands — Council briefings, public meetings, grant proposals, performance reviews — require high-quality slide decks on compressed timelines alongside the normal demands of program and operations management.
 
 Speaker Notes
   Text associated with each PowerPoint slide that is visible to the presenter but not displayed to the audience. Copilot can generate speaker notes containing talking points, data context, and suggested transitions.
@@ -885,46 +877,46 @@ m365.cloud.microsoft
   The browser-based Microsoft 365 Copilot interface where users can initiate presentation creation through chat, with Copilot generating a .pptx file saved automatically to OneDrive.
 
 Copilot Cowork
-  The Microsoft 365 Copilot capability, generally available since June 16, 2026, that executes long-running, multi-step tasks across applications and returns a connected set of finished artifacts — for example, a design brief, a specification workbook, and a client-ready deck produced from a single assignment.
+  The Microsoft 365 Copilot capability, generally available since June 16, 2026, that executes long-running, multi-step tasks across applications and returns a connected set of finished artifacts — for example, a project memo, a budget tracker, and a Council briefing deck produced from a single assignment.
 
 Verification Discipline
-  The mandatory human review process applied to every AI-generated presentation before it reaches an audience — checking every number, commitment, claim, and attribution against primary source data to ensure accuracy and accountability.
+  The mandatory human review process applied to every AI-generated presentation before it reaches any audience — checking every number, commitment, claim, and attribution against primary source data to ensure accuracy and accountability.
 
-Design Review
-  The mandatory second review applied to every client-facing GES or Spiro presentation, conducted by someone with creative judgment, covering brand template accuracy, logo lockups, image resolution and crop, type hierarchy, layout quality, and narrative pacing. Non-negotiable for Spiro concept work.
+Clarity Review
+  The mandatory second review applied to every public-facing or Council-facing City of Bowie presentation, conducted by someone other than the primary author, covering language accessibility, recommendation clarity, chart labeling, and appropriateness for the intended audience. Non-negotiable for City Council briefings and public meeting materials.
 
 Placeholder Content
   Text, numbers, or statistics generated by Copilot as stand-ins for actual data. Placeholders look professional but require replacement with verified, real information before a presentation is shared.
 
 Prompt Engineering (Presentations)
-  The practice of writing detailed, context-rich prompts for Copilot in PowerPoint that specify audience, purpose, content requirements, slide count, and tone — producing higher-quality first drafts that require less revision. At GES, this includes using real industry vocabulary so the generated language matches how the business actually speaks.
+  The practice of writing detailed, context-rich prompts for Copilot in PowerPoint that specify audience, purpose, content requirements, slide count, and tone — producing higher-quality first drafts that require less revision. For City of Bowie, this includes using real government vocabulary so the generated language matches how city departments actually work.
 
-GES Collective Templates
-  The approved corporate PowerPoint templates for each brand in the GES portfolio — GES Exhibitions, Spiro, onPeak, SHOWTECH, and Visit by GES — each containing its own Slide Master, color palette, fonts, logo placement, and layout options. Starting every Copilot presentation session within the correct template ensures consistent visual identity across all AI-generated decks.
+City of Bowie Presentation Templates
+  The approved corporate PowerPoint templates for different City of Bowie presentation contexts — Council briefings, public meetings, grant proposals, internal department reviews, and project closeouts — each containing its own Slide Master, color palette, fonts, logo placement, and layout options. Starting every Copilot presentation session within the correct template ensures consistent visual identity across all AI-generated materials.
 
-Concept Deck
-  A client-facing presentation, typically produced by Spiro, that presents a custom exhibit or brand environment design concept — including the core idea, environment design, visitor journey, materials and build approach, and investment framework. Treated as a sample of GES creative capability and subject to mandatory design review.
+City Council Briefing
+  A formal presentation delivered to the Mayor and City Council covering program updates, project status, policy recommendations, or budget requests. Requires factual accuracy, clear action requests, and director-level review before submission to the Council office.
 
-RFP Response Deck
-  A presentation accompanying a formal response to a show organizer's request for proposal for general service contractor work, covering operating plan, material handling and drayage approach, labor and union jurisdiction, exhibitor experience, technology, sustainability, and commercial terms. Every commitment on a slide is contractually consequential.
+Grant Proposal Deck
+  A presentation accompanying a formal grant application to a state, federal, or philanthropic funder, covering community need, program design, organizational qualifications, budget, and evaluation plan. Every claim must be sourced and every budget figure reconciled to the formal application.
 
-Post-Show Recap Deck
-  A presentation delivered to an exhibitor or organizer after move-out summarizing what was delivered, freight and material handling performance, move-in/move-out results against target, service levels, sustainability outcomes, cost reconciliation, and recommendations for the next cycle.
+Project Closeout Presentation
+  A presentation delivered to department leadership, the City Council, or community stakeholders after a capital project or major program initiative concludes — summarizing what was delivered, budget performance, resident impact, and lessons learned.
 
-Account QBR Deck
-  A quarterly business review presentation for a major account covering shows delivered, service level performance, exhibitor satisfaction, safety, sustainability progress, issue resolution, and next-quarter priorities.
+Program Performance Review
+  A quarterly or annual presentation covering a city program's activity metrics, budget performance, service levels, resident feedback, and priorities — delivered to department leadership or the City Council for accountability and management purposes.
 ```
 
 ---
 
 ## Leader's Takeaway
 
-The question is not whether to use Copilot in PowerPoint. Every GES professional who prepares presentations — and that is most of us — will find measurable value in this tool. The real question is whether you will use it well.
+The question is not whether to use Copilot in PowerPoint. Every City of Bowie employee who prepares presentations — and that is most of us in some capacity — will find measurable value in this tool. The real question is whether you will use it well.
 
-Using it well means four things: writing prompts that give Copilot the context and the vocabulary it needs to produce relevant output; maintaining the document disciplines (Word Styles, OneDrive storage, correct-template-first workflow) that maximize the quality of generation; applying the verification discipline that ensures every number and every commitment reaching a client is accurate; and — the one that is specific to us — never letting a client-facing deck skip the designer's eye.
+Using it well means four things: writing prompts that give Copilot the context and the vocabulary it needs to produce relevant government-quality output; maintaining the document disciplines (Word Styles, OneDrive storage, correct-template-first workflow) that maximize the quality of generation; applying the verification discipline that ensures every number and every commitment reaching the Council or the public is accurate; and — the one that is specific to public service — never letting a Council-facing or resident-facing deck skip the clarity review.
 
-The advantage in AI-assisted presentations does not go to the person who uses Copilot to produce the fastest draft. It goes to the person who uses Copilot to produce the best-prepared, most accurate, most compelling presentation — in the time that previously only allowed for a good one.
+The advantage in AI-assisted presentations does not go to the person who uses Copilot to produce the fastest draft. It goes to the person who uses Copilot to produce the most accurate, clearest, most compelling presentation — in the time that previously only allowed for a rushed one.
 
-We are a company that has spent since 1939 making other people's brands look extraordinary in physical space. Our own materials should meet the same standard. Copilot just made that standard easier to reach — and gave us back the hours to exceed it.
+We are a city government that has served Bowie's residents since incorporation in 1963. Our public communications should reflect the same standards of accuracy and professionalism that we bring to every service we deliver. Copilot just made those standards easier to reach — and gave us back the hours to do them justice.
 
-The blank slide is gone. The standard it leaves behind is higher than ever.
+The blank slide is gone. The accountability it leaves behind is higher than ever.
