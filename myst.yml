@@ -57,6 +57,7 @@ project:
 
 site:
   title: "Bowie Forward: A Microsoft Copilot Masterclass for City of Bowie Employees"
+  base_url: /bowie-ai-masterclass
   options:
     logo_text: "Bowie Forward"
     logo_url: "https://liquid-books.github.io/bowie-ai-masterclass"
