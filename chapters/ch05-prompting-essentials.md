@@ -2,15 +2,15 @@
 title: "Chapter 5: Week 3, Session A — Introduction to Microsoft Copilot & Prompting Essentials"
 subtitle: "The Front Door — Copilot Across the Microsoft 365 Suite"
 short_title: "Prompting Essentials"
-description: "The five core prompting techniques that separate average Copilot users from power users — grounded in how Microsoft 365 Copilot actually works, from the m365.cloud.microsoft front door to the Microsoft Graph intelligence layer to the Prompt Gallery. GES-specific examples throughout, from drayage and freight targets to booth design specs and post-show reconciliation."
+description: "The five core prompting techniques that separate average Copilot users from power users — grounded in how Microsoft 365 Copilot actually works, from the m365.cloud.microsoft front door to the Microsoft Graph intelligence layer to the Prompt Gallery. City of Bowie-specific examples throughout, from constituent response drafting and permit processing to public works inspection reporting and parks maintenance budget analysis."
 label: ch-05-prompting-essentials
-tags: [Microsoft Copilot, prompting, Microsoft 365, Work IQ, Microsoft Graph, role-based prompting, chain-of-thought, few-shot, reverse prompting, sparring partner, Copilot Cowork, GES, trade shows, exhibitions]
+tags: [Microsoft Copilot, prompting, Microsoft 365, Work IQ, Microsoft Graph, role-based prompting, chain-of-thought, few-shot, reverse prompting, sparring partner, Copilot Cowork, City of Bowie, Maryland, local government, public service]
 ---
 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch05-prompting-essentials.pdf)
+[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch05-prompting-essentials.pdf)
 ```
 
 # Chapter 5: Week 3, Session A — Introduction to Microsoft Copilot & Prompting Essentials
@@ -21,7 +21,7 @@ tags: [Microsoft Copilot, prompting, Microsoft 365, Work IQ, Microsoft Graph, ro
 :width: 80%
 :align: center
 
-The Microsoft Copilot ecosystem for GES — from the front door at m365.cloud.microsoft to the intelligence layer that grounds it in your work context, to the five prompting techniques that determine whether you get generic output or precise, show-ready results.
+The Microsoft Copilot ecosystem for City of Bowie employees — from the front door at m365.cloud.microsoft to the intelligence layer that grounds it in your work context, to the five prompting techniques that determine whether you get generic output or precise, resident-ready results.
 :::
 
 > *"The quality of your question determines the quality of your thinking."*
@@ -29,24 +29,24 @@ The Microsoft Copilot ecosystem for GES — from the front door at m365.cloud.mi
 
 There is a version of Microsoft Copilot that is, frankly, underwhelming.
 
-You type: *"Write me a report on trade show logistics."*
+You type: *"Write me a report on city permit processing."*
 
-Copilot dutifully returns four paragraphs of polished, completely generic prose that could have been written about any exhibition, in any hall, in any year. It reads like a Wikipedia summary. It doesn't know what a marshaling yard is in practice, it has never watched a freight target slip by ninety minutes, and it has certainly never stood on an empty show floor at 4:00 a.m. wondering whether the aisle carpet is going to arrive before the exhibitors do. You could have found better with a three-second web search. You close the window, return to your keyboard, and quietly conclude that AI is probably overhyped.
+Copilot dutifully returns four paragraphs of polished, completely generic prose that could have been written about any municipality, in any state, in any decade. It reads like a government textbook summary. It doesn't know what a zoning variance appeals backlog looks like in practice, it has never watched a constituent wait six weeks for a simple deck permit, and it has certainly never fielded a phone call from a resident at 4:00 p.m. on a Friday wondering why their street still hasn't been repaved after three service requests. You could have found better with a three-second web search. You close the window, return to your keyboard, and quietly conclude that AI is probably overhyped.
 
-There is a second version of Microsoft Copilot — the version that the top performers in every organization that has deployed it eventually discover. In this version, you type a different kind of prompt. Copilot pulls from your actual emails, your recent meeting transcripts, the labor forecast your operations analyst shared yesterday, and the venue safety bulletin your show manager circulated last Friday. It gives you a first draft that reflects your tone, incorporates the actual freight weights from the exhibitor service kit, and accounts for the union jurisdiction rules that govern the hall you're working in. It saves you forty-five minutes. Then it saves you another forty-five. Then it rewrites the way you work.
+There is a second version of Microsoft Copilot — the version that the top performers in every organization that has deployed it eventually discover. In this version, you type a different kind of prompt. Copilot pulls from your actual emails, your recent meeting transcripts, the inspection report your Public Works supervisor shared yesterday, and the resident inquiry log your Constituent Services team circulated last Friday. It gives you a first draft that reflects your department's tone, incorporates the actual ordinance citation from the Planning file, and accounts for the standard disclosure language your City Attorney requires. It saves you forty-five minutes. Then it saves you another forty-five. Then it rewrites the way you work.
 
 The difference between those two outcomes is not the software. It is the prompt.
 
 This chapter is about the architecture that makes the second outcome possible — how Microsoft 365 Copilot actually works, where to find it, how it connects to your organizational data — and then the five prompting techniques that separate average users from power users. Master these, and Copilot stops being a curiosity and starts being your most capable colleague.
 
-:::{admonition} Why This Chapter Matters More at GES Than at Most Companies
+:::{admonition} Why This Chapter Matters More for City of Bowie Than for Many Organizations
 :class: note
 
-GES has been in the business of building experiences since **1939** — from a small sign and exhibit shop in Kansas City to a global operation headquartered at 7000 Lindell Road in Las Vegas. Today the GES Collective produces **4,000+ live experiences every year**, serves **150,000+ exhibitors**, operates in **75+ countries**, and runs **24 global production and warehouse facilities** with roughly **2,600 employees**.
+Bowie is Maryland's largest city, with more than **70,000 residents** in Prince George's County. From its origins as a railroad junction in **1870** to its incorporation in **1963**, Bowie has grown into a full-service municipality managing an extensive portfolio of public services: City Administration, Parks & Recreation, Public Works, Finance, Planning, Human Resources, Public Safety Communications, and Constituent Services.
 
-Run the arithmetic. Four thousand events a year is more than **eleven shows per day**, every day, including the ones nobody wants to work. Every one of those shows generates floor plans, service kits, freight manifests, labor forecasts, safety briefings, change orders, and a post-show reconciliation. Every one of them has a hard, immovable date — the doors open whether you're ready or not.
+Run the arithmetic on what that means for the staff who keep Bowie running. Every day, the City processes permit applications, responds to constituent inquiries, publishes public notices, prepares department briefing memos, coordinates infrastructure inspections, manages parks maintenance budgets, drafts council presentations, and documents after-action reports on community events. Every one of those deliverables has a stakeholder waiting on it — a resident, a council member, a department director, or a state agency. And virtually every one of them is produced by a lean team with more work than hours in the day.
 
-That is what makes prompting skill compound here in a way it doesn't compound at a company with soft deadlines. A forty-five-minute savings on a single document is a nice afternoon. A forty-five-minute savings replicated across 4,000 shows and thousands of colleagues is a structural change in how much a lean team can carry.
+That is what makes prompting skill compound here in a way it doesn't compound in organizations with soft deadlines. A forty-five-minute savings on a single constituent response is a nice afternoon. A forty-five-minute savings replicated across every department, every week, every cycle of city business is a structural change in how much a lean public workforce can accomplish — without adding headcount, without cutting services, and without asking anyone to work harder than they already do.
 :::
 
 ---
@@ -59,22 +59,22 @@ This is not a minor technical footnote. If you understand the distinction, you w
 
 :::{figure} ../images/ch05-front-door-m365.png
 :label: fig-ch05-front-door
-:alt: Microsoft 365 Copilot interface shown on desktop, web browser, and mobile side by side — a show operations professional's chat session with Copilot visible on each screen, demonstrating cross-device access
+:alt: Microsoft 365 Copilot interface shown on desktop, web browser, and mobile side by side — a city employee's chat session with Copilot visible on each screen, demonstrating cross-device access
 :width: 80%
 :align: center
 
-Microsoft 365 Copilot is accessible across desktop, web, and mobile — all through the m365.cloud.microsoft portal. The same conversation, the same context, whether you're at a desk in Las Vegas or standing in a marshaling yard in Dubai.
+Microsoft 365 Copilot is accessible across desktop, web, and mobile — all through the m365.cloud.microsoft portal. The same conversation, the same context, whether you're at your desk in City Hall or reviewing a public works inspection in the field.
 :::
 
-Think of it this way: imagine a hospital. They have a public information desk at the front entrance — anyone can walk in, ask questions, and get general health information. That's useful. But when you need a specialist who actually knows your medical history, who can look at your chart and make recommendations based on *your* specific situation, you see a physician with access to your full record. That is a fundamentally different kind of help.
+Think of it this way: imagine a public library. They have a general reference desk at the entrance — anyone can walk in, ask questions, and get general information. That's useful. But when you need a specialist who actually knows your situation — a legal librarian who can look at your specific case and make recommendations based on *your* actual jurisdiction — you need someone with access to your full file. That is a fundamentally different kind of help.
 
-**Copilot Chat** (free, included in your Microsoft account) is the public information desk. It is web-connected, it can answer general questions, it can help you write a cover letter or explain a news story — but by default, it does not have access to your GES emails, your SharePoint show libraries, your Teams conversations, or any other organizational data. It is general-purpose. It is genuinely useful. But it is not your specialist.
+**Copilot Chat** (free, included in your Microsoft account) is the general reference desk. It is web-connected, it can answer general questions, it can help you write a cover letter or explain a news story — but by default, it does not have access to your City of Bowie emails, your SharePoint department libraries, your Teams conversations, or any other organizational data. It is general-purpose. It is genuinely useful. But it is not your specialist.
 
-**Microsoft 365 Copilot** (the paid license add-on) is the physician with your chart. It knows your organizational context. It connects to Microsoft Graph — the intelligence layer that maps your emails, your meetings, your chats, and your documents — and it uses that context to give you responses grounded in *your* actual work. When you ask it to summarize the key points from your call with a show organizer last Tuesday, it can actually do that. When you ask it to draft a move-in schedule based on the freight target spreadsheet your logistics coordinator shared this morning, it can pull that file.
+**Microsoft 365 Copilot** (the paid license add-on) is the specialist with your full file. It knows your organizational context. It connects to Microsoft Graph — the intelligence layer that maps your emails, your meetings, your chats, and your documents — and it uses that context to give you responses grounded in *your* actual work. When you ask it to summarize the key points from your pre-meeting briefing with the Public Works director last Tuesday, it can actually do that. When you ask it to draft a constituent response based on the inspection report your field supervisor shared this morning, it can pull that file.
 
-**Copilot Agents** are a third category: specialized, purpose-built AI assistants configured to handle specific workflows. A Copilot Agent might be designed specifically to answer exhibitor questions from a show's service kit, or to automate an ESG emissions reporting workflow, or to triage inbound organizer requests against a standing scope of work. These are more advanced and, for most GES colleagues in this course, are the horizon toward which we're building — the payoff of foundational mastery.
+**Copilot Agents** are a third category: specialized, purpose-built AI assistants configured to handle specific workflows. A Copilot Agent might be designed specifically to answer resident questions from the City's permit FAQ database, or to automate a parks maintenance work order tracking workflow, or to triage inbound constituent service requests by department and urgency. These are more advanced and, for most City of Bowie employees in this course, are the horizon toward which we're building — the payoff of foundational mastery.
 
-If you want proof that this horizon is real and not theoretical, look inside your own company: the **onPeak AI Smart Suite** already ships AI-powered hotel search, an AI contract reader, and automated email categorization. GES is not deciding whether to adopt AI. GES is deciding how fast the rest of the organization catches up to the teams that already have.
+The City is not deciding whether to adopt AI. It is deciding how fast every department catches up to the pace of service that Bowie residents increasingly expect.
 
 ::::{tab-set}
 :::{tab-item} Copilot Chat (Free)
@@ -87,11 +87,11 @@ If you want proof that this horizon is real and not theoretical, look inside you
 - Work with content you explicitly share in the conversation
 
 **What it cannot do:**
-- Access your GES emails or calendars
-- Pull from your Teams chats or SharePoint show libraries
+- Access your City of Bowie emails or calendars
+- Pull from your Teams chats or SharePoint department libraries
 - Reference organizational documents without you pasting them in
 
-**Best for:** General research, personal productivity, drafting when you have content to share manually — for example, researching a venue's published rigging rules before a site survey.
+**Best for:** General research, personal productivity, drafting when you have content to share manually — for example, researching state code requirements before drafting a planning memo.
 
 **Access:** copilot.microsoft.com
 :::
@@ -100,9 +100,9 @@ If you want proof that this horizon is real and not theoretical, look inside you
 
 **What it can do:**
 - Access your emails, meetings, files, and chats (only what you have permission to see)
-- Draft documents referencing actual GES files in SharePoint/OneDrive — show operations manuals, exhibitor service kits, SOWs
-- Summarize Teams meetings you attended, including cross-timezone show calls you slept through
-- Create Excel analyses from data in your tables — labor hours forecast vs. actual, drayage weights, booth inventory
+- Draft documents referencing actual City files in SharePoint/OneDrive — inspection reports, permit applications, department policies, budget documents
+- Summarize Teams meetings you attended, including inter-department coordination calls
+- Create Excel analyses from data in your tables — parks maintenance budget variances, public works work orders, permit processing timelines
 - Search across your entire M365 ecosystem
 
 **What it cannot do:**
@@ -119,7 +119,7 @@ If you want proof that this horizon is real and not theoretical, look inside you
 
 **What they can do:**
 - Automate specific, repeatable workflows
-- Answer questions from a defined knowledge base (e.g., a show's exhibitor service kit, or a venue-specific operations library)
+- Answer questions from a defined knowledge base (e.g., a department's FAQ, the City's permit fee schedule, or a parks facility reservation policy)
 - Handle multi-step processes without step-by-step prompting
 - Integrate with specific systems beyond M365
 
@@ -127,7 +127,7 @@ If you want proof that this horizon is real and not theoretical, look inside you
 - Configuration by IT or a designated Copilot admin
 - Clear definition of scope and data sources
 
-**Best for:** Advanced use cases — exhibitor services Q&A, freight target triage, ESG emissions data collection, standardized post-show reconciliation packages.
+**Best for:** Advanced use cases — resident FAQ handling, permit status triage, parks reservation processing, standardized after-action reporting for recurring city events.
 
 **Access:** Through Microsoft Copilot Studio (admin-configured)
 :::
@@ -136,23 +136,23 @@ If you want proof that this horizon is real and not theoretical, look inside you
 :::{important}
 **The Security Point That Should Give You Confidence**
 
-One of the most common concerns we hear from GES colleagues is: *"If Copilot can see all my organizational data, can it share an organizer's confidential floor plan or an exhibitor's pricing with someone else?"*
+One of the most common concerns we hear from City employees is: *"If Copilot can see all my organizational data, can it share a resident's personal information or a confidential HR document with someone who shouldn't see it?"*
 
-The answer is no — and the architecture makes this structurally impossible. Microsoft 365 Copilot only surfaces information that the **signed-in user already has permission to access**. If an exhibitor services rep doesn't have permission to view another account team's client pricing files, Copilot cannot show them those files. The same access controls, conditional access policies, and compliance frameworks that govern your M365 environment govern Copilot. Your client data stays within the Microsoft 365 service boundary. It does not leave your tenant, it is not used to train Microsoft's AI models, and it is not accessible to other organizations.
+The answer is no — and the architecture makes this structurally impossible. Microsoft 365 Copilot only surfaces information that the **signed-in user already has permission to access**. If a Parks & Recreation coordinator doesn't have permission to view HR personnel files, Copilot cannot show them those files. The same access controls, conditional access policies, and compliance frameworks that govern your M365 environment govern Copilot. Resident data stays within the Microsoft 365 service boundary. It does not leave your tenant, it is not used to train Microsoft's AI models, and it is not accessible to other organizations.
 
-This matters enormously in a business where you may be simultaneously serving two organizers who compete for the same exhibitors, or where a Spiro custom build for one brand sits three aisles from a direct competitor's stand. Confidentiality isn't a nice-to-have at GES. It's the price of admission.
+This matters enormously in a public sector environment where protecting resident personally identifiable information (PII), maintaining attorney-client privilege on legal matters, and honoring the privacy expectations that come with government service are not optional — they are legal obligations. Confidentiality isn't a nice-to-have for the City. It is the public trust.
 
-This is not marketing language. It is the architecture. Understanding it removes a legitimate concern and lets you focus on what Copilot can actually do.
+This is not marketing language. It is the architecture. Understanding it removes a legitimate concern and lets you focus on what Copilot can actually do for Bowie residents.
 :::
 
-:::{admonition} T.R.U.E. Check — Trust
+:::{admonition} Bowie Values Check — Accountability
 :class: seealso
 
-**"Trust each other to always be honest and do what's right."**
+**Accountability** means owning your work and being honest about how it was produced.
 
-Trust runs in two directions with AI. First, you should be able to trust the platform — and the permission architecture described above is why you can. Second, and more importantly, your colleagues have to be able to trust *you* when you hand them a Copilot-assisted document.
+When you hand a colleague — or a supervisor, or a council member — a Copilot-assisted document, trust runs in two directions. First, you should be able to trust the platform — and the permission architecture described above is why you can. Second, your colleagues have to be able to trust *you* when you hand them an AI-assisted deliverable.
 
-That means: never pass off an unverified draft as checked work. If Copilot generated the first version of a site survey writeup and you haven't walked the hall yet, say so. Honesty about the provenance of a document is not a weakness — it tells the next person how much scrutiny to apply. On a show floor where a wrong number becomes a wrong truck becomes a late move-in, that signal is worth a great deal.
+That means: never pass off an unverified draft as thoroughly reviewed work. If Copilot generated the first version of a constituent response and you haven't confirmed the permit status with Planning, say so before routing it for signature. Honesty about the provenance of a document is not a weakness — it tells the next person how much additional scrutiny to apply. On a matter involving a resident's property or business, that signal is worth a great deal.
 :::
 
 ---
@@ -161,7 +161,7 @@ That means: never pass off an unverified draft as checked work. If Copilot gener
 
 Every powerful tool has an entry point. For Microsoft 365 Copilot, that entry point is **m365.cloud.microsoft** — the unified Microsoft 365 Copilot portal that brings together everything in one place.
 
-Think of m365.cloud.microsoft the way you think of the service desk on a show floor: it's not the only way to get help (you can also call your account manager, use the online ordering portal, or grab the floor manager on the aisle), but it's the hub — the place where everything connects and where you can do the most, all in one location.
+Think of m365.cloud.microsoft the way you think of the City's public-facing service portal: it's not the only way a resident can interact with the City (they can also call, visit in person, or submit a form by mail), but it's the hub — the place where everything connects and where residents can do the most, all in one location. Your Copilot portal is the same idea, built for you as an employee.
 
 :::{figure} ../images/ch05-work-iq-intelligence.png
 :label: fig-ch05-work-iq
@@ -182,21 +182,21 @@ The portal gives you access to the full Microsoft 365 Copilot experience from yo
 - **Desktop:** The Microsoft 365 Copilot app, available through your Microsoft 365 installation
 - **Mobile:** The Microsoft 365 Copilot mobile app (iOS and Android) — the same Copilot, on your phone, with the same access to your organizational data
 
-That third one deserves emphasis at GES more than at most companies. A large share of this workforce is not desk-bound. Show operations managers, labor coordinators, I&D leads, and freight coordinators live on their feet — in halls, in marshaling yards, at advance warehouses, in the back of a venue loading dock with bad Wi-Fi and a radio in one hand. **Mobile Copilot is not the consolation prize. For a significant part of GES, it is the primary interface.**
+That third one deserves emphasis at the City more than you might expect. Not every City employee works at a desk. Public Works inspectors, parks maintenance crews, code enforcement officers, and public safety staff spend much of their day in the field — conducting inspections, responding to conditions on the ground, visiting residents. **Mobile Copilot is not the consolation prize. For a significant portion of City of Bowie's workforce, it is the primary interface.**
 
 :::{tip}
-**Bookmark it now.** Open m365.cloud.microsoft in your browser and add it to your bookmarks bar. Then install the mobile app before your next show. You'll use it daily. It takes four minutes total, and it removes one more friction point between you and a tool that should feel like second nature by move-in day.
+**Bookmark it now.** Open m365.cloud.microsoft in your browser and add it to your bookmarks bar. Then install the mobile app before your next field assignment or site visit. You'll use it daily. It takes four minutes total, and it removes one more friction point between you and a tool that should feel like second nature by your next busy service cycle.
 :::
 
 **Copilot embedded in the apps you already use:**
 
-m365.cloud.microsoft is the standalone experience. But Microsoft 365 Copilot also lives inside every app in your M365 suite — and for most GES workflows, you'll use it there rather than switching to the portal.
+m365.cloud.microsoft is the standalone experience. But Microsoft 365 Copilot also lives inside every app in your M365 suite — and for most City of Bowie workflows, you'll use it there rather than switching to the portal.
 
-- **In Word:** Copilot appears in the document margin. Ask it to draft a section, expand a paragraph, rewrite in a different tone, or summarize the document. You can reference a specific file from SharePoint by typing `/` and the file name in your prompt. Useful for RFP responses to organizers, show operations manuals, exhibitor service kits, SOWs, and safety briefings.
-- **In Excel:** Copilot appears in the ribbon on the Home tab. It can analyze data in a table, generate formulas, create charts, identify trends, and surface outliers — without you needing to write a single formula manually. Think labor hour forecasts vs. actuals, material handling weights and drayage costs, booth inventory, show P&L, hotel block pickup rates.
-- **In Outlook:** Copilot can draft email replies, summarize long email threads, and flag action items from your inbox — including the ninety-message exhibitor thread that spawned four change orders you haven't logged yet.
-- **In Teams:** Copilot can summarize meetings you missed, recap decisions made during a call, and list action items — pulling from the meeting transcript in real time. For a company running teams across Las Vegas, Chicago, Toronto, London, Paris, Amsterdam, and Dubai, "summarize the call I couldn't take at 3:00 a.m. local" is not a party trick. It's a scheduling reprieve.
-- **In PowerPoint:** Copilot can generate slide decks from a document, reorganize presentations, and suggest design improvements. Organizer pitch decks, post-show recap decks, sponsorship proposals, QBRs, design concept presentations.
+- **In Word:** Copilot appears in the document margin. Ask it to draft a section, expand a paragraph, rewrite in a different tone, or summarize the document. You can reference a specific file from SharePoint by typing `/` and the file name in your prompt. Useful for constituent response letters, department briefing memos, after-action reports for city events, policy drafts, staff reports for council, and public notices.
+- **In Excel:** Copilot appears in the ribbon on the Home tab. It can analyze data in a table, generate formulas, create charts, identify trends, and surface outliers — without you needing to write a single formula manually. Think parks maintenance budget variances, public works work order volume by category, permit processing timelines, department headcount and turnover, quarterly revenue versus projections.
+- **In Outlook:** Copilot can draft email replies, summarize long email threads, and flag action items from your inbox — including the multi-message constituent thread that spawned three follow-up requests you haven't logged yet.
+- **In Teams:** Copilot can summarize meetings you missed, recap decisions made during a call, and list action items — pulling from the meeting transcript in real time. For a City coordinating across multiple departments, cross-agency partners, and elected officials on tight deadlines, "summarize the inter-department meeting I couldn't attend" is not a party trick. It's an operational necessity.
+- **In PowerPoint:** Copilot can generate slide decks from a document, reorganize presentations, and suggest design improvements. City Council briefings, department budget presentations, community outreach decks, public hearing summaries, quarterly performance reports.
 
 The pattern across all of these is consistent: **you stay in the tool you're already using, and Copilot shows up as a natural part of the workflow.** You don't need to stop what you're doing and go somewhere else.
 
@@ -205,16 +205,16 @@ The pattern across all of these is consistent: **you stay in the tool you're alr
 
 Microsoft's official guidance is important here: for Copilot to access a file when you're prompting in Word, **that file must be stored in SharePoint or OneDrive** — not just on your local hard drive. If a file lives only on your desktop or a local folder, Copilot cannot reach it. This is by design — it's part of the security boundary.
 
-The practical implication for GES: store your working documents in SharePoint or OneDrive, not local drives. This is good practice regardless of AI — it ensures show documents are backed up, version-controlled, and accessible to the on-site crew who inherit them at move-in — but it's essential for Copilot to work as designed.
+The practical implication for City of Bowie: store your working documents in SharePoint or OneDrive, not local drives. This is good practice regardless of AI — it ensures department documents are backed up, version-controlled, and accessible to colleagues who may need to cover for you or continue a project — but it's essential for Copilot to work as designed.
 
-The failure mode here is extremely familiar to anyone who has worked a show: the definitive version of the floor plan lives on one person's laptop, that person is on a plane, and the hall is filling up. Cloud storage solves an operational problem first and an AI problem second.
+The failure mode here is extremely familiar to anyone who has worked in a government office: the authoritative version of a policy document lives on one person's laptop, that person is out on leave, and the council deadline is tomorrow. Cloud storage solves an operational problem first and an AI problem second.
 :::
 
 **Microsoft 365 Copilot Search:**
 
-The portal also includes **Microsoft 365 Copilot Search** — a universal search capability that works across all your M365 apps and connected third-party data. Instead of searching separately in Outlook, then SharePoint, then Teams, Copilot Search finds relevant content across your entire organizational ecosystem in a single query. For an account manager trying to find everything related to a specific organizer across emails, site survey notes, shared floor plans, prior-year reconciliations, and team chats — this alone is a significant capability.
+The portal also includes **Microsoft 365 Copilot Search** — a universal search capability that works across all your M365 apps and connected third-party data. Instead of searching separately in Outlook, then SharePoint, then Teams, Copilot Search finds relevant content across your entire organizational ecosystem in a single query. For a Planning staff member trying to find everything related to a specific development application across emails, site plan reviews, council correspondence, inspection notes, and team chats — this alone is a significant capability.
 
-Consider the concrete version. A show returns to the same venue every eighteen months. The institutional knowledge about that venue — the freight elevator that runs slow, the union jurisdiction quirk on the mezzanine, the dock that floods when it rains, the organizer's preference for carpet color — is scattered across three years of email, two SharePoint sites, and the memory of a colleague who has since moved to another region. Copilot Search is how you recover that knowledge instead of rediscovering it the hard way.
+Consider the concrete version. A recurring community event returns to the same parks facility every year. The institutional knowledge about that event — the vendor who needs extra lead time, the parking configuration that works for the crowd size, the noise ordinance limit the event coordinator must communicate, the after-action note about the portable restroom location — is scattered across two years of email, a SharePoint folder, and the memory of a staff member who has since moved to another department. Copilot Search is how you recover that knowledge instead of rediscovering it the hard way, two weeks before event day.
 
 ---
 
@@ -222,13 +222,13 @@ Consider the concrete version. A show returns to the same venue every eighteen m
 
 Here is the feature that makes Microsoft 365 Copilot genuinely different from a general-purpose AI chatbot — and it is important enough that it deserves its own section.
 
-When you ask a general AI tool a question, it answers from what it knows from training data — the internet, books, articles. That's valuable. But it doesn't know *you*. It doesn't know what happened in your pre-con call last Tuesday. It doesn't know the venue safety bulletin your operations team circulated last week. It doesn't know the revised booth dimensions the exhibit designer just shared via email.
+When you ask a general AI tool a question, it answers from what it knows from training data — the internet, books, articles. That's valuable. But it doesn't know *you*. It doesn't know what happened in your department director meeting last Tuesday. It doesn't know the engineering assessment your Public Works supervisor circulated last week. It doesn't know the revised timeline the City Manager shared via email this morning.
 
 Microsoft 365 Copilot uses **Microsoft Graph** to close that gap.
 
 **Microsoft Graph is the intelligence layer that maps your organizational context.** Think of it as the connective tissue of your Microsoft 365 environment — it knows which emails you've sent and received, which meetings you've attended, which documents you've created and accessed, which chats you've had in Teams, and which files your colleagues have shared with you. It maps the relationships between all of this information and maintains that map in real time.
 
-When you submit a prompt to Microsoft 365 Copilot, the system does something called **grounding**: before generating a response, Copilot accesses Microsoft Graph within your tenant to pull in relevant context from your actual work. If you ask "Summarize what I need to prepare for the pre-con call with the show organizer tomorrow," Copilot doesn't just give you generic meeting prep advice — it looks at the meeting invitation, pulls the agenda, finds relevant emails from recent weeks, locates the floor plan and labor estimate shared with the attendees, and synthesizes all of that into a personalized briefing.
+When you submit a prompt to Microsoft 365 Copilot, the system does something called **grounding**: before generating a response, Copilot accesses Microsoft Graph within your tenant to pull in relevant context from your actual work. If you ask "Summarize what I need to prepare for tomorrow's budget presentation to the City Council," Copilot doesn't just give you generic presentation advice — it looks at the meeting invitation, pulls the agenda, finds the relevant budget spreadsheets and department reports shared with the attendees, and synthesizes all of that into a personalized briefing.
 
 This process — the prompt going in, the grounding against your Microsoft Graph data, and the response coming out — all happens within your organization's Microsoft 365 service boundary. Your data does not leave your tenant.
 
@@ -237,41 +237,41 @@ This process — the prompt going in, the grounding against your Microsoft Graph
 
 The grounding process is governed by a principle that is worth understanding clearly: **Copilot only surfaces information the signed-in user already has permission to access.**
 
-This is not a policy statement. It is structural. Copilot doesn't have a special administrative view of your organization's data that bypasses your existing access controls. It uses Microsoft Graph with the same permissions as your account. If you don't have access to a file in a show's SharePoint library, Copilot cannot include that file in your responses. If a colleague's calendar is set to private, Copilot cannot see the details of their appointments.
+This is not a policy statement. It is structural. Copilot doesn't have a special administrative view of the City's data that bypasses your existing access controls. It uses Microsoft Graph with the same permissions as your account. If you don't have access to a file in the City Manager's restricted SharePoint library, Copilot cannot include that file in your responses. If a colleague's calendar is set to private, Copilot cannot see the details of their appointments.
 
-For GES, this means: the existing security model that governs your M365 environment — including Conditional Access, MFA, and all other compliance controls — governs Copilot's access. No new exposure. The same guardrails, applied to AI-assisted work. Client confidentiality obligations under your organizer and exhibitor agreements are not weakened by Copilot; they are enforced by the same permission structure you already rely on.
+For City of Bowie, this means: the existing security model that governs your M365 environment — including Conditional Access, multi-factor authentication, and all other compliance controls — governs Copilot's access. No new exposure. The same guardrails, applied to AI-assisted work. Resident privacy protections, attorney-client privilege, and personnel record confidentiality are not weakened by Copilot; they are enforced by the same permission structure you already rely on.
 :::
 
-**What grounding means in practice at GES:**
+**What grounding means in practice at City of Bowie:**
 
-- A **show operations manager** asks Copilot to draft the move-in sequencing narrative for an upcoming show. Copilot pulls the current floor plan revision from SharePoint, the freight target schedule shared by the logistics coordinator via email, and the notes from the last pre-con call — all automatically, because they're already in the user's M365 environment.
-- A **logistics & freight coordinator** asks Copilot to flag any advance warehouse exceptions from the last 30 days of email. Copilot searches the user's inbox for relevant threads and surfaces a prioritized summary of late arrivals, weight discrepancies, and unlabeled shipments.
-- An **account manager** asks Copilot to prepare talking points for an organizer renewal conversation. Copilot finds the account history, prior-year post-show reconciliation, recent correspondence, and service scope documentation in SharePoint and synthesizes key points for the meeting.
-- An **exhibit designer at Spiro** asks Copilot to summarize every client comment on a design concept across three review cycles. Copilot pulls the email threads and the Teams review meeting transcripts and returns a consolidated change log.
-- An **onPeak housing analyst** asks Copilot to compare this show's room block pickup curve against the same event two years ago. Copilot locates both workbooks and surfaces the delta by hotel tier and booking window.
+- A **Constituent Services coordinator** asks Copilot to draft a response to a resident inquiry about a street repair request submitted three weeks ago. Copilot pulls the original service request record from the shared department log, the field inspection note the Public Works crew uploaded, and the current project timeline from the department briefing — all automatically, because they're already in the user's M365 environment.
+- A **Planning Department analyst** asks Copilot to flag any outstanding comments from the last thirty days of email on a specific development application. Copilot searches the user's inbox for relevant threads and surfaces a prioritized summary of pending items from the applicant, the engineering reviewer, and the City Attorney's office.
+- A **Finance Department staff member** asks Copilot to prepare talking points for a department director budget review. Copilot finds the current fiscal year actuals, the prior-year comparison workbook, recent correspondence on capital expenditure requests, and the departmental narrative from SharePoint and synthesizes key points for the meeting.
+- A **Parks & Recreation event coordinator** asks Copilot to summarize every staff comment on a community event plan across three review rounds. Copilot pulls the email threads and the Teams coordination meeting transcripts and returns a consolidated list of outstanding decisions and resolved items.
+- A **Human Resources analyst** asks Copilot to compare this year's benefits enrollment rate against the same period last year. Copilot locates both workbooks and surfaces the delta by benefit type and employee classification.
 
 None of these require the user to manually attach files or paste content into the prompt. The intelligence layer does the retrieval automatically — because it already knows your work context.
 
 **The analogy that makes this click:**
 
-Imagine you have a brilliant new coordinator who has been working alongside you for three shows. They've sat in every pre-con call with you, read every email you've sent and received, reviewed every document in your shared show library, and walked the floor with you at every move-in. When you ask them to help you prepare for an organizer meeting, they don't need you to explain the history of the account — they already know it. They synthesize what they know into what you need.
+Imagine you have a highly capable new staff assistant who has been working alongside you for six months. They've sat in every department meeting with you, read every email you've sent and received, reviewed every document in your shared department library, and shadowed you through every service call. When you ask them to help you prepare for a constituent meeting, they don't need you to explain the history of the case — they already know it. They synthesize what they know into what you need.
 
 That is what Microsoft Graph grounding does for Copilot. You don't need to brief it every time. It already knows your context. You just need to ask the right question.
 
-The honest caveat: the analogy breaks down when it comes to judgment and craft. Your coordinator builds genuine understanding — they learn that this particular organizer says "flexible" but means "not really," and that the dock at this venue backs up on Tuesdays. Copilot's "knowledge" is a structured map of your data — incredibly useful, but not a substitute for the contextual judgment you bring. The output it generates is always a first draft, not a final verdict. Microsoft itself is explicit about this in its product documentation: *"Remember that Copilot generates a draft. You'll need to verify and modify details to make sure it's accurate and fits your tone and style."*
+The honest caveat: the analogy breaks down when it comes to judgment and institutional knowledge. Your staff assistant builds genuine understanding — they learn that this particular resident always escalates to the council member if they don't hear back within 48 hours, that the Parks maintenance crew is short-handed on Tuesdays, and that a certain recurring permit application always has a missing survey attachment. Copilot's "knowledge" is a structured map of your data — incredibly useful, but not a substitute for the contextual judgment you bring. The output it generates is always a first draft, not a final verdict. Microsoft itself is explicit about this in its product documentation: *"Remember that Copilot generates a draft. You'll need to verify and modify details to make sure it's accurate and fits your tone and style."*
 
-Read that sentence carefully. It is not a liability disclaimer buried in fine print. It is honest product guidance from Microsoft — and it is good professional practice.
+Read that sentence carefully. It is not a liability disclaimer buried in fine print. It is honest product guidance from Microsoft — and it is good professional practice for anyone working in public service, where the consequences of an error reach real residents.
 
-:::{admonition} T.R.U.E. Check — Responsibility
+:::{admonition} Bowie Values Check — Stewardship
 :class: seealso
 
-**"Be responsible for our actions and deliver on our commitments."**
+**Stewardship** means taking responsibility for the City's resources — including the accuracy of information you provide to the public and to your colleagues.
 
 Grounding is powerful, and power invites a specific kind of laziness: accepting a well-formatted answer because it *looks* like it came from your files.
 
-It probably did. But "probably" is not a standard that survives move-in. If Copilot tells you the target time for Hall C freight is 06:00 and you put that in a document that 140 exhibitors will read, **you** own that number. Not Copilot. Not the person who shared the source spreadsheet. You.
+It probably did. But "probably" is not a standard that holds up in public service. If Copilot tells you a permit was approved on a certain date and you put that date in a letter that goes to a resident, **you** own that statement. Not Copilot. Not the colleague who originally filed the record.
 
-The practical habit: for any number, date, dimension, weight, or dollar figure that will drive an operational decision, trace it back to the source document before you ship the draft. Copilot makes the first ninety percent fast. Responsibility is the last ten percent, and it does not delegate.
+The practical habit: for any date, dollar figure, code citation, approval status, or legally significant fact that will be communicated to a resident, elected official, or state agency, trace it back to the source document before you sign off. Copilot makes the first ninety percent of a document fast. Stewardship is the last ten percent — and it does not delegate.
 :::
 
 ---
@@ -289,9 +289,9 @@ Before we get to the five prompting techniques, you need to know about two resou
 The Microsoft 365 Copilot Prompt Gallery (m365.cloud.microsoft/copilot-prompts) and the Copilot Skilling Center — Microsoft's official resources for accelerating your prompting skills with verified, tested techniques organized by role and workflow.
 :::
 
-**The Copilot Prompt Gallery** lives at [m365.cloud.microsoft/copilot-prompts](https://m365.cloud.microsoft/copilot-prompts). It is a curated library of ready-to-use prompts organized by job function (finance, HR, operations, sales, legal) and by application (Word, Excel, Outlook, Teams). Every prompt in the gallery has been tested and verified — these are not examples someone invented in a slide deck. They are prompts that produce results in the actual M365 Copilot environment.
+**The Copilot Prompt Gallery** lives at [m365.cloud.microsoft/copilot-prompts](https://m365.cloud.microsoft/copilot-prompts). It is a curated library of ready-to-use prompts organized by job function (finance, HR, operations, communications, legal) and by application (Word, Excel, Outlook, Teams). Every prompt in the gallery has been tested and verified — these are not examples someone invented in a slide deck. They are prompts that produce results in the actual M365 Copilot environment.
 
-For GES colleagues, the gallery is your starting point, not your ceiling. Browse the operations, project management, and sales categories to find proven prompts you can adapt to your specific workflows. Then modify them using the five techniques in the next section to make them sharper, more specific, and more powerful. A generic "summarize this project status" prompt becomes far more valuable when you rewrite it as "summarize move-in readiness by hall, flagging any exhibitor whose freight has not hit the advance warehouse."
+For City of Bowie employees, the gallery is your starting point, not your ceiling. Browse the public administration, operations, HR, and finance categories to find proven prompts you can adapt to your specific workflows. Then modify them using the five techniques in the next section to make them sharper, more specific, and more powerful. A generic "summarize this project status" prompt becomes far more valuable when you rewrite it as "summarize the current status of the Kenhill Drive repaving project, flagging any outstanding items that need department director sign-off before the next contractor payment."
 
 **The Microsoft 365 Copilot Skilling Center** is the official learning hub at [adoption.microsoft.com/copilot/skilling-center](https://adoption.microsoft.com/copilot/skilling-center/). It includes structured learning paths, scenario-based guides, and role-specific content — all officially maintained by Microsoft. If you ever want to go deeper than this course takes you, the Skilling Center is the verified source.
 
@@ -301,14 +301,14 @@ For GES colleagues, the gallery is your starting point, not your ceiling. Browse
 1. Go to m365.cloud.microsoft/copilot-prompts
 2. Filter by your primary job function
 3. Find three prompts that address tasks you do regularly
-4. Rewrite each one in GES vocabulary — replace "project" with "show," "client deliverable" with "exhibitor service kit," "budget variance" with "labor forecast vs. actual"
+4. Rewrite each one in City of Bowie vocabulary — replace "project" with "service request," "client deliverable" with "constituent response," "budget variance" with "parks maintenance budget variance"
 5. Try each one this week in the relevant M365 app
 6. Note what worked, what didn't, and what you'd adjust
 
 This is a fifteen-minute investment that will pay dividends in your first week of real Copilot use.
 :::
 
-**Build a GES prompt library while you're at it.** Every time you land on a prompt that produces genuinely good output, paste it into a shared OneNote page or SharePoint list for your team. Within a month, a show operations team will have a house set of prompts covering pre-con prep, freight exception triage, safety briefing drafts, and post-show reconciliation summaries. That library becomes an onboarding asset — the fastest way to get a new coordinator to competence is to hand them the prompts your best people already use.
+**Build a City of Bowie prompt library while you're at it.** Every time you land on a prompt that produces genuinely good output, paste it into a shared OneNote page or SharePoint list for your department. Within a month, a Constituent Services team will have a house set of prompts covering resident inquiry drafting, permit delay explanations, service request triage, and after-action reporting for city events. That library becomes an onboarding asset — the fastest way to get a new staff member to competence is to hand them the prompts your most experienced colleagues already use.
 
 ---
 
@@ -320,7 +320,7 @@ Microsoft 365 Copilot has access to your organizational context. It has sophisti
 
 Prompting is not a technical skill. It is a communication skill. The same way a well-constructed question to a colleague gets you a better answer than a vague one, a well-constructed prompt gets you better output from Copilot. The techniques below are not tricks — they are frameworks for clarity. Learn them, practice them, and they become second nature.
 
-If you have ever written a good set of I&D instructions, you already have the underlying instinct. A crew lead doesn't hand a team a note that says "build the booth." They specify the sequence, the tools, the tolerances, the finish standard, and what to do when something doesn't fit. Prompting is that same discipline applied to a different kind of collaborator.
+If you have ever written a thorough constituent response letter or a staff report for the City Council, you already have the underlying instinct. You don't hand a council member a note that says "here are some thoughts on the zoning issue." You specify the context, the applicable ordinance, the planning history, the options, and the staff recommendation. Prompting is that same discipline applied to a different kind of collaborator.
 
 :::{figure} ../images/ch05-five-techniques.png
 :label: fig-ch05-five-techniques
@@ -339,7 +339,7 @@ The five prompting techniques that separate average Copilot users from power use
 
 This sounds almost comically simple. It is also the technique that produces the most immediate and dramatic improvement in output quality for most users.
 
-Here is why it works: language models like the one powering Microsoft 365 Copilot don't have a single fixed "voice" or perspective. They adapt their reasoning, vocabulary, tone, and framing based on the context they're given. When you assign a role — *"Act as a veteran general service contractor operations director with 20 years of show floor experience"* — you are not just changing the tone. You are shifting the entire conceptual frame from which Copilot approaches the task. The criteria it applies, the risks it looks for, the language it uses, the depth of analysis it attempts — all of these shift to match the assigned role.
+Here is why it works: language models like the one powering Microsoft 365 Copilot don't have a single fixed "voice" or perspective. They adapt their reasoning, vocabulary, tone, and framing based on the context they're given. When you assign a role — *"Act as a seasoned municipal public works director with 20 years of experience managing infrastructure projects in Maryland"* — you are not just changing the tone. You are shifting the entire conceptual frame from which Copilot approaches the task. The criteria it applies, the risks it looks for, the language it uses, the depth of analysis it attempts — all of these shift to match the assigned role.
 
 :::{figure} ../images/ch05-role-based-prompting.png
 :label: fig-ch05-role-based
@@ -350,13 +350,13 @@ Here is why it works: language models like the one powering Microsoft 365 Copilo
 Role-Based Prompting transforms a generic request into a professional-grade inquiry by anchoring Copilot's response in the expertise, analytical frame, and vocabulary of a specific role.
 :::
 
-**The analogy:** Think about what happens when you call a venue's main number with a question about rigging points. If you reach the general switchboard, you get a polite, general answer — maybe a PDF link. If you get routed to the venue's safety officer who signs off on rigging plans, you get a different kind of answer entirely — one that draws on specific expertise, that flags the load limits you didn't think to ask about, that speaks in the language of your actual problem.
+**The analogy:** Think about what happens when a resident calls the City's general information line with a question about a construction permit. If a general receptionist answers, the resident gets a polite, general response — maybe a web link. If the call is routed to the permit technician who processes applications daily, the resident gets a different kind of answer entirely — one that draws on specific expertise, that flags the items commonly missing on first submissions, that speaks in the language of their actual problem.
 
 Role-Based Prompting is how you route your request to the right expert, even when the expert is an AI.
 
-Where the analogy breaks down: a real venue safety officer has genuine experiential judgment, knows the building's quirks, and carries professional liability for their sign-off. Copilot's role adoption is sophisticated pattern matching, not lived expertise. You still bring the judgment. Copilot brings the synthesis and first draft. **Never** substitute a role-played safety review for an actual one.
+Where the analogy breaks down: a real permit technician has genuine experiential judgment, knows the quirks of your specific ordinance, and carries professional responsibility for their guidance. Copilot's role adoption is sophisticated pattern matching, not lived expertise. You still bring the judgment. Copilot brings the synthesis and first draft. **Never** substitute a role-played legal or compliance review for an actual one with a qualified professional.
 
-**The revolution this enables:** Consider what it means for an operations lead to prompt Copilot as a *"skeptical show organizer reviewing this service proposal line by line for anything that looks like padding."* Or for an exhibit designer to prompt as a *"marketing director at an exhibiting brand who has been told to cut booth spend by 15% and needs to justify every square foot."* Or for a logistics coordinator to prompt as a *"customs broker reviewing a carnet manifest for missing HS codes and value discrepancies."* Or for a process improvement lead to prompt as a *"Six Sigma consultant looking for waste and bottlenecks in a move-out sequence."* Each role unlocks a different analytical lens — applied instantly, at scale, to your actual GES materials.
+**The revolution this enables:** Consider what it means for a Constituent Services coordinator to prompt Copilot as a *"frustrated longtime Bowie resident reading this response about their delayed road repair request, looking for anything that sounds dismissive or bureaucratic."* Or for a Finance analyst to prompt as a *"state auditor reviewing this budget narrative for unsupported cost allocations."* Or for a Planning staff member to prompt as a *"developer's attorney reviewing this denial letter for grounds to appeal."* Or for an HR director to prompt as a *"new City employee reading the benefits enrollment guide for the first time."* Each role unlocks a different analytical lens — applied instantly, at scale, to your actual City of Bowie materials.
 
 **Prompting template:**
 
@@ -366,65 +366,65 @@ Your task is to [specific task].
 [Additional context about what you need.]
 ```
 
-**GES examples:**
+**City of Bowie examples:**
 
 ```
-Act as a cynical, veteran show operations director with 20 years of 
-experience running general service contractor teams in convention 
-centers across North America. Review the following move-in schedule 
-and freight target plan and flag every assumption you would push 
-back on in a pre-con call.
+Act as a skeptical, experienced municipal public works director with 
+20 years of infrastructure management experience in Prince George's 
+County. Review the following project status memo and flag every 
+assumption you would push back on in a department director meeting.
 
-[Paste or reference the move-in schedule]
-```
-
-```
-Act as a venue safety officer responsible for approving rigging and 
-overhead hang plans. Read the following exhibit structural summary 
-and identify any language that is ambiguous, any load figure that 
-is unsupported, and anything that would cause you to withhold 
-sign-off. Be specific about what documentation you would demand.
+[Paste or reference the project status memo]
 ```
 
 ```
-Act as a customs broker reviewing an ATA carnet manifest for an 
-international show shipment. Read the following equipment list and 
-flag every item that is likely to trigger a classification question, 
-a valuation challenge, or a temporary-import restriction at the 
-destination country.
+Act as a resident who has been waiting six weeks for a response to a 
+pothole repair request on their street. Read the following draft 
+constituent response letter and identify any language that sounds 
+dismissive, overly bureaucratic, or that fails to answer the 
+question the resident actually asked.
 ```
 
 ```
-Act as an account manager who has served this show organizer for 
-five years. Based on the following account summary and recent 
-correspondence, draft a renewal conversation agenda that acknowledges 
-the relationship history and anticipates the organizer's likely 
-concerns about material handling rates.
+Act as a state auditor from the Maryland Department of Legislative 
+Services reviewing this departmental budget justification narrative. 
+Flag every line item that lacks adequate supporting explanation, 
+every cost projection that appears unsupported, and every area 
+where you would request additional documentation.
 ```
 
 ```
-Act as an exhibitor services rep who fields 200 calls a day during 
-move-in week. Read the following draft exhibitor service kit section 
-and rewrite it so that the three questions you get asked most often 
-are answered before they are asked.
+Act as a City Council member preparing for a public hearing on a 
+contested zoning variance application. Based on the following 
+planning staff report, identify the three questions from residents 
+you are most likely to face at the hearing and the three areas 
+where the staff analysis may be challenged.
+```
+
+```
+Act as a new City of Bowie employee reading the Parks & Recreation 
+special event application instructions for the first time. Identify 
+every point where the instructions are unclear, where a first-time 
+applicant would get confused, and where a question goes unanswered 
+that the staff desk routinely fields.
 ```
 
 :::{tip}
 **Role-Based Prompting Power Move**
 
-Add a behavioral instruction alongside the role: *"Be direct. Do not soften your feedback. Flag problems explicitly."* Copilot's default tendency is to be somewhat diplomatic. In operations, you often need it to be blunt — the show floor does not reward diplomatic ambiguity about whether the truck is going to make the target. The role assignment plus the behavioral instruction together produce output that reads like a tough internal review, not a polished proposal.
+Add a behavioral instruction alongside the role: *"Be direct. Do not soften your feedback. Flag problems explicitly."* Copilot's default tendency is to be somewhat diplomatic. In public service, you often need it to be blunt — a constituent who receives a vague non-answer will call again tomorrow, and the question will still be unanswered. The role assignment plus the behavioral instruction together produce output that reads like a tough internal peer review, not a diplomatic first draft.
 :::
 
-:::{admonition} T.R.U.E. Check — Understanding
+:::{admonition} Bowie Values Check — Responsiveness
 :class: seealso
 
-**"People come first. Be understanding and compassionate."**
+**Responsiveness** means meeting residents where they are and answering the question they actually asked.
 
-Role-Based Prompting is also the single best tool GES has for building empathy at scale — and empathy is the actual product here. An exhibitor who has flown in from another country, spent six figures on a stand, and has one shot to make their year deserves to be met by someone who understands their pressure.
+Role-Based Prompting is the single best tool any City employee has for building communication accuracy at scale — because the most important test of a constituent response isn't whether it's technically correct; it's whether the resident who reads it at their kitchen table, after a long day, understands what the City is doing and what will happen next.
 
-Before you send a difficult email, prompt Copilot to *"read this as the exhibitor receiving it on the morning of move-in, after their freight has already been delayed once."* Before you finalize a policy, prompt as *"a first-time exhibitor who has never read a service kit before."* Before you publish an internal change, prompt as *"an I&D crew member reading this on a phone at the end of a 14-hour shift."*
+Before you send a difficult response, prompt Copilot to *"read this as the resident who submitted the original complaint, on the day their service request has already been rescheduled once."* Before you finalize a public notice, prompt as *"a homeowner who has never attended a public hearing before."* Before you distribute a policy update, prompt as *"a part-time parks employee reading this on their phone between shifts."*
 
-Understanding isn't softness. It's accuracy about how your words will land on a real human being who is having a harder day than you are.
+Responsiveness isn't just speed. It's accuracy about how your communication will land on a real person who is paying attention and deserves a real answer.
 :::
 
 ---
@@ -441,18 +441,18 @@ This is one of the most counterintuitive techniques, because the instinct is alw
 :width: 80%
 :align: center
 
-Chain-of-Thought Reasoning makes Copilot's analytical process visible — each intermediate step can be reviewed, corrected, or redirected before the final answer, producing more reliable output for complex operational decisions.
+Chain-of-Thought Reasoning makes Copilot's analytical process visible — each intermediate step can be reviewed, corrected, or redirected before the final answer, producing more reliable output for complex policy and operational decisions.
 :::
 
 When you ask Copilot directly for a conclusion, it pattern-matches toward the most statistically likely answer given the context. When you ask it to reason through the problem step-by-step, it builds each conclusion on the previous one — and that structured process tends to produce more coherent, internally consistent analysis. More importantly, it makes the reasoning visible, which means you can catch errors in the logic before they propagate into the conclusion.
 
-**The analogy:** Think about a freight target quote versus the cost breakdown behind it. The quote — a single drayage number on a page — is the conclusion. The breakdown is the reasoning chain: inbound weight by shipment type, advance warehouse vs. direct-to-show split, special handling, overtime exposure based on the target window, marshaling yard dwell assumptions, and the contingency you built in for the two exhibitors who always ship late. When the exhibitor challenges the number, the quote alone gives you nothing to defend. The breakdown gives you a conversation.
+**The analogy:** Think about a budget recommendation versus the analysis behind it. The recommendation — a single number on a page — is the conclusion. The analysis is the reasoning chain: prior year actuals by cost category, known contractual increases, anticipated workload changes, capital equipment timing, and the contingency you built in for the two line items that always run over. When the Finance Director challenges the number, the recommendation alone gives you nothing to defend. The analysis chain gives you a conversation.
 
-The same holds for a labor estimate versus the forecast reasoning behind it. Anyone can produce a number of hours. What makes the number credible is the chain: booth count by size band, install complexity, hall configuration, union jurisdiction rules that dictate crew composition, historical productivity rates from the last time you did this show, and the weather contingency for the outdoor loading dock.
+The same holds for a staff report recommendation to the City Council versus the policy analysis behind it. Anyone can produce a recommendation. What makes the recommendation credible is the chain: the applicable code section, the precedent from previous council decisions on similar applications, the public input received, the criteria the Council has directed staff to apply, and where this application fits against those criteria.
 
-When Copilot shows its reasoning chain, you get the breakdown instead of just the number. That is almost always more useful, because you can engage with the analysis rather than just accepting or rejecting the conclusion.
+When Copilot shows its reasoning chain, you get the analysis instead of just the recommendation. That is almost always more useful, because you can engage with the reasoning rather than just accepting or rejecting the conclusion.
 
-Where the analogy breaks down: a real freight cost breakdown is built on actual measured weights and real rate cards, produced by people who are accountable for them. Copilot's reasoning chain is sophisticated generation — it should be reviewed for logical consistency, not treated as a substitute for verified operational data.
+Where the analogy breaks down: a real budget analysis is built on actual audited figures and verified cost projections, produced by people who are accountable for them. Copilot's reasoning chain is sophisticated generation — it should be reviewed for logical consistency, not treated as a substitute for verified financial data.
 
 **The prompting template:**
 
@@ -461,38 +461,42 @@ Walk me through your reasoning step-by-step before giving me the final answer.
 [Then state the task clearly.]
 ```
 
-**GES examples:**
+**City of Bowie examples:**
 
 ```
-I need to evaluate whether to recommend that an exhibiting client 
-ship direct-to-show or route through the advance warehouse for an 
-upcoming event with a compressed three-day move-in.
+I need to evaluate whether to recommend that the City extend the 
+current parks maintenance contract or issue a new competitive 
+solicitation, given that the current vendor's performance has been 
+mixed and the contract expires in four months.
 
 Walk me through your reasoning step-by-step: what factors should I 
-consider, what are the trade-offs on cost, risk, and target timing, 
-and what questions do I need answered before making a recommendation? 
-Then give me your final recommendation framework.
+consider, what are the trade-offs on cost, service continuity, and 
+procurement timeline, and what questions do I need answered before 
+making a recommendation? Then give me your final recommendation 
+framework.
 ```
 
 ```
-A show organizer who represents roughly \$4.2M in annual services 
-revenue is asking us to match a competitor's proposal that includes 
-lower material handling rates, expanded onsite staffing, and a 
-dedicated exhibitor success team. We currently provide standard 
-GSC scope with a shared services model.
+A long-standing community organization that runs a popular annual 
+festival in Bowie has submitted an after-action report showing 
+significant cost overruns and a noise ordinance complaint from 
+neighboring residents. They have already submitted next year's 
+special event application.
 
-Walk me through your reasoning on whether to negotiate, match, or 
-hold our position — then give me a prioritized recommendation with 
-the key risks clearly stated.
+Walk me through your reasoning on whether to approve, conditionally 
+approve, or deny the application — then give me a prioritized 
+recommendation with the key risks clearly stated.
 ```
 
 ```
-Our move-out at a recent show ran eleven hours past the contracted 
-hall release time, and we absorbed the overtime. Walk me through 
-your reasoning on the likely contributing causes — sequencing, 
-carrier check-in, marshaling yard throughput, labor availability, 
-exhibitor dismantle behavior — and only then give me a prioritized 
-list of the three changes most likely to prevent a repeat.
+Our permit processing times for residential additions have averaged 
+three weeks over the last quarter, up from the prior-year average 
+of eleven business days. Walk me through your reasoning on the 
+likely contributing factors — application completeness rates, 
+reviewer workload, interdepartmental routing, missing inspection 
+prerequisites — and only then give me a prioritized list of the 
+three changes most likely to bring processing time back below 
+fourteen business days.
 ```
 
 :::{dropdown} Why Chain-of-Thought Works at a Technical Level
@@ -500,7 +504,7 @@ At the model architecture level, Chain-of-Thought prompting works because it for
 
 In plain language: when you ask for the answer directly, Copilot takes a shortcut. When you ask for the reasoning first, it has to build the bridge piece by piece, and those intermediate pieces keep it on track. The final answer that comes out of a reasoning chain is usually more defensible than one that appeared directly.
 
-This is also why Chain-of-Thought is particularly valuable in contract- and compliance-adjacent GES work: the reasoning chain is auditable. You can show it to a senior colleague, an organizer's procurement lead, or an insurance reviewer and explain *why* the analysis landed where it did. In a business where post-show reconciliation disputes are settled by documentation, showing your work is not an academic virtue. It is how you get paid.
+This is also why Chain-of-Thought is particularly valuable in policy- and compliance-adjacent City work: the reasoning chain is auditable. You can show it to a department director, a City Council member, or the City Attorney and explain *why* the analysis landed where it did. In a public sector environment where decisions are subject to FOIA requests and public scrutiny, showing your work is not an academic virtue — it is how you demonstrate that the City's decisions were reasoned, principled, and defensible.
 :::
 
 ---
@@ -520,11 +524,11 @@ This technique is borrowed directly from machine learning — "few-shot learning
 Few-Shot Prompting teaches Copilot by example — providing strong and weak examples establishes quality standards that Copilot replicates in new output, far more effectively than describing what you want in abstract terms.
 :::
 
-**The analogy:** Think about how you onboard a new coordinator who has strong general skills but no GES institutional knowledge. You don't hand them a style guide and tell them to write like the senior team. You hand them three or four examples of excellent post-show reconciliation reports written by your best people and say: *"Write at this level. Match this structure. Aim for this depth."* They look at the examples, internalize the pattern, and produce work that fits the house standard.
+**The analogy:** Think about how you onboard a new Constituent Services representative who has strong communication skills but no City of Bowie institutional knowledge. You don't hand them a style guide and tell them to write like the senior team. You hand them three or four examples of excellent constituent response letters written by your most effective colleagues and say: *"Write at this level. Match this structure. Aim for this clarity."* They look at the examples, internalize the pattern, and produce work that fits the City's standard.
 
 This is exactly what few-shot prompting does. The examples are your institutional standard, communicated directly to Copilot.
 
-Where the analogy breaks down: your coordinator internalizes examples through genuine understanding, not pattern matching. Copilot extracts statistical patterns from your examples — which means if your examples have a systematic flaw or bias, Copilot will replicate that flaw. If every reconciliation report you feed it quietly buries the overtime variance in a footnote, every new one will too. The "garbage in, garbage out" principle applies here more directly than in most other techniques.
+Where the analogy breaks down: your new staff member internalizes examples through genuine understanding, not pattern matching. Copilot extracts statistical patterns from your examples — which means if your examples have a systematic flaw, Copilot will replicate that flaw. If every constituent response you feed it buries the actual action date in the fourth paragraph, every new one will too. The "garbage in, garbage out" principle applies here more directly than in most other techniques.
 
 **The prompting template:**
 
@@ -537,61 +541,65 @@ Here are [number] examples of [type of output].
 Now [state the task]. Match the style, depth, and structure of the strong examples.
 ```
 
-**GES examples:**
+**City of Bowie examples:**
 
 ```
-Here are three examples of post-show reconciliation reports that our 
-team considers high quality, and one example of a weaker report.
+Here are three examples of constituent response letters about permit 
+delays that our department considers high quality, and one example 
+of a weaker letter.
 
 [EXAMPLE 1 — Strong: paste text]
 [EXAMPLE 2 — Strong: paste text]
 [EXAMPLE 3 — Weak: paste text]
 
-Now write a post-show reconciliation report for the following event 
-using the structure and depth of the strong examples. Here is the 
-raw labor, freight, and change-order data:
-[paste the data]
+Now write a constituent response about the following permit delay 
+situation, using the structure and tone of the strong examples. 
+Here is the relevant background:
+[paste the case details]
 ```
 
 ```
-Here are two examples of the way our design team writes a booth 
-design spec document — concise, dimensionally precise, with clear 
-material callouts, no ambiguous qualifiers, and an explicit note on 
-what is rental versus custom fabrication.
+Here are two examples of department briefing memos that our staff 
+produces before City Council work sessions — concise, structured 
+with clear issue-analysis-recommendation sections, citing the 
+applicable code or policy, and with a specific ask of the Council 
+at the end.
 
 [EXAMPLE 1]
 [EXAMPLE 2]
 
-Now write a design spec document for the following concept:
-[describe the concept]
+Now write a department briefing memo on the following topic:
+[describe the topic]
 ```
 
 ```
-Here are two examples of site survey writeups from venues we have 
-worked before. Notice that both cover dock configuration, freight 
-elevator capacity, ceiling and rigging constraints, union jurisdiction 
-notes, aisle and egress requirements, and a "known surprises" section.
+Here are two examples of after-action reports from City-organized 
+community events. Notice that both cover attendance and participation 
+summary, logistics outcomes, any incidents or complaints, budget 
+performance versus estimate, and a lessons-learned section with 
+specific recommendations for the next occurrence.
 
 [EXAMPLE 1]
 [EXAMPLE 2]
 
-Now draft a site survey writeup template for a venue we have never 
-worked, and list the questions I need to answer on-site to complete it.
+Now draft an after-action report template for a community event 
+we are planning to hold at Whitemarsh Park, and list the data I 
+need to collect before and after the event to complete it.
 ```
 
 :::{important}
-**Few-Shot Prompting and Confidential Data**
+**Few-Shot Prompting and Resident Privacy**
 
-When using examples to train Copilot's style, be thoughtful about what you paste in. Real organizer names, exhibitor pricing, negotiated rate cards, and non-public contract terms should be anonymized in your examples before pasting them into a Copilot prompt. Use placeholder names (Organizer A, Exhibitor X, Venue 1) and rounded figures in your examples.
+When using examples to teach Copilot's style, be thoughtful about what you paste in. Real resident names, parcel addresses, case numbers tied to individuals, and personally identifiable information should be anonymized in your examples before pasting them into a Copilot prompt. Use placeholder names (Resident A, Property at 100 Main Street, Application #00000) in your examples.
 
-This matters acutely at GES because you frequently serve competitors within the same vertical. The style instruction works just as well with anonymized content, and it keeps your prompting practice in alignment with GES's client confidentiality commitments and the T.R.U.E. value of Trust.
+This matters in public service because City employees routinely handle PII — service request details, code violation records, permit application contents — that residents have entrusted to the City. The style instruction works just as well with anonymized content, and it keeps your prompting practice in alignment with the City's data privacy obligations and the Bowie value of Accountability.
 :::
 
 **Advanced application — the "Four Examples" method:**
 
-For complex output like organizer proposals, sponsorship decks, or reconciliation packages, try four examples: two strong, one acceptable, one weak. Ask Copilot to explain what makes the strong examples better before generating new output. This forces a brief analysis step (a variation of Chain-of-Thought) that tends to sharpen the generation significantly.
+For complex output like council staff reports, public hearing summaries, or department strategic plans, try four examples: two strong, one acceptable, one weak. Ask Copilot to explain what makes the strong examples better before generating new output. This forces a brief analysis step (a variation of Chain-of-Thought) that tends to sharpen the generation significantly.
 
-There is a bonus here that teams underestimate: the explanation Copilot produces about *why* the strong examples are strong is frequently a better articulation of your house standard than anything currently written down. Capture it. You just generated the first draft of a style guide as a side effect.
+There is a bonus here that teams underestimate: the explanation Copilot produces about *why* the strong examples are strong is frequently a better articulation of your department's house standard than anything currently written down. Capture it. You just generated the first draft of a style guide as a side effect — and that style guide will help every new staff member who joins your team.
 
 ---
 
@@ -612,9 +620,9 @@ Reverse Prompting short-circuits this by letting Copilot do the requirement-gath
 Reverse Prompting turns the dynamic around — instead of struggling to articulate requirements precisely, you let Copilot interview you. The questions Copilot asks reveal what it needs to know to produce genuinely useful output.
 :::
 
-**The analogy:** Think about the difference between an exhibitor walking up to the service desk with a vague request ("I need my booth to look better") versus an exhibitor services rep running a structured discovery ("What's the booth size and configuration? Is this an inline or an island? What's your target dwell time? Do you need power drops, and where? Is your freight already at the advance warehouse or is it coming direct? What's your dismantle deadline?"). The rep who asks questions produces a dramatically better outcome than the one who takes the vague description and starts ordering furniture. Reverse Prompting makes Copilot the skilled services rep.
+**The analogy:** Think about the difference between a resident walking up to the permit counter with a vague request ("I want to build something in my backyard") versus a permit technician running a structured intake ("What are you building? Is it attached or detached? What's the approximate square footage? Will it require electrical or plumbing? Is your property in an HOA overlay district?"). The technician who asks questions produces a dramatically better outcome than the one who takes the vague description and starts guessing at the applicable form. Reverse Prompting makes Copilot the skilled permit technician.
 
-Where the analogy breaks down: a skilled rep's questions come from deep craft knowledge and an understanding of *your specific situation and venue*. Copilot's questions are good but may not always surface the most important uncertainty for your specific task. After it asks its questions, you should also add anything it didn't think to ask — the venue quirk, the organizer's unwritten preference, the crew constraint.
+Where the analogy breaks down: a skilled permit technician's questions come from deep knowledge of your specific code and the most common application errors. Copilot's questions are good but may not always surface the most important uncertainty for your specific case. After it asks its questions, you should also add anything it didn't think to ask — the history with this particular applicant, the policy that was just updated, the Council member who has a constituent interest in the outcome.
 
 **The prompting template:**
 
@@ -625,48 +633,47 @@ perfectly understand my request and produce exactly
 what I need. Don't proceed until I've answered.
 ```
 
-**GES examples:**
+**City of Bowie examples:**
 
 ```
-I need to write a presentation for our quarterly business review 
-with the show organizer's leadership team. Before you start, 
-ask me any questions you need to understand exactly what this 
-presentation should accomplish, who will be in the room, what 
-show performance data I have available, and what format works 
-best for this audience.
-```
-
-```
-I want to draft a proposal letter to a show organizer we've been 
-courting for six months in the healthcare association space. 
-Before writing anything, ask me everything you need to know 
-about the relationship history, their current general service 
-contractor arrangement, what scope we're proposing, and the tone 
-I want.
+I need to write a presentation for our quarterly department briefing 
+to the City Manager. Before you start, ask me any questions you need 
+to understand exactly what this presentation should accomplish, who 
+will be in the room, what performance data I have available, and 
+what format works best for this audience.
 ```
 
 ```
-I need to build an exhibitor communications plan for a first-time 
-international show where roughly 40% of exhibitors are shipping 
-under carnet from outside the country. Before you draft anything, 
-interview me about timeline, languages, customs constraints, 
-target windows, and what our exhibitor services team can 
-realistically support.
+I want to draft a constituent response about a permit delay for a 
+resident who has now contacted the City three times on the same 
+application. Before writing anything, ask me everything you need 
+to know about the nature of the delay, what stage the application 
+is in, what commitments have already been made to the resident, 
+and what tone the department director wants me to strike.
+```
+
+```
+I need to build a communications plan for a Public Works project 
+that will close a major residential street for three weeks during 
+the summer. Before you draft anything, interview me about the 
+project timeline, the affected neighborhoods, available detour 
+routes, resident notification history, and what our department 
+can realistically commit to for updates.
 ```
 
 :::{tip}
 **The Reverse Prompting Power Move**
 
-After Copilot asks its questions and you answer them, add one more line: *"Is there anything else you need to know, or any assumption you're making that I should verify?"* This second-level check often surfaces a critical variable that the first round of questions missed — particularly on complex, multi-stakeholder tasks where the organizer, the venue, the union, the EAC, and the exhibitor all have a say.
+After Copilot asks its questions and you answer them, add one more line: *"Is there anything else you need to know, or any assumption you're making that I should verify?"* This second-level check often surfaces a critical variable that the first round of questions missed — particularly on complex, multi-stakeholder City tasks where the department, the City Manager's office, the City Attorney, the council member's office, and the affected residents all have a different version of what "done" looks like.
 :::
 
 **When Reverse Prompting works best:**
 
-- Complex, multi-part deliverables (organizer proposals, show operations manuals, sponsorship packages, strategy memos)
-- Tasks where the audience or venue context matters significantly to the output
+- Complex, multi-part deliverables (strategic plans, council presentations, public hearing packages, community engagement reports)
+- Tasks where the audience or policy context matters significantly to the output
 - Situations where you're not sure exactly what you want — but you know it when you see it
 - Tasks you're doing for the first time with Copilot and haven't yet developed a strong prompt template for
-- Any first-time venue, first-time organizer, or first-time country
+- Any situation involving a new department, a new council directive, or a policy area where the City is still defining its standard
 
 ---
 
@@ -674,24 +681,24 @@ After Copilot asks its questions and you answer them, add one more line: *"Is th
 
 **The core idea:** Ask Copilot to push back on your ideas, not agree with them.
 
-This is the most advanced technique in the set — and for many event and exhibition professionals, the most valuable. The default behavior of any AI assistant is to be helpful, which in practice means it tends to be agreeable. It will draft your proposal, it will refine your service plan, it will polish your arguments. What it will not do, unless you specifically ask it to, is tell you where your thinking is weak.
+This is the most advanced technique in the set — and for many City employees, the most valuable. The default behavior of any AI assistant is to be helpful, which in practice means it tends to be agreeable. It will draft your policy memo, it will refine your budget justification, it will polish your talking points. What it will not do, unless you specifically ask it to, is tell you where your thinking is weak.
 
 The Sparring Partner technique flips this. You give Copilot a role defined by skepticism, and then you present your best thinking and ask it to attack it.
 
 :::{figure} ../images/ch05-copilot-memory.png
 :label: fig-ch05-sparring
-:alt: Illustration of the Sparring Partner technique — an account manager presenting their proposal on one side and Copilot in the role of a skeptical show organizer procurement lead on the other, pushing back with tough questions and alternative interpretations
+:alt: Illustration of the Sparring Partner technique — a city planner presenting their recommendation on one side and Copilot in the role of a skeptical council member on the other, pushing back with tough questions and alternative interpretations
 :width: 80%
 :align: center
 
-The Sparring Partner technique — Copilot assigned the role of a skeptical counterpart (an organizer's procurement lead, an exhibitor's marketing director, a venue safety officer) pushes back on your best thinking, revealing weaknesses before they become problems in the real conversation.
+The Sparring Partner technique — Copilot assigned the role of a skeptical counterpart (a council member, a state auditor, an affected resident, a City Attorney) pushes back on your best thinking, revealing weaknesses before they become problems in the real conversation.
 :::
 
-**The analogy:** Think about a full pre-con walkthrough with a hostile clock. You walk the floor plan with the venue, the organizer, and the union steward, and every one of them is looking for the thing you missed — the egress width that's four inches short, the hang point that isn't rated, the target window that assumes a dock can turn twelve trucks an hour when it has never done better than eight. The goal of that walkthrough is not to be right. It is to discover every weakness before move-in day, when the stakes are real and the cost of a fix multiplies by ten.
+**The analogy:** Think about a full department director review before a staff report goes to the Council. The director reads your work as if they are the most skeptical council member — looking for the recommendation that isn't adequately supported, the cost estimate that seems optimistic, the public engagement process that will be challenged at the public hearing. The goal of that review is not to be right. It is to discover every weakness before the Council meeting, when the stakes are real and a gap in the analysis becomes a public problem.
 
-For GES professionals, the Sparring Partner technique is how you pressure-test your thinking before an organizer procurement review, an exhibitor escalation call, a leadership presentation, or a venue safety sign-off. Copilot, assigned the role of your toughest critic, will find the holes that your own confirmation bias is inclined to skip over.
+For City of Bowie employees, the Sparring Partner technique is how you pressure-test your thinking before a council presentation, a constituent escalation response, a public hearing, or a policy submission to the City Manager's office. Copilot, assigned the role of your toughest critic, will find the holes that your own confirmation bias is inclined to skip over.
 
-Where the analogy breaks down: a real pre-con walkthrough involves people who know the building, know the crew, and carry accountability for the outcome. Copilot's pushback is sophisticated, but it is still pattern-matched critique rather than genuine adversarial reasoning. It may miss highly specific or contextual weaknesses — the ones that come from having worked this exact hall before — that a real expert would catch. Use it as a first filter, not the only one.
+Where the analogy breaks down: a real director review involves a person who knows the political history, knows which council members will ask which questions, and carries accountability for the department's reputation. Copilot's pushback is sophisticated, but it is still pattern-matched critique rather than genuine adversarial reasoning grounded in local political knowledge. Use it as a first filter, not the only one.
 
 **The prompting template:**
 
@@ -705,71 +712,74 @@ vulnerable. Be direct.
 [Present your idea/proposal/analysis]
 ```
 
-**GES examples:**
+**City of Bowie examples:**
 
 ```
-Play the role of a skeptical procurement lead at a show organizer 
-that runs a \$200M annual event portfolio and has been told to cut 
-supplier costs by 12%. I'm going to pitch you on renewing GES as 
-your general service contractor with an expanded scope that includes 
-exhibitor success outreach and sponsorship consulting. Push back hard. 
-Don't accept my assumptions. Tell me what objections you'd actually raise.
+Play the role of a skeptical City Council member who represents 
+a ward directly affected by this proposal and who hears from 
+constituents every week about their dissatisfaction with City 
+services. I'm going to present a staff recommendation to extend 
+our parks maintenance contract for three more years without a 
+competitive rebid. Push back hard. Tell me what objections you'd 
+actually raise at the council meeting.
 
-Here is my pitch: [present your pitch]
-```
-
-```
-Play the role of a venue safety officer conducting a rigging and 
-overhead hang review. I am going to present our structural plan 
-for a 60x80 island stand with a suspended banner ring and integrated 
-LED. Identify every area where you would ask hard questions, where 
-our documentation is thin, and where our load calculations may not 
-hold up under scrutiny.
-
-Here is the plan: [paste the plan]
+Here is my recommendation summary: [present your memo]
 ```
 
 ```
-Play the role of an exhibiting brand's marketing director who has 
-just been handed our quote and thinks material handling is a 
-made-up line item designed to inflate the bill. I'm presenting a 
-\$7.5M program for a multi-city custom exhibit build with full 
-door-to-floor logistics. Find the weaknesses in my cost story. 
+Play the role of a state auditor from Maryland who has reviewed 
+municipal budget submissions across forty counties and has seen 
+every type of inadequately documented cost allocation. I am going 
+to present our Public Works department's capital improvement budget 
+justification for next fiscal year. Identify every area where you 
+would ask hard questions, where our documentation is thin, and 
+where our cost projections may not survive audit scrutiny.
+
+Here is the justification narrative: [paste the narrative]
+```
+
+```
+Play the role of a long-term Bowie homeowner who attends every 
+City Council meeting and has been skeptical of development projects 
+near residential areas. I'm presenting a staff report recommending 
+approval of a mixed-use development application at a site adjacent 
+to an established neighborhood. Find the weaknesses in my analysis. 
 Do not soften your feedback.
 
-Here is my proposal summary: [paste the summary]
+Here is my staff report summary: [paste the summary]
 ```
 
 ```
-Play the role of an operations director who has watched four 
-international shows blow their move-in window in the last two 
-years. I'm proposing a compressed two-day move-in for a 900-booth 
-show in a venue with six docks and a single freight elevator to 
-the mezzanine. Tell me exactly where this plan breaks.
+Play the role of a City Attorney reviewing a proposed public 
+communications policy for the first time and looking for language 
+that creates legal exposure, makes commitments the City cannot 
+keep, or conflicts with existing ordinance. I'm presenting our 
+draft resident notification policy for infrastructure projects. 
+Tell me exactly where this policy creates problems.
 
-Here is my sequencing plan: [paste the plan]
+Here is the draft policy: [paste the policy]
 ```
 
 :::{warning}
 **The Sparring Partner and Overconfidence**
 
-The Sparring Partner technique is extraordinarily useful — but it carries one risk worth naming. Copilot's pushback is sophisticated enough that it may feel comprehensive. It may not be. There are venue-specific realities, union jurisdiction nuances, and relationship factors that a human expert will surface that Copilot will miss entirely — because they were never written down anywhere Copilot can reach.
+The Sparring Partner technique is extraordinarily useful — but it carries one risk worth naming. Copilot's pushback is sophisticated enough that it may feel comprehensive. It may not be. There are jurisdiction-specific legal requirements, long-standing community sensitivities, and interpersonal political dynamics that a human expert — your City Attorney, your department director, a veteran council member — will surface that Copilot will miss entirely, because they were never written down anywhere Copilot can reach.
 
-Run your ideas through the Sparring Partner to improve them. Then also run them through an actual human colleague you trust — ideally one who has worked that building. The combination — AI critique followed by human review — produces the best outcome.
+Run your ideas through the Sparring Partner to improve them. Then also run them through an actual colleague you trust — ideally one who has been through the same kind of meeting or review before. The combination — AI critique followed by human review — produces the best outcome.
 
-And to be unambiguous: **never** treat an AI-role-played safety review as a substitute for a real one. Safety sign-offs come from qualified humans. Full stop.
+And to be unambiguous: **never** treat an AI-role-played legal or regulatory review as a substitute for advice from your City Attorney. Legal sign-offs come from qualified humans. Full stop.
 :::
 
-:::{admonition} T.R.U.E. Check — Excellence
+:::{admonition} Bowie Values Check — Pride
 :class: seealso
 
-**"Provide excellent service and execution."**
+**Pride** means caring about the quality of the City's work and the reputation it reflects.
 
-The Sparring Partner technique is Excellence operationalized. Excellence is not the absence of problems; it's finding them earlier than anyone else does.
+The Sparring Partner technique is Pride operationalized. Pride is not the absence of problems; it's finding them earlier than anyone else does — before they become public, before they reach the council dais, before a resident has to come back and tell you something didn't work.
 
-There is a specific professional maturity in deliberately inviting criticism of your own work before someone else delivers it for free, at a worse moment, in front of a client. The people at GES who build a habit of adversarial self-review — who spar with their own plan on Wednesday so the pre-con call on Friday is boring — are the ones whose shows open clean.
+There is a specific professional maturity in deliberately inviting criticism of your own work before someone else delivers it at a public meeting. The City employees who build a habit of adversarial self-review — who spar with their own recommendation on Wednesday so the council presentation on Thursday is airtight — are the ones whose work holds up under scrutiny and whose departments residents trust.
 
-Excellence at scale means doing that 4,000 times a year. That's only possible if the pressure-test is cheap. Copilot makes it cheap.
+Pride at scale means doing that across every deliverable, every quarter. That's only possible if the pressure-test is cheap enough to do consistently. Copilot makes it cheap.
 :::
 
 ---
@@ -789,9 +799,9 @@ The Goldilocks Zone of prompt length — precision in four dimensions (Context, 
 
 **The "too short" failure mode:**
 
-*"Write a memo about our Q2 show operations performance."*
+*"Write a memo about our department's performance this quarter."*
 
-This prompt has no context (who is reading it? what do they already know?), no specific goal (is this for leadership? the organizer? the regional GM?), no format guidance (length? tone? structure?), and no constraints (what should it include? what should it avoid?). Copilot will generate something. It will be polished. It will be almost entirely useless for your specific purpose, because it is optimized for the generic version of the task rather than your version.
+This prompt has no context (who is reading it? what do they already know?), no specific goal (is this for the City Manager? a department director? a council committee?), no format guidance (length? tone? structure?), and no constraints (what should it include? what should it avoid?). Copilot will generate something. It will be polished. It will be almost entirely useless for your specific purpose, because it is optimized for the generic version of the task rather than your version.
 
 **The "too long" failure mode:**
 
@@ -799,7 +809,7 @@ Some users, having learned that detail helps, overcompensate. They write prompts
 
 **The Goldilocks zone — the four-component prompt:**
 
-The research and practitioner experience on prompting converges on a consistent structure for most business tasks. A good prompt has four components:
+The research and practitioner experience on prompting converges on a consistent structure for most professional tasks. A good prompt has four components:
 
 1. **Context:** Who you are, what situation you're in, what Copilot needs to know to frame its response appropriately
 2. **Goal:** What you want Copilot to produce — specific, not vague
@@ -808,51 +818,54 @@ The research and practitioner experience on prompting converges on a consistent 
 
 These four components can usually be covered in three to five sentences, or a short paragraph. That is the sweet spot.
 
-**The GES four-component prompt in action:**
+**The City of Bowie four-component prompt in action:**
 
 ```
-Context: I'm an account manager at GES preparing for a renewal 
-conversation with a show organizer whose annual event represents 
-roughly \$15M in services across three halls. They have been a 
-GES client for eight years. Execution has been strong, but a 
-competing general service contractor has approached them with a 
-more aggressive material handling rate.
+Context: I'm a Constituent Services coordinator at City of Bowie 
+preparing a response to a resident who submitted a pothole repair 
+request six weeks ago. The repair was scheduled for last week but 
+was postponed due to a crew equipment issue. The resident has now 
+followed up twice. Our department director has asked us to be 
+transparent and give a specific new commitment date.
 
-Goal: Draft talking points for the renewal conversation that 
-emphasize our partnership history, global footprint, and execution 
-record without immediately conceding on rate.
+Goal: Draft a response letter acknowledging the delay, explaining 
+the reason briefly without excessive detail, providing the new 
+scheduled repair date, and giving the resident a contact number 
+for follow-up questions.
 
-Format: A bulleted list of five to seven talking points, each with 
-a one-sentence expansion.
+Format: A formal but warm response letter, two to three short 
+paragraphs, appropriate for City of Bowie letterhead.
 
-Constraints: Keep the tone confident but not defensive. Do not 
-include any specific rate numbers or commitments — I'll handle 
-those in the room. The organizer's team is highly experienced and 
-has heard every standard GSC pitch before.
+Constraints: Do not promise a specific time of day for the repair 
+— only the week. Do not use any jargon the resident might not 
+understand. Keep the tone apologetic but not defensive. The 
+letter will go out on City of Bowie letterhead and should reflect 
+the City's commitment to responsiveness.
 ```
 
 That prompt takes thirty seconds to write. The output it produces is immediately usable — not a generic draft that requires fifteen minutes of editing to make relevant.
 
-Here is a second one from a completely different part of the business, to show the structure travels:
+Here is a second one from a completely different part of the organization, to show the structure travels:
 
 ```
-Context: I'm a logistics coordinator managing inbound freight for 
-a 1,200-booth show at a venue with eight docks and a three-day 
-move-in. About 35% of exhibitor freight is routing through the 
-advance warehouse; the rest is direct-to-show. We had significant 
-marshaling yard congestion at this venue last year.
+Context: I'm a Finance Department analyst preparing the quarterly 
+budget variance analysis for Parks & Recreation. We are in Q3 
+of the fiscal year. Parks maintenance is running 8% over budget 
+due to an equipment repair in July that was not anticipated in the 
+annual plan. The department director needs to present this to the 
+City Manager next week.
 
-Goal: Produce a freight target schedule narrative I can send to 
-the show team explaining the sequencing logic and the three 
-highest-risk windows.
+Goal: Produce a budget variance narrative I can include in the 
+department's quarterly report explaining the overage and the 
+corrective action taken to avoid additional variance in Q4.
 
-Format: A short memo — one paragraph of context, a table of target 
-windows by hall, then a numbered list of risks with a mitigation 
-for each.
+Format: A short memo — one paragraph of context, a brief table 
+showing budgeted versus actual for the three largest line items 
+in parks maintenance, and a two-sentence corrective action summary.
 
-Constraints: Assume standard union jurisdiction for this venue. 
-Do not invent specific truck counts; use placeholders where I need 
-to fill in actuals. Keep it under one page.
+Constraints: Keep language professional and clear. Do not assign 
+blame to any individual or vendor. Use placeholders where I need 
+to fill in exact figures. Keep it under one page.
 ```
 
 ```{mermaid}
@@ -868,9 +881,9 @@ flowchart LR
 
 **A note on iterating:**
 
-You rarely need to get the perfect prompt on the first try. Copilot conversations are threaded — your follow-up messages have context from everything that came before. Think of prompting as a conversation: start with a good four-component prompt, review the output, and then refine with specific follow-up instructions. *"That's good — now make the tone more direct"* or *"Remove the second and fourth points and expand the third into two separate bullets"* or *"Rewrite this for a first-time exhibitor who doesn't know what drayage means."*
+You rarely need to get the perfect prompt on the first try. Copilot conversations are threaded — your follow-up messages have context from everything that came before. Think of prompting as a conversation: start with a good four-component prompt, review the output, and then refine with specific follow-up instructions. *"That's good — now make the tone slightly warmer"* or *"Remove the second and fourth points and expand the third into two separate bullets"* or *"Rewrite this for a resident who has never interacted with the permit process before."*
 
-That last one is worth dwelling on. The exhibition industry runs on jargon — drayage, targets, GSC, EAC, I&D, carnet — and roughly 150,000 exhibitors a year encounter that jargon for the first time. Asking Copilot to translate an internal document into plain language for a first-time exhibitor is one of the highest-value, lowest-effort prompts available to anyone in exhibitor services. The follow-up prompt is often where the real refinement happens.
+That last one is worth dwelling on. Municipal government runs on terminology — easements, variances, R-A-C zones, BOA, WSSC, SHA, capital improvement program — and a significant portion of Bowie's 70,000+ residents encounters that vocabulary for the first time when they submit an application or file a complaint. Asking Copilot to translate an internal document into plain language for a first-time resident is one of the highest-value, lowest-effort prompts available to any City employee. The follow-up prompt is often where the real refinement happens.
 
 ---
 
@@ -880,9 +893,9 @@ Everything up to this point has been about **Copilot Chat prompting** — the ba
 
 But there is a second mode, and it demands a different kind of prompt.
 
-**Microsoft Copilot Cowork** — announced in the Frontier early-access program in March 2026 and generally available worldwide since **June 16, 2026** — executes complex, long-running, multi-tool tasks end-to-end across Microsoft 365 and returns **finished artifacts**. Not a draft in a chat window: a deck saved to SharePoint, a workbook with labeled tabs, an email queued for your approval, a meeting on the calendar. At GA, more than half of the Fortune 500 had adopted it, and Microsoft reported it as the fastest-growing feature in the history of the Frontier program.
+**Microsoft Copilot Cowork** — announced in the Frontier early-access program in March 2026 and generally available worldwide since **June 16, 2026** — executes complex, long-running, multi-tool tasks end-to-end across Microsoft 365 and returns **finished artifacts**. Not a draft in a chat window: a document saved to SharePoint, a workbook with labeled tabs, an email queued for your approval, a meeting on the calendar. At GA, more than half of the Fortune 500 had adopted it, and Microsoft reported it as the fastest-growing feature in the history of the Frontier program.
 
-The crucial property for GES: **Cowork runs in a protected cloud environment, which means tasks keep running even when your laptop is off.** A show manager can assign a post-show reconciliation package from the floor in Las Vegas at 7:00 a.m., work an eleven-hour move-out, and review a finished draft on their phone that evening. That is not a footnote. For a company running 4,000+ events a year across 75+ countries with lean teams and immovable show dates, it is close to the whole point.
+The crucial property for City of Bowie employees: **Cowork runs in a protected cloud environment, which means tasks keep running even when your computer is off or you're in the field.** A Public Works inspector can assign a project status report compilation from the field at 7:00 a.m., complete a full day of site inspections, and review a finished draft on their phone that evening. That is not a footnote. For a City staff running lean teams across multiple service areas with residents who expect timely responses, it is close to the whole point.
 
 **Chat vs. Cowork vs. Agents:**
 
@@ -906,10 +919,10 @@ The crucial property for GES: **Cowork runs in a protected cloud environment, wh
   - You're in the loop — one prompt, one result, then you choose what's next
   - You step away — Cowork plans, manages files and tasks across apps, and delivers completed work
   - You run it on demand — the agent handles the same scoped task each time
-* - **GES example**
-  - "Rewrite this exhibitor notice in plainer language."
-  - "Build the full post-show reconciliation package for the Chicago show."
-  - "Triage inbound exhibitor service kit questions against the standing scope."
+* - **City of Bowie example**
+  - "Rewrite this constituent notice in plainer language."
+  - "Build the full after-action report package for the Bowie Baysox Community Day."
+  - "Triage inbound permit application questions against the standard FAQ."
 ```
 
 ### Microsoft's Five-Part Prompt Structure for Cowork
@@ -924,19 +937,19 @@ Microsoft's official guidance defines a **five-part structure**:
 
 * - Part
   - What It Means
-  - GES Example
+  - City of Bowie Example
 * - **Outcome**
   - One sentence describing what *done* looks like
-  - "A complete post-show reconciliation package for the Chicago show, ready for the organizer's finance team."
+  - "A complete after-action report package for the Whitemarsh Park Community Day, ready for department director review."
 * - **Inputs**
   - The specific people, files, sites, or time ranges the task should use
-  - "The show SharePoint library, the final labor timesheets, the freight manifest workbook, all change orders logged between move-in and move-out, and the pre-con call notes."
+  - "The event planning SharePoint folder, the vendor invoice log, the attendance tracking sheet, the incident log, and the post-event survey responses."
 * - **Definition of done**
   - The concrete deliverable — a document saved, an email sent, a meeting booked
-  - "An Excel workbook with tabs for labor, freight, and change orders; a two-page Word summary; both saved to the show's SharePoint folder."
+  - "A Word after-action report with sections for attendance, budget performance, logistics summary, incidents and complaints, and lessons learned — saved to the Parks & Recreation SharePoint library."
 * - **Constraints**
   - Things to avoid or honor
-  - "Do not contact the organizer. Use the FY27 reconciliation template. Flag any variance over 5% rather than resolving it. Keep the summary under two pages."
+  - "Do not contact vendors or residents. Use the City's standard after-action template. Flag any incident that resulted in a formal complaint rather than summarizing it. Keep the report under five pages."
 * - **Approval scope**
   - Which actions you want to review explicitly, beyond the default checkpoints
   - "Ask me before creating any new SharePoint folders. Ask me before any email — internal or external."
@@ -947,101 +960,123 @@ Microsoft's official guidance defines a **five-part structure**:
 *Before (too open):*
 
 ```
-Help me close out the Chicago show.
+Help me close out the Community Day event.
 ```
 
-Cowork has to guess at nearly everything: which show, which files, what "close out" means, what a finished product looks like, and whether it's allowed to email anyone. Guessing shapes results, and not in your favor.
+Cowork has to guess at nearly everything: which event, which files, what "close out" means, what a finished product looks like, and whether it's allowed to email anyone. Guessing shapes results, and not in your favor.
 
 *After (five-part):*
 
 ```
-Outcome: A complete post-show reconciliation package for the Chicago 
-show that our account manager can walk the organizer's finance team 
-through next Tuesday.
+Outcome: A complete after-action report for the Whitemarsh Park 
+Community Day that the Parks & Recreation Director can review 
+and submit to the City Manager by end of week.
 
-Inputs: The Chicago show SharePoint library, the final labor timesheets, 
-the freight and material handling manifest workbook, every change order 
-logged between move-in and move-out, and my notes from the post-show 
-debrief in Teams.
+Inputs: The event planning SharePoint folder, the vendor invoice 
+log, the Parks staff attendance and scheduling sheet, the 
+incident log from the event day, and the post-event resident 
+survey responses.
 
-Definition of done: One Excel workbook with separate labeled tabs for 
-labor, freight/drayage, and change orders, plus a two-page Word summary 
-memo. Both saved to the Chicago show folder in SharePoint.
+Definition of done: One Word document with clearly labeled 
+sections for attendance summary, budget performance versus 
+estimate, logistics and vendor performance, incidents and 
+resident complaints, and recommendations for next year — 
+saved to the Parks & Recreation SharePoint library under 
+Community Events > FY27 > After-Action Reports.
 
-Constraints: Use the FY27 reconciliation template. Do not contact the 
-organizer or any exhibitor. Flag any line-item variance over 5% in a 
-clearly marked exceptions section rather than trying to resolve it. 
-Keep the memo under two pages. Use GES terminology consistently — 
-"material handling," not "drayage fees."
+Constraints: Use the City's standard after-action memo template. 
+Do not contact vendors, residents, or council members. 
+Flag any incident that involved emergency services or generated 
+a formal complaint in a separately highlighted section rather 
+than integrating it into the general narrative. Keep the report 
+under five pages. Use plain language — this report may be 
+shared publicly upon request.
 
-Approval scope: Ask me before creating any new folders, and ask me 
-before sending any email, internal or external.
+Approval scope: Ask me before creating any new SharePoint 
+folders, and ask me before sending any email, internal 
+or external.
 ```
 
-**Three more GES Cowork assignments worth stealing:**
+**Three more City of Bowie Cowork assignments worth using:**
 
 ::::{tab-set}
-:::{tab-item} Show Ops — Pre-Con Packet
+:::{tab-item} Planning — Council Staff Report Package
 ```
-Outcome: A complete pre-con briefing packet for the show team ahead 
-of the Tuesday planning call.
+Outcome: A complete staff report package for the Planning 
+Commission's next regular meeting agenda.
 
-Inputs: The current floor plan revision, the freight target schedule, 
-the labor forecast workbook, the venue site survey writeup, and the 
-last six weeks of email with the organizer.
+Inputs: The current application files in the Planning SharePoint 
+library, the site plan review comments from Public Works and 
+Engineering, correspondence with the applicant from the last 
+60 days, and the applicable zoning code sections.
 
-Definition of done: A PowerPoint deck (12 slides max) plus a one-page 
-Word summary of open items with owners, saved to the show SharePoint 
-folder, and a calendar hold for a 30-minute internal prep session 
-the day before.
+Definition of done: A Word staff report with issue statement, 
+applicable standards, analysis, and staff recommendation sections; 
+plus a one-page summary of public comments received. Both saved 
+to the Planning Commission agenda folder in SharePoint.
 
-Constraints: Do not include exhibitor-level pricing. Use the standard 
-GES pre-con deck template. Any date or weight you cannot verify from 
-the source files should be marked "TBC," not estimated.
+Constraints: Do not contact the applicant or any third party. 
+Cite the specific code section for every standard applied. 
+Any condition of approval that is not standard must be clearly 
+labeled "non-standard" with a one-sentence rationale. Keep the 
+full report under eight pages.
 
-Approval scope: Ask before booking the calendar hold. Ask before 
-posting anything to the show Teams channel.
-```
-:::
-:::{tab-item} Sales — Organizer Renewal Prep
-```
-Outcome: A renewal briefing pack for the account team ahead of the 
-organizer's procurement review.
-
-Inputs: Three years of post-show reconciliations for this organizer, 
-the current scope of work, satisfaction survey results, and all 
-correspondence with the organizer's procurement lead this year.
-
-Definition of done: A Word briefing document with a performance 
-summary, a risk section, and five anticipated objections with 
-suggested responses; plus an Excel tab showing year-over-year 
-service volume and variance.
-
-Constraints: No rate proposals or pricing commitments. Cite the 
-source file for every number. Keep the briefing under six pages.
-
-Approval scope: Ask before sending anything to anyone. This is 
-internal-only until I say otherwise.
+Approval scope: Ask before sending anything to anyone. 
+This is internal-only until department director review.
 ```
 :::
-:::{tab-item} Sustainability — Reuse Reporting
+:::{tab-item} Finance — Quarterly Budget Variance Package
 ```
-Outcome: A quarterly reuse and materials summary supporting our 
-Better Stands reporting for the EMEA region.
+Outcome: A quarterly budget variance report for all City 
+departments, ready for Finance Director review before 
+submission to the City Manager.
 
-Inputs: The production facility inventory workbooks, the show-by-show 
-build records for the quarter, and the reuse tracking sheet.
+Inputs: The current fiscal year budget workbooks by department, 
+the expenditure actuals through the end of last month from 
+the finance system exports, and any documented budget amendments 
+approved by Council this fiscal year.
 
-Definition of done: An Excel workbook with a tab per facility and a 
-consolidated summary tab, plus a one-page narrative highlighting 
-the three largest reuse gains and the three largest gaps.
+Definition of done: An Excel workbook with a tab per department 
+and a consolidated summary tab showing budgeted, actual, variance 
+in dollars, and variance as a percentage — plus a Word narrative 
+memo highlighting the three departments with the largest 
+positive variance and the three with the largest negative variance.
 
-Constraints: Use only data present in the source files — do not 
-estimate or extrapolate any emissions figure. Flag missing data 
-explicitly in a "data gaps" section.
+Constraints: Flag any line item variance exceeding 10% in a 
+clearly marked exceptions column rather than attempting to 
+explain it — the narrative explanations will be added by 
+department directors. Do not contact department staff.
 
 Approval scope: Ask before creating any new SharePoint location. 
-No emails.
+No emails without explicit direction.
+```
+:::
+:::{tab-item} Public Works — Resident Notification Package
+```
+Outcome: A complete resident notification package for a 
+three-week street closure on a residential block for 
+water main replacement.
+
+Inputs: The project scope and schedule from the capital 
+improvement project file, the block-face parcel list from GIS, 
+the approved detour routes from the traffic engineering memo, 
+and the City's standard notification letter template.
+
+Definition of done: A mail-merge-ready Word notification letter 
+with personalized salutation fields, a project fact sheet 
+suitable for posting on the City website and physical signage, 
+and a FAQ document addressing the five most common resident 
+questions about street closures — all saved to the Public Works 
+project folder in SharePoint.
+
+Constraints: Do not commit to a specific daily construction 
+start time — the project schedule shows a window, not a fixed 
+time. Use plain language throughout. All documents must follow 
+the City's brand guidelines for public-facing communications.
+
+Approval scope: Ask before sending any notification to any 
+resident address. Ask before posting anything to any public 
+channel.
 ```
 :::
 ::::
@@ -1052,166 +1087,169 @@ Here is the genuine behavioral shift, and it is worth naming plainly.
 
 **The prompt-craft skill of Copilot Chat is describing a task. The skill of Cowork is describing an outcome and then reviewing like a manager.**
 
-That is a different professional muscle. It is the difference between doing the install yourself and running the crew. Cowork will pause and ask permission before sensitive actions — sending an email, posting in Teams, updating a record. You will see a rich preview for most of these, a risk-level indicator for medium and high risk actions, and options to approve once, approve for the rest of the session, scope approval to a specific recipient or domain, approve everything pending at once, or cancel.
+That is a different professional muscle. It is the difference between drafting the memo yourself and directing a staff member to prepare it for your review. Cowork will pause and ask permission before sensitive actions — sending an email, posting in Teams, updating a shared record. You will see a rich preview for most of these, a risk-level indicator for medium and high risk actions, and options to approve once, approve for the rest of the session, scope approval to a specific recipient or domain, approve everything pending at once, or cancel.
 
 Microsoft's own guidance is blunt about this: **always review details before approving — check recipients, content, and other details.** Every task runs with your permissions and sees only what you can see. Data stays in your tenant. Actions are auditable. And people — not Cowork — remain responsible for business decisions.
 
-:::{admonition} T.R.U.E. Check — Trust and Responsibility, Together
+:::{admonition} Bowie Values Check — Accountability and Stewardship, Together
 :class: seealso
 
-Cowork's approval prompts are the exact point where two GES values meet the software.
+Cowork's approval prompts are the exact point where two City of Bowie values meet the software.
 
-**Trust** is what makes delegation possible at all — trust in the permission architecture, trust in your colleagues, trust that the audit trail exists. **Responsibility** is what makes delegation safe: the approval button has your name on it.
+**Accountability** is what makes delegation safe: the approval button has your name on it. When a constituent receives a letter, when a document is published to the City's SharePoint, when an internal notification goes to a council office — that action carries your responsibility, regardless of whether an AI produced the first draft.
 
-The failure mode to watch for is approval fatigue. Clicking **Approve All (7)** because you're between halls and the badge line is backing up is exactly how an unfinished draft reaches an organizer. Scope your approvals deliberately at the start of a task — that's what the approval scope line in your prompt is for — and then actually read the previews for anything that leaves the building.
+**Stewardship** is what makes delegation responsible: City resources — staff time, public trust, resident data — should be applied carefully and reviewd before they're committed. The approval scope line in your prompt is where you exercise stewardship: be deliberate about what you authorize Cowork to do on its own, and what requires your explicit eyes-on review.
 
-An email you didn't read but did send is still an email you sent.
+The failure mode to watch for is approval fatigue — clicking **Approve All** while multitasking because the task *seemed* straightforward. A draft that went to a council member without review is still a draft you sent. Define your approval scope thoughtfully at the start of every Cowork assignment. Then actually read the previews for anything that leaves the department.
 :::
 
 ---
 
-## 8. Try This: Run the Same Show Floor Question Five Ways
+## 8. Try This: Run the Same City Service Challenge Five Ways
 
 Here is where the theory becomes practice. This exercise produces one of the clearest demonstrations of how much the technique matters — more than the question itself.
 
 **The baseline question:**
 
-> *"How should GES approach a long-standing show organizer whose event is shrinking — fewer exhibitors, less square footage, and pressure to cut service costs — at the same time their contract comes up for renewal?"*
+> *"How should City of Bowie approach a resident who has submitted four separate service requests over six months about the same infrastructure issue — a storm drain that floods their street after every significant rainfall — with each request generating an acknowledgment but no visible repair?"*
 
-This is a real strategic question that any account manager, show manager, or regional GM at GES might face. It is specific enough to be meaningful, general enough to work without confidential client data.
+This is a real service delivery challenge that any Constituent Services coordinator, Public Works administrator, or department director at the City might face. It is specific enough to be meaningful, general enough to work without identifying any individual resident.
 
 **Run it five times — once with each technique:**
 
 ::::{tab-set}
 :::{tab-item} Technique 1: Role-Based
 ```
-Act as a veteran regional general manager at a global general 
-service contractor with 15 years of experience managing declining 
-and turnaround show accounts. How should GES approach a long-standing 
-show organizer whose event is shrinking — fewer exhibitors, less 
-square footage, and pressure to cut service costs — at the same 
-time their contract comes up for renewal?
+Act as a veteran municipal constituent services director with 
+15 years of experience managing resident complaints and service 
+escalations in a Maryland city. How should City of Bowie approach 
+a resident who has submitted four separate service requests about 
+the same recurring storm drain flooding problem over six months, 
+receiving acknowledgments each time but no visible repair?
 ```
-*What to notice:* The response should have a notably more specific, risk-focused, and action-oriented character than a generic answer. It should reference concrete levers — scope restructuring, floor plan redesign to make a smaller show feel full, sponsorship revenue consulting, exhibitor success programs to slow attrition — rather than abstract "partnership" language.
+*What to notice:* The response should have a notably more specific, process-focused, and action-oriented character than a generic answer. It should reference concrete steps — service request audit, direct outreach with a named contact, capital improvement project timeline, written commitment with a specific date — rather than abstract "customer service" language. It should also address the internal coordination failure, not just the resident-facing response.
 :::
 :::{tab-item} Technique 2: Chain-of-Thought
 ```
 Walk me through your reasoning step by step — considering the 
-organizer's economics, our cost base, the competitive landscape, 
-and the long-term value of the account — before giving me a final 
-recommendation on how GES should approach a long-standing show 
-organizer whose event is shrinking at the same time their contract 
-comes up for renewal.
+resident's experience, the likely internal coordination gap, 
+the legal and reputational implications of repeated non-response, 
+and the City's capacity to deliver a repair — before giving me 
+a final recommendation on how City of Bowie should handle a 
+resident who has filed four requests about the same unfixed 
+storm drain flooding issue over six months.
 ```
-*What to notice:* The response should show its work — market context, organizer's revenue position, our margin structure on this account, switching costs, competitive threat assessment, option evaluation — before landing on recommendations. The reasoning chain is the value.
+*What to notice:* The response should show its work — the resident's likely level of frustration, what repeated acknowledgments without action signals about internal tracking, potential liability if flooding causes property damage, the difference between a constituent relations fix and an operational fix — before landing on recommendations. The reasoning chain is the value.
 :::
 :::{tab-item} Technique 3: Few-Shot
 ```
-Here are two examples of how our account teams have handled 
-similar situations well:
+Here are two examples of how City staff have handled similar 
+service escalation situations well:
 
-Example 1 — Strong: [paste a real or hypothetical example of a 
-well-handled renewal with a contracting show]
+Example 1 — Strong: [paste a real or hypothetical example of 
+a well-handled multi-request resident complaint with a 
+satisfactory resolution]
 
 Example 2 — Strong: [paste another strong example]
 
-Now give me a recommendation for how GES should approach a 
-long-standing show organizer whose event is shrinking at the same 
-time their contract comes up for renewal. Match the style and 
-specificity of the strong examples.
+Now give me a recommendation for how City of Bowie should 
+approach the resident who has submitted four requests about 
+an unfixed storm drain flooding issue over six months. Match 
+the style and specificity of the strong examples.
 ```
-*What to notice:* The output should mirror the structure and depth of your examples. If your examples were concise and action-oriented, the new output will be too.
+*What to notice:* The output should mirror the structure and depth of your examples. If your examples were direct and included specific action steps with owners and timelines, the new output will be too.
 :::
 :::{tab-item} Technique 4: Reverse Prompting
 ```
-I need a recommendation on how GES should approach a long-standing 
-show organizer whose event is shrinking — fewer exhibitors, less 
-square footage, and pressure to cut service costs — at the same 
-time their contract comes up for renewal. Before you give me an 
-answer, ask me any questions you need to give me the most useful 
-possible recommendation.
+I need a recommendation on how City of Bowie should respond 
+to a resident who has submitted four separate service requests 
+about the same storm drain flooding issue over six months, 
+receiving acknowledgments each time but no visible repair. 
+Before you give me an answer, ask me any questions you need 
+to give me the most useful possible recommendation.
 ```
-*What to notice:* Copilot should ask about the size and margin of the account, how long the decline has run, whether the decline is industry-wide or organizer-specific, which competitors are circling, what scope we currently hold, and how much of the GES Collective (Spiro, onPeak, Visit, SHOWTECH) is already engaged. Your answers will produce a significantly more tailored recommendation.
+*What to notice:* Copilot should ask about the nature of the repair (routine maintenance or capital project?), whether the storm drain is City-owned or state/county jurisdiction, whether the requests were tracked in a single thread or siloed, whether a field inspection has ever occurred, and whether any council member has been contacted by the resident. Your answers will produce a significantly more specific and actionable recommendation.
 :::
 :::{tab-item} Technique 5: Sparring Partner
 ```
-Play the role of a skeptical regional finance director who has 
-watched too many account teams protect revenue by quietly giving 
-away margin. I'm going to propose that we renew this shrinking 
-show at a reduced material handling rate in exchange for a 
-three-year term and expanded scope across onPeak housing and 
-Visit registration. Push back hard. Tell me where this approach 
-is risky and what I'm not thinking about.
+Play the role of a skeptical City Council member who received a 
+call from this resident last week and has already promised them 
+"I'll look into it." I'm going to present my department's 
+recommended response approach for this constituent. Push back 
+hard. Tell me where this approach falls short and what the 
+resident and the council member are likely to still find 
+unsatisfactory.
 
-My proposal: We hold list pricing on labor, concede 8% on material 
-handling, and bundle onPeak and Visit at a blended discount, in 
-exchange for a three-year exclusive and a joint exhibitor growth 
-program with shared targets.
+My approach: We will send a personalized response letter 
+acknowledging the history of the requests, explaining that 
+the repair requires a capital project that is being assessed 
+for inclusion in next year's CIP, and providing a dedicated 
+phone contact for the resident to call for monthly updates.
 ```
-*What to notice:* This output should be genuinely challenging. A good Sparring Partner response will identify risks like margin erosion that persists after the show recovers, the precedent set with other organizers who will hear about the rate, whether "expanded scope" actually carries incremental margin or just incremental cost, the enforceability of shared growth targets, and what happens in year three if the show keeps contracting.
+*What to notice:* This output should be genuinely challenging. A good Sparring Partner response will push on whether "being assessed for next year's CIP" is a real commitment or a polite delay, whether a monthly phone call obligation is realistic given staff capacity, whether the resident is likely to accept a twelve-plus-month timeline after six months of no action, and whether there is any interim mitigation that can be offered while the capital project is assessed. These are the questions you want to encounter in your office, not at the council meeting.
 :::
 ::::
 
 **Compare the five outputs.** They should be meaningfully different — not just in tone, but in substance, depth, and practical utility. That difference is what you're learning to produce deliberately.
 
-**Bonus round — run it a sixth way, as a Cowork assignment.** Rewrite the same question using the five-part structure from Section 7: Outcome, Inputs, Definition of done, Constraints, Approval scope. Notice how differently you have to think. Chat asks *"what do I want to talk about?"* Cowork asks *"what do I want to exist when I come back?"*
+**Bonus round — run it a sixth way, as a Cowork assignment.** Rewrite the same challenge using the five-part structure from Section 7: Outcome, Inputs, Definition of done, Constraints, Approval scope. Notice how differently you have to think. Chat asks *"what do I want to talk about?"* Cowork asks *"what do I want to exist when I come back?"*
 
 :::{note}
 **What to Record After the Exercise**
 
 Keep notes on:
-- Which technique produced the most immediately useful output for this type of question?
+- Which technique produced the most immediately useful output for this type of challenge?
 - Which technique surprised you most?
-- Where would you combine techniques? (Role-Based + Chain-of-Thought is a particularly powerful combination for complex analytical tasks.)
+- Where would you combine techniques? (Role-Based + Chain-of-Thought is a particularly powerful combination for complex policy or service delivery questions.)
 - What would you add to refine each prompt further?
-- What changed when you restructured the request as a Cowork assignment?
+- What changed when you restructured the challenge as a Cowork assignment?
 
-Your prompting instincts improve with every iteration. The professionals who become power users of Microsoft 365 Copilot are not the ones who got lucky on the first try — they are the ones who treated each prompt like a hypothesis to be tested and refined.
+Your prompting instincts improve with every iteration. The City employees who become power users of Microsoft 365 Copilot are not the ones who got lucky on the first try — they are the ones who treated each prompt like a hypothesis to be tested and refined, applying the same analytical discipline they bring to their professional work.
 :::
 
 ---
 
 ## 9. Putting It Together: Your First Week Prompting Plan
 
-This course gives you the frameworks. What moves you from "I understand the techniques" to "I use them automatically" is repetition — applied to real GES work, on real shows, this week.
+This course gives you the frameworks. What moves you from "I understand the techniques" to "I use them automatically" is repetition — applied to real City of Bowie work, on real deliverables, this week.
 
 Here is a concrete five-day prompting plan:
 
-```{list-table} GES First-Week Prompting Plan
+```{list-table} City of Bowie First-Week Prompting Plan
 :header-rows: 1
 :name: table-prompting-plan
 
 * - Day
   - Technique
-  - Task to Try at GES
+  - Task to Try at City of Bowie
 * - Monday
   - Role-Based Prompting
-  - Assign a relevant professional role — show operations director, venue safety officer, skeptical organizer — and use it to review a document you're currently working on
+  - Assign a relevant professional role — skeptical council member, frustrated resident, state auditor — and use it to review a document you're currently working on
 * - Tuesday
   - Chain-of-Thought
-  - Use Copilot to reason through a decision you need to make this week — a freight routing call, a labor staffing level, a scope question — asking for step-by-step reasoning before the conclusion
+  - Use Copilot to reason through a decision you need to make this week — a service request escalation, a vendor selection, a policy question — asking for step-by-step reasoning before the conclusion
 * - Wednesday
   - Few-Shot
-  - Pull two or three examples of a document type your team produces regularly (site survey, reconciliation, design spec) and ask Copilot to generate a new one in the same style
+  - Pull two or three examples of a document type your department produces regularly (constituent response, budget memo, after-action report) and ask Copilot to generate a new one in the same style
 * - Thursday
   - Reverse Prompting
-  - Let Copilot interview you for an organizer presentation or proposal you need to develop — answer its questions, then review the output
+  - Let Copilot interview you for a council presentation or policy memo you need to develop — answer its questions, then review the output
 * - Friday
   - Sparring Partner
-  - Present one of your current plans or recommendations to Copilot in Sparring Partner mode and see what comes back
+  - Present one of your current recommendations or plans to Copilot in Sparring Partner mode and see what comes back
 ```
 
 By Friday, you will have hands-on experience with all five techniques applied to real work. That is more practical prompting practice than most Copilot users accumulate in their first three months.
 
-**Week two, if you want to keep going:** take the single task from week one that produced the most useful output and rewrite it as a five-part Cowork assignment. Then walk away and see what comes back. That is the transition from user to delegator — and it is where the compounding really starts.
+**Week two, if you want to keep going:** take the single task from week one that produced the most useful output and rewrite it as a five-part Cowork assignment. Then step away and see what comes back. That is the transition from user to delegator — and it is where the compounding really starts.
 
 ---
 
 ## 10. Productive Struggle Problem
 
-You are a senior account manager at GES. Your most important organizer client — an association whose annual exposition fills three halls, draws 1,400 exhibitors, and represents roughly \$22M in annual services across the GES Collective — has just informed you that a competing general service contractor has proposed taking over the full account, claiming it can save the organizer \$180,000 annually on material handling and labor alone.
+You are a senior staff member in the Constituent Services department at City of Bowie. The City Manager's office has just informed you that a resident — a longtime Bowie homeowner who has lived in the same house for twenty-two years — has written directly to two City Council members and the local newspaper to complain about what they describe as "years of City negligence" regarding repeated street flooding that damages their property after every major storm. The resident cites five separate service requests, two broken repair commitments, and what they describe as a complete lack of communication from the City.
 
-You have thirty minutes before the organizer's executive director calls to discuss. You need: a clear understanding of whether the competitor's savings claim is plausible, a retention strategy that does not simply concede on rate, and talking points that draw on the eight-year relationship history and the parts of the GES Collective — Spiro, onPeak, SHOWTECH, Visit by GES — that a single-service competitor cannot match.
+You have thirty minutes before a call with the City Manager's chief of staff, who wants to know: whether the resident's account is accurate, what the City's actual service record on this address shows, what a credible response looks like, and what the City should commit to going forward.
 
 You have access to Microsoft 365 Copilot and the five techniques from this chapter.
 
@@ -1229,17 +1267,17 @@ There is no single right answer. There are better and worse sequences, and the q
 
 The five techniques in this chapter are not software features — they are communication frameworks that work because of how language models process context. As Microsoft continues to evolve Microsoft 365 Copilot, the specific mechanics will change. The principles will not.
 
-Consider: In what ways does prompting Copilot resemble briefing a highly capable new coordinator on their first show? In what ways does it differ? What does that comparison reveal about where human judgment — the kind earned by standing in a hall at 4:00 a.m. — remains irreplaceable in the AI-assisted workflow?
+Consider: In what ways does prompting Copilot resemble briefing a highly capable new staff colleague on a complex case? In what ways does it differ? What does that comparison reveal about where human judgment — the kind earned by years of public service experience, by knowing a community's history and a council's priorities — remains irreplaceable in the AI-assisted workflow?
 
 **Discussion Guidelines:**
 
-Your response should engage substantively with the comparison between prompting AI and briefing a human colleague. Include at least one specific example from your own professional experience — either an experience where clear communication dramatically improved a colleague's output, or a case where a vague request produced work that missed the mark entirely. If you have worked a show floor, use it: the gap between "set the booth" and a real set of I&D instructions is the same gap this chapter is about. Apply that experience to what you've learned about prompting.
+Your response should engage substantively with the comparison between prompting AI and briefing a human colleague. Include at least one specific example from your own professional experience — either an experience where clear, precise communication dramatically improved a colleague's output, or a case where a vague assignment produced work that missed the mark entirely. If you have worked directly with constituents, apply that experience: the gap between "respond to this complaint" and a thorough constituent response brief with context, tone guidance, and a specific ask is the same gap this chapter is about.
 
 Support your perspective with at least one credible source — this might be something from the Microsoft 365 Copilot official documentation, the Skilling Center resources at adoption.microsoft.com/copilot/skilling-center/, or a relevant piece of research on human-AI collaboration in professional settings.
 
 After posting your response, engage with **at least two classmates** by extending or challenging a specific claim they made — not just affirming it. "I agree because..." is not a sufficient peer response. "I'd push back on your claim that X because I've seen Y, which suggests Z" is.
 
-**Do not summarize or repeat what you read.** Share what you think — grounded in evidence — about what this means for how GES professionals should work going forward.
+**Do not summarize or repeat what you read.** Share what you think — grounded in evidence — about what this means for how City of Bowie employees should work going forward, and what it means for the residents who depend on us.
 
 ---
 
@@ -1289,7 +1327,7 @@ Reverse Prompting
   A prompting technique that inverts the standard dynamic by asking Copilot to interview you with clarifying questions before producing output, ensuring the request is well-understood before work begins.
 
 Sparring Partner
-  A prompting technique that assigns Copilot the role of a skeptical, critical counterpart who pushes back on your ideas — used to pressure-test thinking before high-stakes conversations such as an organizer procurement review.
+  A prompting technique that assigns Copilot the role of a skeptical, critical counterpart who pushes back on your ideas — used to pressure-test thinking before high-stakes conversations such as a council presentation, a public hearing, or a policy review.
 
 Goldilocks Zone
   The optimal prompt length and specificity for a given task — precise enough to produce relevant output, concise enough to avoid confusing or overloading the model. Typically achieved with the four-component prompt structure: Context, Goal, Format, Constraints.
@@ -1306,71 +1344,67 @@ Copilot Skilling Center
 Permission Scoping
   The architectural principle that Microsoft 365 Copilot only surfaces information the signed-in user already has permission to access — ensuring Copilot cannot bypass existing security and compliance controls.
 
-GSC (General Service Contractor)
-  The official on-site services provider appointed by a show organizer to deliver decorating, material handling, labor, signage, and floor operations for an event. GES's core role at most of the 4,000+ events it produces each year.
+Constituent Services
+  The City of Bowie department responsible for managing resident inquiries, service requests, and complaint resolution — and the front-line interface between the City and its 70,000+ residents.
 
-EAC (Exhibitor Appointed Contractor)
-  A third-party contractor engaged directly by an exhibitor rather than by the show organizer. Spiro frequently operates in this capacity for custom brand experiences.
+Service Request
+  A formal resident inquiry or complaint submitted to the City requesting a service action — such as a pothole repair, a storm drain inspection, a code enforcement check, or a parks maintenance response.
 
-Material Handling / Drayage
-  The receipt, transport, storage, and delivery of exhibitor freight between the dock or advance warehouse and the booth space on the show floor, plus the reverse at move-out.
+After-Action Report
+  A structured document produced after a City event, project, or incident summarizing what happened, how it compared to plan, what went well, and what should be done differently — used across departments for continuous improvement and institutional knowledge.
 
-Freight Target
-  A scheduled arrival window assigned to inbound exhibitor freight to sequence dock access and prevent marshaling yard congestion during move-in.
+Department Briefing Memo
+  A concise internal document prepared by City staff to brief a department director, the City Manager, or a council committee on an issue, a project status, or a policy question — typically structured with issue, background, analysis, and recommendation sections.
 
-Advance Warehouse
-  A facility that receives exhibitor freight in the weeks before a show, stores it, and delivers it to the booth on schedule — reducing the risk and congestion of direct-to-show shipping.
+Staff Report
+  The formal document prepared by City staff for Planning Commission, Board of Appeals, or City Council consideration of an application or policy matter — including applicable standards, analysis, staff recommendation, and often proposed conditions of approval.
 
-Marshaling Yard
-  The staging area where carriers check in and wait to be called to a dock during move-in and move-out.
+Capital Improvement Program (CIP)
+  The City of Bowie's multi-year plan for major infrastructure and facility investments — the vehicle through which large repair projects like water main replacement, road reconstruction, and parks facility upgrades are funded and scheduled.
 
-I&D (Install & Dismantle)
-  The labor operation of building exhibits before a show opens and tearing them down after it closes.
+Personally Identifiable Information (PII)
+  Any information that can identify a specific individual — such as name, address, contact information, or case history. City employees handle resident PII regularly and must protect it in accordance with applicable law and the City's data privacy obligations.
 
-Move-In / Move-Out
-  The contracted windows during which exhibits are installed before the show and removed after it — the two highest-pressure periods in the event lifecycle.
+Bowie Values
+  The City of Bowie's four organizational values: Accountability, Responsiveness, Stewardship, and Pride. Applied to AI-assisted work, they translate to honesty about how a document was produced, meeting residents where they are, protecting public resources and data, and caring about the quality of the City's work.
 
-Exhibitor Service Kit
-  The document package issued to exhibitors containing ordering deadlines, rates, shipping instructions, venue rules, and service options for a specific show.
+Prince George's County
+  The Maryland county in which the City of Bowie is located. Many City services intersect with county services — particularly in public safety, transit, stormwater management, and health — making inter-agency coordination a regular part of City of Bowie operations.
 
-Carnet
-  An ATA Carnet — an international customs document permitting temporary, duty-free import of exhibition goods across borders. Essential for GES's work across 75+ countries.
+Public Hearing
+  A formal proceeding at which residents and other stakeholders may address the City Council, Planning Commission, or Board of Appeals on a pending application or policy matter. Staff reports and department briefing memos are the primary City documents prepared for public hearings.
 
-Union Jurisdiction
-  The rules governing which trade or labor group may perform which tasks in a given venue or region — a primary driver of labor planning and cost in North American exhibition work.
+Zoning Variance
+  A formal approval allowing a property to deviate from the City's standard zoning requirements in specified ways. Variance applications require staff analysis and a public hearing before the Board of Appeals.
 
-Site Survey
-  A structured on-site assessment of a venue capturing dock configuration, freight elevator capacity, ceiling heights and rigging points, egress requirements, jurisdiction notes, and known operational constraints.
+FOIA (Freedom of Information Act)
+  Maryland's Public Information Act (MPIA) and the federal FOIA collectively govern public access to government records. City employees must be aware that documents — including AI-assisted drafts — may be subject to public records requests.
 
-Post-Show Reconciliation
-  The closeout process that reconciles ordered versus delivered services, forecast versus actual labor, estimated versus actual freight, and all change orders — producing the final billing and performance record for a show.
-
-The GES Collective
-  The GES brand portfolio: GES Exhibitions (core GSC services), Spiro (global experiential agency and EAC), onPeak (event accommodations and housing), SHOWTECH (power and lighting), and Visit by GES (event management technology — registration, lead capture, visitor apps, NFC Touchpoints).
-
-T.R.U.E. Values
-  The GES core values: Trust, Responsibility, Understanding, and Excellence. Applied to AI work, they translate to honesty about how a document was produced, ownership of every number you ship, empathy for the human who receives your output, and the discipline to find problems before anyone else does.
+Permit Technician
+  A City of Bowie Planning or Building department staff member who reviews permit applications for completeness and processes approvals through the permitting system — one of the most constituent-facing roles in the City's daily operations.
 ```
 
 ---
 
 ## Leader's Takeaway
 
-Microsoft 365 Copilot is not a feature you turn on. It is a capability you develop — in yourself, and in your team.
+Microsoft 365 Copilot is not a feature you turn on. It is a capability you develop — in yourself, and in your department.
 
 The infrastructure is in place. The security architecture is sound. The intelligence layer that grounds Copilot in your organizational context is active. The tools are available at m365.cloud.microsoft right now, and Cowork has been generally available since June 2026.
 
-What remains is the skill — specifically, the prompting skill that determines whether Copilot becomes a transformative part of how GES works or sits as an underutilized line item in the software budget.
+What remains is the skill — specifically, the prompting skill that determines whether Copilot becomes a transformative part of how Bowie serves its residents or sits as an underutilized line item in the technology budget.
 
-The five techniques in this chapter are not exotic. They are communication principles applied to a new kind of tool. Role-Based Prompting is how you route a question to the right specialist. Chain-of-Thought is how you ask for the cost breakdown, not just the quote. Few-Shot is how you onboard a new coordinator with examples of your house standard. Reverse Prompting is how you let the expert run discovery before the work begins. The Sparring Partner is how you walk the floor plan with your harshest critic on Wednesday so the pre-con call on Friday is uneventful.
+The five techniques in this chapter are not exotic. They are communication principles applied to a new kind of tool. Role-Based Prompting is how you route a question to the right specialist. Chain-of-Thought is how you ask for the analysis behind the recommendation, not just the recommendation. Few-Shot is how you onboard a new colleague with examples of your department's house standard. Reverse Prompting is how you let the tool run discovery before the work begins. The Sparring Partner is how you encounter the council member's toughest question on Wednesday so the Thursday presentation is airtight.
 
-There is a reason this matters right now specifically. On **December 31, 2024**, GES completed its separation from Viad and became an independent company for the first time in 55 years. That independence means the roadmap belongs to GES — the investment decisions, the technology choices, the pace of change. Companies do not get many moments like that. What you do with the first few years of it tends to define the next decade.
+There is a reason this matters right now specifically — for the City of Bowie, and for the residents who depend on it.
 
-The onPeak AI Smart Suite already proves the organization can build and ship AI that works. The question this chapter answers is whether that capability stays concentrated in one product team or spreads to every account manager, show operations lead, exhibit designer, freight coordinator, and exhibitor services rep across 24 facilities and 75+ countries.
+Bowie is Maryland's largest city. With more than 70,000 residents and a workforce that spans infrastructure operations, community programming, financial management, planning and development, and direct constituent service, the City's workload is substantial and growing. The communities it serves expect responsiveness, competence, and accountability from every interaction with City government — not some of the time, but every time.
 
-These techniques are learnable. They improve with repetition. And the colleagues who develop fluency with them fastest will not just be more productive individually — they will become the informal teachers who spread that capability to everyone around them. That is how a company of 2,600 people gets good at something quickly: not through a mandate, but through the person two desks over who found a better prompt and shared it.
+AI does not solve that challenge by itself. But it meaningfully changes the equation for lean teams doing essential public service work. When a Constituent Services coordinator can produce a thorough, accurate, empathetic response in fifteen minutes instead of forty-five — and spend the time saved handling the next resident — that is a direct service improvement to the community. When a Finance analyst can complete a quarterly variance analysis in an afternoon instead of two days, the City Manager gets the information she needs to make decisions faster. When a Public Works inspector can dictate a field inspection note and have a formatted report waiting when they return to the office, the documentation that protects the City legally gets done instead of getting skipped.
 
-That is the compound return on investing in this skill. It is not linear — it multiplies. Across 4,000 shows a year, it multiplies a lot.
+These techniques are learnable. They improve with repetition. And the colleagues who develop fluency with them fastest will not just be more productive individually — they will become the informal teachers who spread that capability to everyone around them. That is how an organization the size of Bowie gets good at something quickly: not through a mandate from the City Manager's office, but through the person two desks over who found a better prompt and shared it.
+
+That is the compound return on investing in this skill. It is not linear — it multiplies. Across every service request, every briefing memo, every council presentation, every constituent interaction — it multiplies in ways that ultimately show up where it matters most: in the experience of the residents of Bowie, Maryland, who deserve a city government as capable and committed as they are.
 
 ---
 
@@ -1378,7 +1412,7 @@ That is the compound return on investing in this skill. It is not linear — it 
 **Continue Building**
 
 - **Chapter 4** established the mindset — where AI helps, where it doesn't, and why judgment stays human.
-- **Chapters 6–12** apply these five techniques inside Word, Excel, PowerPoint, Outlook, Teams, SharePoint, and OneNote, using real GES artifacts: exhibitor service kits, labor forecasts, organizer decks, show document libraries, and site survey notebooks.
+- **Chapters 6–12** apply these five techniques inside Word, Excel, PowerPoint, Outlook, Teams, SharePoint, and OneNote, using real City of Bowie artifacts: constituent response letters, parks maintenance budget analyses, council briefing decks, department document libraries, and public works inspection notebooks.
 - **Chapter 14** goes deep on Copilot Cowork — the five-part prompt structure introduced here, the approvals model, scheduled and event-driven tasks, and the governance questions that come with delegating real work.
 - **Microsoft's Copilot Prompt Gallery** — [m365.cloud.microsoft/copilot-prompts](https://m365.cloud.microsoft/copilot-prompts)
 - **Microsoft 365 Copilot Skilling Center** — [adoption.microsoft.com/copilot/skilling-center](https://adoption.microsoft.com/copilot/skilling-center/)
