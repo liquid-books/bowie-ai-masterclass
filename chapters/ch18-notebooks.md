@@ -10,7 +10,6 @@ tags: [Copilot Notebooks, BizChat, persistent workspace, document grounding, mul
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch18-notebooks.pdf)
 ```
 
 :::{figure} ../images/ch18-notebooks-infographic.png

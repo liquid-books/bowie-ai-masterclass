@@ -10,7 +10,6 @@ tags: [Power Automate, automation, RPA, desktop flows, cloud flows, AI Builder, 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch16-power-automate.pdf)
 ```
 
 # Chapter 16: Microsoft Power Automate — From Assistance to Automation

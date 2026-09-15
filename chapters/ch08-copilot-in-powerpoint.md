@@ -10,7 +10,6 @@ tags: [Copilot in PowerPoint, presentation AI, concept deck, RFP response, post-
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch08-copilot-in-powerpoint.pdf)
 ```
 
 # Chapter 8: Week 3, Session A — Copilot in PowerPoint

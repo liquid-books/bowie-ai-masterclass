@@ -10,7 +10,6 @@ tags: [Copilot in Teams, meeting intelligence, transcription, action items, Team
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch09-copilot-in-teams.pdf)
 ```
 
 # Chapter 9: Week 3, Session B — Copilot in Teams

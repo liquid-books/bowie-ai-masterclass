@@ -10,7 +10,6 @@ tags: [AI adoption, implementation, municipal government, Microsoft Copilot, Cop
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch04-adoption-implementation.pdf)
 ```
 
 # Chapter 4: Adoption & Implementation of AI

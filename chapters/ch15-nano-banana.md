@@ -10,7 +10,6 @@ tags: [Nano Banana, Gemini, image generation, AI art, creative ideation, Google 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch15-nano-banana.pdf)
 ```
 
 # Chapter 15: Creative AI with Nano Banana

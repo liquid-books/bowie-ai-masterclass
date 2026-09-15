@@ -10,7 +10,6 @@ tags: [Copilot Cowork, delegation, Work IQ, Microsoft 365, approvals, governance
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch14-copilot-cowork.pdf)
 ```
 
 # Chapter 14: Copilot Cowork — Delegating Real Work

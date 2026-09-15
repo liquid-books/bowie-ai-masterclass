@@ -10,7 +10,6 @@ tags: [LLM, tokens, context, Copilot, Cowork, meta-prompting, agents, Microsoft 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch01-the-essentials.pdf)
 ```
 
 # Chapter 1: The Essentials

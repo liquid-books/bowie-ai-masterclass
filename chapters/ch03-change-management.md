@@ -10,7 +10,6 @@ tags: [change management, AI adoption, Kotter, ADKAR, champions, City of Bowie, 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch03-change-management.pdf)
 ```
 
 # Chapter 3: Change Management

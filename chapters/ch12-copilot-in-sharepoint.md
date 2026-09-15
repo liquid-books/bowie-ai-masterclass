@@ -10,7 +10,6 @@ tags: [SharePoint, Microsoft Copilot, knowledge management, content governance, 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch12-copilot-in-sharepoint.pdf)
 ```
 
 # Chapter 12: Copilot in SharePoint

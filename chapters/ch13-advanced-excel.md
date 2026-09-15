@@ -10,7 +10,6 @@ tags: [Excel, Copilot, advanced analytics, anomaly detection, scenario modeling,
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch13-advanced-excel.pdf)
 ```
 
 # Chapter 13: Week 4, Session C — Advanced Copilot in Excel

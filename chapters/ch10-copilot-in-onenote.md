@@ -10,7 +10,6 @@ tags: [Copilot in OneNote, summarize notes, task lists, rewrite notes, OneNote, 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch10-copilot-in-onenote.pdf)
 ```
 
 # Chapter 10: Week 3, Session C — Copilot in OneNote

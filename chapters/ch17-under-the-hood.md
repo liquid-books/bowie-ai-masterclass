@@ -10,7 +10,6 @@ tags: [Microsoft Graph, semantic index, RAG, grounding, function calling, tool u
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch17-under-the-hood.pdf)
 ```
 
 # Chapter 17: Under the Hood

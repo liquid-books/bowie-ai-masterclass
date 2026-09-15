@@ -10,7 +10,6 @@ tags: [Copilot in Word, drafting, summarization, tone adjustment, exhibitor serv
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch06-copilot-in-word.pdf)
 ```
 
 # Chapter 6: Week 3, Session B — Copilot in Word

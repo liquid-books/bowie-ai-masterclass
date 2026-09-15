@@ -10,7 +10,6 @@ tags: [mindset, AI adoption, growth mindset, orchestrator, City of Bowie, Bowie 
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch02-mindset-shift.pdf)
 ```
 
 # Chapter 2: The Mindset Shift

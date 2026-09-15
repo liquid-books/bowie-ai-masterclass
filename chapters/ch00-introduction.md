@@ -10,7 +10,6 @@ tags: [introduction, AI, Bowie, Microsoft Copilot, Copilot Cowork, overview]
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch00-introduction.pdf)
 ```
 
 # Overview & Introduction: Why This Moment Matters

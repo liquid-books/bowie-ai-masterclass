@@ -10,7 +10,6 @@ tags: [Microsoft Copilot, prompting, Microsoft 365, Work IQ, Microsoft Graph, ro
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/bowie-ai-masterclass/raw/main/pdfs/ch05-prompting-essentials.pdf)
 ```
 
 # Chapter 5: Week 3, Session A — Introduction to Microsoft Copilot & Prompting Essentials

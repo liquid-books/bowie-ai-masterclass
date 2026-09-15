@@ -10,7 +10,6 @@ tags: [Excel, Copilot, data analysis, formula generation, data cleaning, visuali
 ```{admonition} Download this Chapter as PDF
 :class: tip
 
-[Download PDF](https://github.com/liquid-books/ges-learns-ai/raw/main/pdfs/ch07-copilot-in-excel.pdf)
 ```
 
 # Chapter 7: Week 3, Session C — Copilot in Excel
