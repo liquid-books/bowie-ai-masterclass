@@ -2,9 +2,9 @@
 title: "Chapter 15: Creative AI with Nano Banana"
 subtitle: "Image Generation for Ideation — What It Can Do, What It Cannot, and Why the Boundary Matters"
 short_title: "Creative AI with Nano Banana"
-description: "Google's Nano Banana family of image generation models, accessed through Google AI Studio, offers GES creatives a powerful ideation tool for booth concept exploration, mood boards, pitch visuals, and rapid 'what if' iteration — while remaining firmly outside the production art pipeline and the Microsoft 365 trust boundary. This chapter covers capabilities, limitations, prompt discipline, and the confidentiality controls that matter most."
+description: "Google's Nano Banana family of image generation models, accessed through Google AI Studio, offers City of Bowie communications staff and Parks & Recreation coordinators a powerful ideation tool for community event graphics, park signage concepts, city program flyers, and rapid 'what if' visual exploration — while remaining firmly outside the production art pipeline and the Microsoft 365 trust boundary. This chapter covers capabilities, limitations, prompt discipline, and the confidentiality controls that matter most."
 label: ch-15-nano-banana
-tags: [Nano Banana, Gemini, image generation, AI art, creative ideation, Google AI Studio, booth design, exhibit design, Spiro, mood boards, pitch visuals, confidentiality, concept exploration, prompt engineering, visual AI]
+tags: [Nano Banana, Gemini, image generation, AI art, creative ideation, Google AI Studio, park signage, community events, city communications, mood boards, resident outreach, confidentiality, concept exploration, prompt engineering, visual AI]
 ---
 
 ```{admonition} Download this Chapter as PDF
@@ -16,36 +16,36 @@ tags: [Nano Banana, Gemini, image generation, AI art, creative ideation, Google 
 
 :::{figure} ../images/ch15-nano-banana-infographic.png
 :label: fig-ch15-infographic
-:alt: Illustrated explainer infographic showing the Nano Banana creative workflow for GES — from text prompt to generated concept image, with labeled examples of booth concept exploration, mood board direction, and pitch visual generation, positioned firmly in the ideation phase before human designers take over for production
+:alt: Illustrated explainer infographic showing the Nano Banana creative workflow for City of Bowie staff — from text prompt to generated concept image, with labeled examples of community event graphic exploration, park signage concepts, and resident outreach visual generation, positioned firmly in the ideation phase before professional designers finalize city-branded materials
 :width: 80%
 :align: center
 
-Nano Banana gives GES creatives a new tool for the earliest phase of design work — the "what if" exploration that happens before anyone commits to a direction. The output is never the deliverable. The output is how you find the deliverable faster.
+Nano Banana gives City of Bowie communications staff and Parks & Recreation coordinators a new tool for the earliest phase of visual work — the "what if" exploration that happens before anyone commits to a direction. The output is never the deliverable. The output is how you find the deliverable faster.
 :::
 
 > *"The best way to have a good idea is to have lots of ideas."*
 > — Linus Pauling
 
-Here is a scene that plays out somewhere in GES every week.
+Here is a scene that plays out in City of Bowie offices regularly.
 
-A Spiro creative director is preparing for a pitch meeting in 48 hours. The client is a pharmaceutical company launching a new therapy at a major medical conference. They want an immersive booth experience that conveys "breakthrough innovation" without the cold clinical sterility that pharmaceutical booths often default to. The client has sent a brief with words like "warmth," "human connection," and "scientific precision" — concepts that mean different things to different people.
+A Parks & Recreation coordinator is preparing for the Allen Pond Park Summer Concert Series. The event is six weeks out, and the team needs promotional materials that convey "community celebration" — welcoming, vibrant, and distinctly Bowie — without the generic stock-photo look that residents have come to ignore. The brief has words like "family-friendly," "local pride," and "outdoor energy" — concepts that mean different things to different people.
 
-The creative director has three directions in mind. In the old workflow, she would sketch rough concepts, describe them in a deck, and hope the client can visualize what she means. In the new workflow, she opens Google AI Studio and types:
+The coordinator has three visual directions in mind. In the old workflow, she would sketch rough ideas, describe them in a meeting, and hope the communications team can visualize what she means before anything goes to the printer. In the new workflow, she opens Google AI Studio and types:
 
-*"A pharmaceutical trade show booth, 40 by 40 feet, with warm wood accents and soft ambient lighting. The central feature is a curved LED wall showing abstract cellular imagery in soft blues and greens. Attendees are gathered in small consultation pods with fabric dividers. The overall feeling is welcoming and human, not sterile. No visible text, logos, or branding."*
+*"A community park summer concert event flyer concept. Families spread out on a green lawn in front of a low outdoor stage at dusk. String lights overhead, food vendors in the background. The mood is warm, festive, and community-centered. No visible text, logos, or branding."*
 
-Ninety seconds later, she has a visual. Not a finished design — she would never present this to a client as finished work — but a *direction*. A starting point for conversation. Something that answers "do you mean this, or something else?" before the design team commits forty hours to a concept the client did not actually want.
+Ninety seconds later, she has a visual. Not a finished design — she would never present this to leadership as finished work — but a *direction*. A starting point for conversation. Something that answers "do you mean this feel, or something else?" before the communications team commits hours to a concept that does not match what the coordinator had in mind.
 
-That is what Nano Banana is for. Concept exploration at the speed of conversation. Rapid visual iteration that compresses the early ambiguity phase of creative work. A tool that helps GES creatives arrive at the right direction faster, so they can spend their time on what only human designers can do: the final work that actually ships.
+That is what Nano Banana is for. Concept exploration at the speed of conversation. Rapid visual iteration that compresses the early ambiguity phase of creative work. A tool that helps City of Bowie staff arrive at the right direction faster, so the communications team can spend their time on what only professional designers can do: the final work that actually ships with official city branding.
 
-This chapter is for GES creatives — exhibit designers, environmental designers, graphics production teams, and the Spiro creative team. It covers what Nano Banana can do, what it cannot do, where it genuinely helps, and where it must not go. The distinction between ideation tooling and production art is not a footnote. It is the operating principle that makes this tool safe to use.
+This chapter is for City of Bowie communications staff, Parks & Recreation coordinators, and any department that produces visual materials for residents or City Council. It covers what Nano Banana can do, what it cannot do, where it genuinely helps, and where it must not go. The distinction between ideation tooling and production art is not a footnote. It is the operating principle that makes this tool safe to use.
 
-::::{admonition} 🧭 T.R.U.E. Check — Trust
+::::{admonition} 🧭 Values Check — Accountability
 :class: note
 
-**Trust each other to always be honest and do what's right.**
+**We are accountable for our decisions and how we serve our community.**
 
-Trust in creative AI means being honest about what the output is — and what it is not. A generated image is a concept exploration tool. It is never a client deliverable. It is never production art. When you present an AI-generated visual to a colleague or a client, you say so. Trust requires that everyone understands what they are looking at.
+Accountability in creative AI means being honest about what the output is — and what it is not. A generated image is a concept exploration tool. It is never a finished city communication, and it is never a resident-facing deliverable. When you share an AI-generated visual with a colleague, you say so. Accountability requires that everyone understands what they are looking at.
 ::::
 
 ---
@@ -60,7 +60,7 @@ Trust in creative AI means being honest about what the output is — and what it
 :width: 80%
 :align: center
 
-The Nano Banana family has three tiers — each with different tradeoffs between speed, cost, and quality. For GES creative work, the iteration workflow runs wide and cheap on the fast models, then re-renders only winners on Pro.
+The Nano Banana family has three tiers — each with different tradeoffs between speed, cost, and quality. For City of Bowie creative work, the iteration workflow runs wide and cheap on the fast models, then re-renders only winning concepts on Pro.
 :::
 
 **Nano Banana (Gemini 2.5 Flash Image)**
@@ -69,11 +69,11 @@ The original. Fast, economical, good for rapid iteration. At approximately $0.03
 
 Strengths: Speed. Cost. Good enough quality for concept exploration. Strong at understanding scene composition and style direction.
 
-Limitations: Text rendering is unreliable. Fine details can be inconsistent. Not suitable for images that will be shown to clients without heavy caveats about what they are seeing.
+Limitations: Text rendering is unreliable. Fine details can be inconsistent. Not suitable for images that will be shown to City Council or department directors without heavy caveats about what they are seeing.
 
 **Nano Banana 2 (Gemini 3.1 Flash Image)**
 
-The faster successor. Released as an evolution of the original, with improved speed, better adherence to prompts, and more consistent character and object representation. Still economical, still fast, now with fewer quirks.
+The faster successor. Released as an evolution of the original, with improved speed, better adherence to prompts, and more consistent object representation. Still economical, still fast, now with fewer quirks.
 
 Strengths: Better consistency than the original. Improved prompt adherence. Good for iterating when you need more reliability.
 
@@ -85,11 +85,11 @@ The flagship. Built on Gemini 3 Pro's reasoning capabilities, this model produce
 
 Strengths: Highest visual quality. Best text rendering (though still not perfect). Strong reasoning about spatial relationships and composition. 4K output for high-resolution needs. Supports up to 14 reference images for character and style consistency.
 
-Limitations: Slower than Flash models. More expensive (though still far cheaper than a photographer or a stock image license). Text rendering, while improved, still fails on long words or unusual terms.
+Limitations: Slower than Flash models. More expensive (though still far cheaper than a design agency or stock image license). Text rendering, while improved, still fails on long words or unusual terms.
 
 **Which tier when?**
 
-The iteration workflow that works for GES creative teams: generate wide and cheap on Nano Banana or Nano Banana 2, explore many directions, identify the winners, then re-render only the selected concepts on Pro for higher quality output. Do not start with Pro. Start with volume.
+The iteration workflow that works for City of Bowie staff: generate wide and cheap on Nano Banana or Nano Banana 2, explore many directions, identify the winners, then re-render only the selected concepts on Pro for higher quality output. Do not start with Pro. Start with volume.
 
 ---
 
@@ -118,7 +118,7 @@ Google AI Studio includes "Build Mode" templates that let you try specific capab
 
 As of this writing, Nano Banana (Gemini 2.5 Flash Image) is priced at approximately $0.039 per generated image. Nano Banana Pro is higher but still in the dollars-per-session range, not dollars-per-image-at-scale. Google offers a free tier with rate limits for experimentation.
 
-For GES usage, the cost is negligible compared to the design time saved. A creative director exploring ten booth concepts costs less than a single cup of coffee.
+For City of Bowie usage, the cost is negligible compared to the design time saved. A coordinator exploring ten event graphic concepts costs less than a single cup of coffee.
 
 ---
 
@@ -128,74 +128,74 @@ This is the most important section in this chapter. Read it carefully.
 
 :::{figure} ../images/ch15-ideation-vs-production.png
 :label: fig-ch15-ideation-production
-:alt: Two-column comparison diagram showing ideation uses on the left (booth concept exploration, mood boards, pitch visuals, client clarification, texture studies) with green checkmarks, versus production uses on the right (final client deliverables, print-ready graphics, fabrication specs, production art) with red X marks — the division between where Nano Banana helps and where it must not go
+:alt: Two-column comparison diagram showing ideation uses on the left (community event concept exploration, mood boards, park signage concepts, resident outreach direction, texture studies) with green checkmarks, versus production uses on the right (final resident-facing flyers, print-ready graphics, official city signage, City Council presentation materials) with red X marks — the division between where Nano Banana helps and where it must not go
 :width: 80%
 :align: center
 
-The bright line: Nano Banana is for everything to the left of the handoff to production. Human designers own everything to the right. A generated image never goes to a client as finished work or to a printer as production art.
+The bright line: Nano Banana is for everything to the left of the handoff to production. Professional designers and the communications team own everything to the right. A generated image never goes to residents as finished city communication or to a printer as production art.
 :::
 
 **Nano Banana is ideation tooling, not production art.**
 
-That sentence is the operating principle. Let me unpack what it means in the GES context.
+That sentence is the operating principle. Let me unpack what it means in the City of Bowie context.
 
-**Ideation** is the early, exploratory phase of creative work. It is the "what if we tried this direction?" phase. It is mood boards, concept sketches, look-and-feel exploration, rapid visual brainstorming. The goal of ideation is to find the right direction before committing significant design time. Nano Banana accelerates this phase dramatically.
+**Ideation** is the early, exploratory phase of visual work. It is the "what if we tried this direction?" phase. It is mood boards, concept sketches, look-and-feel exploration, rapid visual brainstorming. The goal of ideation is to find the right direction before committing significant design time. Nano Banana accelerates this phase dramatically.
 
-**Production art** is the finished work. The graphics that go to the printer. The renderings that go into the client deck. The signage files that go to fabrication. The visual deliverables that carry the GES name. Human designers own production art. Always.
+**Production art** is the finished work. The flyer that goes to the printer. The graphic that goes on the city's website. The signage that goes up in Allen Pond Park. The visual deliverables that carry the City of Bowie's name and official brand standards. Professional designers and the communications team own production art. Always.
 
 **Why the distinction matters:**
 
-1. **Quality.** Nano Banana output is good enough to explore directions. It is not good enough to represent GES's standard of work. A generated booth concept has inconsistencies, artifacts, and details that would embarrass us in a final deliverable.
+1. **Quality.** Nano Banana output is good enough to explore directions. It is not good enough to represent the City of Bowie's standard of professional communication. A generated event concept has inconsistencies, artifacts, and invented details that would be embarrassing in a final resident-facing deliverable.
 
-2. **Accuracy.** Generated images invent details. They cannot be trusted for dimensions, proportions, or specifications. A generated booth image might show a structure that is physically impossible to build, or a layout that violates fire code. Never use output as a spec, measurement, or build drawing.
+2. **Accuracy.** Generated images invent details. They cannot be trusted for actual signage text, specific locations, or factual program information. A generated park wayfinding concept might show a map layout that does not reflect Bowie's actual parks. Never use output as a specification for printed materials.
 
-3. **Rights and attribution.** AI-generated images carry legal ambiguity around copyright. The work that goes to clients must be work GES can warrant and stand behind.
+3. **Brand standards compliance.** City of Bowie communications must follow official brand guidelines — specific colors, fonts, logo placement, and visual standards. AI-generated images do not comply with those standards and cannot be assumed to.
 
-4. **Client expectation.** Clients expect GES to deliver professional design work created by professional designers. That expectation is part of why they hire us.
+4. **Resident trust.** Residents expect the City of Bowie to produce accurate, professional communications. That expectation is the foundation of public trust — and AI-generated images must never erode it.
 
 **Where Nano Banana genuinely helps:**
 
 ::::{tab-set}
 
-:::{tab-item} Booth Concept Exploration
-Before a designer commits forty hours to a rendering, explore the direction with five generated concepts in ten minutes. "Is the client thinking dramatic and dark, or bright and welcoming?" Find out before you build.
+:::{tab-item} Community Event Graphics
+Before the communications team commits hours to a flyer, explore the visual direction with five generated concepts in ten minutes. "Is the team thinking vibrant and colorful, or clean and elegant?" Find out before anyone opens InDesign.
 :::
 
-:::{tab-item} Mood Boards and Look-and-Feel
-Generate visual explorations of texture, color palette, lighting mood, and environmental feel. "What does 'industrial elegance' actually look like?" Show three interpretations before the client says "not that one."
+:::{tab-item} Park Signage Concepts
+Generate visual explorations of sign style, scale, color palette, and environmental feel. "What does a welcoming entrance sign look like for a neighborhood park?" Show three interpretations before committing to a design direction.
 :::
 
-:::{tab-item} Pitch and RFP Response Visuals
-When responding to an RFP with a 72-hour turnaround, generate concept visuals that communicate your direction without pulling designers off active projects. The pitch is not the deliverable — winning the pitch earns the right to do the real work.
+:::{tab-item} City Council Presentation Visuals
+When preparing a concept for a Council presentation — a proposed park improvement, a new program launch — generate concept visuals that communicate the direction without pulling designers off active projects. The concept visual sparks conversation; the final presentation gets professional polish.
 :::
 
-:::{tab-item} Signage and Wayfinding Mockups
-Explore how signage might look in context before committing to design. "What does a 10-foot directional sign look like at the end of that aisle?" Generate the scenario, not the production file.
+:::{tab-item} Resident Outreach Direction
+Explore how a campaign might feel before writing the final copy. "What does 'Bowie Cares' look like visually — what colors, imagery, and energy?" Generate options to align the team before the communications work begins.
 :::
 
-:::{tab-item} Environmental Design Comps
-Test how a space might feel with different lighting, materials, or layouts. "What if the lounge area had warm wood instead of metal?" See it before you spec it.
+:::{tab-item} Park Improvement Concepts
+Test how a public space might feel with different landscaping, seating arrangements, or facility upgrades. "What if the Allen Pond Park amphitheater had a shade canopy and expanded seating?" See the concept before committing to a planning study.
 :::
 
 :::{tab-item} Texture and Material Studies
-Explore surface treatments, finishes, and material combinations. "What does brushed aluminum look like against dark fabric?" Generate options before ordering swatches.
+Explore surface treatments, signage finishes, and environmental design combinations before consulting with Public Works or a design firm. "What does weathered wood signage look like next to brushed aluminum?" Generate options before requesting formal estimates.
 :::
 
-:::{tab-item} Client Clarification
-When a client says something vague, generate interpretations. "When you say 'modern but approachable,' do you mean something like this? Or more like this?" Visual clarification beats verbal ambiguity.
+:::{tab-item} Program Concept Clarification
+When a department director describes something vague, generate interpretations. "When you say 'modern but community-centered,' do you mean something like this? Or more like this?" Visual clarification beats verbal ambiguity — especially before a budget decision.
 :::
 
 ::::
 
 **The workflow in practice:**
 
-1. Brief arrives or pitch opportunity opens
-2. Creative lead generates 5-10 concept directions in Nano Banana
+1. Program or event brief arrives, or a planning conversation opens
+2. Coordinator or communications staff generates 5-10 concept directions in Nano Banana
 3. Team reviews, selects 2-3 directions worth developing
-4. Human designers develop selected directions into production-quality work
-5. Production work goes to client
+4. Professional designers develop selected directions into production-quality, brand-compliant work
+5. Final materials go to residents, the City website, or print
 
-Step 2 is what Nano Banana is for. Steps 4 and 5 are where human designers do what they do. The tool compresses step 2 from days to minutes. It does not replace steps 4 and 5.
+Step 2 is what Nano Banana is for. Steps 4 and 5 are where professional designers do what they do. The tool compresses step 2 from days to minutes. It does not replace steps 4 and 5.
 
 ---
 
@@ -206,64 +206,62 @@ Step 2 is what Nano Banana is for. Steps 4 and 5 are where human designers do wh
 
 **Google AI Studio is NOT inside the Microsoft 365 trust boundary.**
 
-Chapter 12 established that the GES Collective operates within five distinct confidentiality perimeters on one Microsoft 365 tenant: GES Exhibitions (GSC), Spiro (EAC), onPeak, SHOWTECH, and Visit by GES. Copilot respects those boundaries because it operates within Microsoft's enterprise trust architecture.
+City of Bowie employees work within a Microsoft 365 environment where Copilot respects the city's enterprise trust architecture and permission structure.
 
-Google AI Studio is a general-purpose consumer AI tool. It is not part of GES's enterprise environment. It does not know GES's permission structure. It does not enforce client confidentiality.
+Google AI Studio is a general-purpose consumer AI tool. It is not part of the City of Bowie's enterprise environment. It does not know the city's permission structure. It does not enforce confidentiality.
 
 **What this means:**
 
-- **Never upload unreleased client product imagery.** If a client has not publicly announced a product, do not put images of it into any external AI tool.
-- **Never upload competitor-sensitive booth designs.** GES serves direct competitors in adjacent aisles. A booth design for one exhibitor must never be processed through a tool where cross-contamination cannot be controlled.
-- **Never upload confidential floor plans.** Show floor layouts, exhibitor positions, and space allocations are commercially sensitive.
-- **Never upload client brand assets.** Logos, brand guidelines, and proprietary visual assets belong to clients, not to AI training sets.
+- **Never upload sensitive city planning documents.** Unreleased development plans, preliminary budget documents, or internal personnel communications must not be processed through any external AI tool.
+- **Never upload resident personal information.** Constituent service records, permit applicant data, or any document containing personally identifiable information (PII) must remain within the city's secure systems.
+- **Never upload preliminary legal or contract documents.** City contracts, legal opinions, and pre-decisional documents are confidential until officially released.
+- **Never upload internal security information.** Facility layouts, security protocols, and Public Safety Communications materials are never appropriate for external AI tools.
 
 **The safe pattern:**
 
-Describe what you want in words. Do not upload what you have. A prompt that says "a pharmaceutical trade show booth with warm lighting and curved LED walls" is safe. A prompt that attaches the actual client's preliminary booth rendering is not.
+Describe what you want in words. Do not upload what you have. A prompt that says "a community park event flyer with families and outdoor lighting" is safe. A prompt that attaches an actual constituent's permit application or an internal planning document is not.
 ::::
 
 :::{figure} ../images/ch15-confidentiality-boundary.png
 :label: fig-ch15-confidentiality
-:alt: Diagram showing the confidentiality boundary between Microsoft 365 (inside the trust perimeter, containing SharePoint, Teams, Copilot, and GES client data) and Google AI Studio (outside the trust perimeter, accessed via browser with no enterprise integration) — with a clear barrier between them and warning labels on what must not cross
+:alt: Diagram showing the confidentiality boundary between Microsoft 365 (inside the trust perimeter, containing SharePoint, Teams, Copilot, and City of Bowie data) and Google AI Studio (outside the trust perimeter, accessed via browser with no enterprise integration) — with a clear barrier between them and warning labels on what must not cross
 :width: 80%
 :align: center
 
-The trust boundary is architectural, not optional. Google AI Studio operates outside GES's enterprise security perimeter. Client confidential material stays inside the perimeter. Prompts go out; confidential assets do not.
+The trust boundary is architectural, not optional. Google AI Studio operates outside the City of Bowie's enterprise security perimeter. Resident data, confidential planning documents, and internal communications stay inside the perimeter. Creative prompts go out; confidential assets do not.
 :::
 
-**Why this is more serious at GES than at most companies:**
+**Why confidentiality matters especially in local government:**
 
-Chapter 12 covered this in detail, but it bears repeating in the creative context.
+City of Bowie employees handle information that residents share in trust — permit applications, constituent service requests, planning inquiries, code enforcement concerns. Residents provide that information to receive city services, not to have it processed through external AI tools they did not consent to.
 
-GES serves **direct competitors at the same show**. A pharmaceutical company's booth is thirty feet from its rival's. Both are GES clients. Both trust GES with unreleased product information before launch. That trust is the foundation of an 87-year relationship with the exhibition industry.
-
-A prompt that includes "here is what Client A is planning" and then gets used to generate concepts that inform work for Client B is a cross-client contamination incident — even if no human intended it. The tool does not know which client is which. You do.
+Maryland state law and federal regulations govern how government agencies handle personally identifiable information. The City's obligation is not just ethical — it is legal.
 
 **Practical prompting for confidentiality:**
 
-Instead of: *"Here is a photo of the client's unreleased product. Generate a booth concept featuring it."*
+Instead of: *"Here is a resident's permit application. Generate a flyer showing what their proposed fence addition might look like."*
 
-Do this: *"Generate a pharmaceutical trade show booth concept featuring a central product display area with dramatic lighting. The product is a medical device approximately the size of a small refrigerator. The overall feel should be high-tech but approachable."*
+Do this: *"Generate a concept image showing a residential backyard with a 6-foot wooden privacy fence along the property line. Suburban neighborhood setting, well-maintained lawn. No specific address, resident information, or identifying details."*
 
-The difference: the first prompt leaks client IP. The second prompt describes what you need without exposing anything confidential. The generated image will not be of the actual product — it will be a conceptual placeholder that shows the *type* of display you are imagining. That is exactly what ideation needs.
+The difference: the first prompt leaks constituent data. The second prompt describes what you need without exposing anything confidential. The generated image will not reference the actual resident — it will be a conceptual illustration that shows the *type* of improvement being discussed. That is exactly what ideation needs.
 
-::::{admonition} 🧭 T.R.U.E. Check — Responsibility
+::::{admonition} 🧭 Values Check — Stewardship
 :class: note
 
-**Be responsible for our actions and deliver on our commitments.**
+**We are stewards of the public trust and the resources our community entrusts to us.**
 
-Every prompt you type is a choice about what to expose. The tool has no judgment. You have judgment. Responsibility means using it — every time, without exception, even when you are in a hurry and the client meeting is in an hour and it would be so much easier to just upload the file.
+Every prompt you type is a choice about what to expose. The tool has no judgment about what is confidential. You have that judgment. Stewardship means using it — every time, without exception, even when you are in a hurry and the Council meeting is tomorrow morning and it would be so much easier to just upload the file.
 ::::
 
 ---
 
 ## 5. The Real Limitations — What Actually Goes Wrong
 
-Nano Banana is powerful, but it has specific failure modes that every GES creative needs to understand. These are not theoretical concerns — they are observable, repeatable behaviors that will bite you if you do not plan for them.
+Nano Banana is powerful, but it has specific failure modes that every City of Bowie staff member using it needs to understand. These are not theoretical concerns — they are observable, repeatable behaviors that will bite you if you do not plan for them.
 
 :::{figure} ../images/ch15-text-failure-modes.png
 :label: fig-ch15-text-failures
-:alt: Grid of six example images showing common Nano Banana text rendering failures — garbled words on signage, invented copyright notices, fabricated company names, nonsense text on document props, unwanted captions, and inconsistent letter spacing — each with a label describing the failure mode
+:alt: Grid of six example images showing common Nano Banana text rendering failures — garbled words on signage, invented copyright notices, fabricated organization names, nonsense text on document props, unwanted captions, and inconsistent letter spacing — each with a label describing the failure mode
 :width: 80%
 :align: center
 
@@ -274,45 +272,45 @@ Text rendering is the #1 failure mode. The model attempts to write what it think
 
 This is the number one problem. Nano Banana struggles with text, especially:
 
-- **Long words.** Anything beyond 6-7 characters becomes unreliable. "FREIGHT SCHEDULE" becomes "FREISHT SEHEDULE." "EXPANDED FLOOR PLAN" becomes "EAPANDED FLOOR PLAN." "POWER DISTRIBUTION MAP" becomes "POWER DISTINATION MAP." This is not occasional — it is the default behavior. Expect every long word to fail unless proven otherwise.
+- **Long words.** Anything beyond 6-7 characters becomes unreliable. "REGISTRATION" becomes "REGISTRATON." "RECREATION CENTER" becomes "REKREATION CENTER." "CONSTITUENT SERVICES" becomes "CONSTITUENT SERVISES." This is not occasional — it is the default behavior. Expect every long word to fail unless proven otherwise.
 
-- **Uncommon terms.** Industry vocabulary that the model has not seen frequently in training data becomes unrecognizable. "DRAYAGE" may render as "DRAYGE" or "DRAYGAE." "MARSHALING YARD" may become something completely nonsensical. The more specialized the term, the more likely it fails. General consumer vocabulary ("SALE," "OPEN," "INFO") works. Exhibition industry vocabulary does not.
+- **Uncommon terms.** Government and municipal vocabulary that the model has not seen frequently in training data becomes unrecognizable. "DRAYAGE" may render as "DRAYGE." More importantly, department names and city-specific program names will fail. "PARKS & RECREATION" may become "PARKS & RECRATION" or worse. General consumer vocabulary ("WELCOME," "OPEN," "INFO") works. Municipal government vocabulary often does not.
 
-- **Any text on props.** If your generated image includes a clipboard, a document, a computer screen, a spreadsheet, or any surface that could have text on it, the model will put text there — and that text will be gibberish. Generated documents show words like "CHAGAPE" and "PROPDEN" that have no meaning in any language. In one test, a generated image of an exhibitor service kit showed a document prop with the heading "IMPORDENT FREISHT INFORMATON" — a creative interpretation of "Important Freight Information" that would embarrass anyone who showed it to a client.
+- **Any text on props.** If your generated image includes a clipboard, a document, a computer screen, a poster, or any surface that could have text on it, the model will put text there — and that text will be gibberish. Generated documents show words that have no meaning in any language. In one test, a generated image of a city program flyer showed a document prop with the heading "COMUNITY PROGRAMES INFORMATON" — a creative interpretation of "Community Programs Information" that would embarrass anyone who shared it with a resident.
 
-- **Numbers and dates.** Dates, times, and numerical sequences are equally unreliable. A booth rendering showing a schedule board might display "March 23-26" as "Mach 2326" or "Mrch 23-6." Booth numbers, hall designations, and any numerical labeling will require post-generation editing or careful prompt exclusion.
+- **Numbers, dates, and addresses.** Event dates, times, and addresses are equally unreliable. A park event flyer concept might display "June 14, 2025" as "Jun 14 2O25" or "Jne 14-25." Room numbers, hall designations, and any numerical labeling will require post-generation editing or careful prompt exclusion.
 
 ### Invented Attribution
 
-This is a real legal exposure. When generating images, Nano Banana sometimes invents:
+This is a real concern. When generating images, Nano Banana sometimes invents:
 
-- **Fabricated copyright notices.** "© 2024 Meridian Displays LLC" stamped on an image — except Meridian Displays LLC does not exist. You generated that copyright claim. The model sees that professional images often have copyright notices, so it adds one. The specific company name is pure fabrication.
+- **Fabricated copyright notices.** "© 2024 City of Bowie Recreation Department" stamped on an image — except the exact phrasing and context are fabricated. You did not request that copyright claim. The model sees that professional materials often have copyright notices, so it adds one.
 
-- **Fake website URLs.** "www.phoenixexhibits.com" appearing on generated signage — except that is either a real company you did not intend to reference, or a fake company whose name you just created. Either way, it is a liability. A URL in a generated image could direct someone to a real website you have no relationship with, or create confusion about whether a fictional company is real.
+- **Fake website URLs.** "www.bowiemaryland.gov/events" appearing on generated signage — this could be a real URL or a subtly incorrect one. Either way, it creates confusion and should never appear in materials shared with anyone. A URL in a generated image could direct someone to an incorrect or nonexistent page.
 
-- **Invented trademarks.** In one observed case, a generated image included "GES®" stamped four times across a booth rendering — a registered trademark symbol on a logo placement the user never requested. The model invented a trademark assertion for a real company (our company) without any instruction to do so. This is a real legal issue if the image goes anywhere beyond your own screen. Even for internal use, seeing fabricated trademark placements creates confusion about what was requested and what was invented.
+- **Invented program names and logos.** In observed cases, generated images include fabricated logo placements and program name variations for real organizations. A city seal that looks almost right — but is not — is worse than no seal at all, because it creates confusion about what is official.
 
-- **Fake accreditations and certifications.** Generated images of professional settings sometimes include fabricated certification badges, award logos, or industry association marks. These do not exist and should never appear in anything shown to clients.
+- **Fake accreditations and certifications.** Generated images of professional settings sometimes include fabricated certification badges, award logos, or association marks. These do not exist and should never appear in anything shown to residents or leadership.
 
 ### Unwanted Captions and Labels
 
 The model often adds descriptive text nobody asked for:
 
-- "A modern trade show booth featuring innovative design" as a caption along the bottom of an image
-- "Concept rendering" watermarked across the image
+- "A community event flyer for a local park" as a caption along the bottom of an image
+- "Concept design" watermarked across the image
 - Explanatory labels pointing to features in the image
 
 These additions make the output unusable without editing — and editing AI-generated images is its own skill set.
 
-### Dimensional Unreliability
+### Dimensional and Geographic Unreliability
 
 Generated images look plausible but are not accurate:
 
-- A "40 by 40 booth" prompt produces an image that might show a 20 by 60 space
-- Structural elements violate physics — beams that connect to nothing, cantilevers that would collapse
-- Human figures are scaled inconsistently — making booth size impossible to judge from the image
+- A "Allen Pond Park" prompt will not produce an image of the actual park — it will produce a generic park setting
+- Spatial relationships between structures may be physically impossible
+- Any generated image purporting to show a specific Bowie location is an invention, not documentation
 
-**Never use a generated image as a specification.** It is a visual direction, not a build drawing.
+**Never use a generated image to represent a specific Bowie location, facility, or program as if it were photography.** It is a visual direction concept, not documentation.
 
 ### The Prompt Discipline That Fixes This
 
@@ -322,24 +320,24 @@ After extensive use, the following prompt structure produces dramatically cleane
 
 End every prompt with explicit instructions about text:
 
-*"...the only text visible in the image should be [LIST EXACT LABELS]. Do not include any other text, copyright notices, URLs, logos, watermarks, captions, or readable content on any props, documents, screens, or surfaces."*
+*"...the only text visible in the image should be [LIST EXACT SHORT LABELS]. Do not include any other text, copyright notices, URLs, logos, watermarks, captions, or readable content on any props, documents, screens, or surfaces."*
 
 **Keep text short:**
 
 Any text you do want should be 1-3 SHORT common words:
 
 - ✅ "WELCOME" (one word, 7 letters)
-- ✅ "INFO DESK" (two short words)
-- ✅ "EXIT" (one word, 4 letters)
-- ❌ "REGISTRATION DESK" (too long)
-- ❌ "FREIGHT SCHEDULE" (will garble)
-- ❌ "POWER DISTRIBUTION CENTER" (will become nonsense)
+- ✅ "OPEN DAILY" (two short words)
+- ✅ "INFO" (one word, 4 letters)
+- ❌ "PARKS & RECREATION DEPARTMENT" (too long, will garble)
+- ❌ "CONSTITUENT SERVICES" (will fail)
+- ❌ "ALLEN POND PARK AMPHITHEATER" (will become nonsense)
 
 **Forbid props that invite text:**
 
 If you do not need documents, clipboards, or screens in the image, explicitly exclude them:
 
-*"...no visible documents, papers, screens, or readable materials in the scene."*
+*"...no visible documents, papers, screens, signage with text, or readable materials in the scene."*
 
 ---
 
@@ -349,7 +347,7 @@ Prompting for images is different from prompting for text. When you ask a text m
 
 :::{figure} ../images/ch15-prompt-anatomy.png
 :label: fig-ch15-prompt-anatomy
-:alt: Annotated prompt example showing the six components of an effective image generation prompt — Subject, Setting, Style, Palette, Composition/Lighting, and Aspect Ratio — each highlighted and labeled with examples relevant to exhibition design
+:alt: Annotated prompt example showing the six components of an effective image generation prompt — Subject, Setting, Style, Palette, Composition/Lighting, and Aspect Ratio — each highlighted and labeled with examples relevant to city communications and community event design
 :width: 80%
 :align: center
 
@@ -367,33 +365,33 @@ The anatomy of an effective visual prompt: Subject → Setting → Style → Pal
   - Example
 * - Subject
   - What is the main focus of the image?
-  - "A 30 by 30 trade show booth for a technology company"
+  - "A community park summer concert event with families on a lawn in front of an outdoor stage"
 * - Setting
   - Where is this? What surrounds it?
-  - "On a convention center show floor with high ceilings and other booths visible in background"
+  - "A suburban Maryland park at dusk, trees lining the perimeter, string lights overhead"
 * - Style
   - What is the visual treatment?
-  - "Photorealistic rendering" or "Architectural sketch style" or "Watercolor concept art"
+  - "Warm photographic style" or "Illustrated poster art" or "Clean graphic design concept"
 * - Palette
   - What colors dominate?
-  - "Cool blues and whites with warm wood accent tones"
+  - "Warm greens and golds with soft evening sky blues"
 * - Composition
   - Where is the camera? What is the lighting?
-  - "Three-quarter view from elevated angle, dramatic spotlighting from above"
+  - "Wide establishing shot from slightly elevated angle, golden hour natural lighting"
 * - Aspect Ratio
   - What shape is the final image?
-  - "Landscape format" or "16:9 aspect ratio" or "Square format"
+  - "Portrait format for flyer" or "16:9 landscape for presentation" or "Square for social media"
 ```
 
 **Example prompt structure:**
 
-*"[SUBJECT] A 40 by 40 trade show booth for a healthcare technology company, featuring a central meeting area surrounded by product demonstration stations. [SETTING] On the show floor of a large convention center with high ceilings, other booths visible in soft focus in the background. [STYLE] Photorealistic 3D rendering. [PALETTE] Clean whites and light grays with accents of deep teal and warm copper. [COMPOSITION] Three-quarter elevated view showing the full booth footprint, soft ambient lighting with dramatic accent lights on the product stations. [ASPECT] 16:9 landscape format. [TEXT CONTROL] The only visible text should be 'WELCOME' on the main entrance arch. No other text, logos, copyright notices, URLs, or readable content on any surface."*
+*"[SUBJECT] A community outdoor concert event in a suburban park, with families sitting on blankets and lawn chairs in front of a small outdoor stage. Musicians on stage. [SETTING] A well-maintained public park at dusk, mature trees in the background, string lights strung between poles, a few food vendor tents visible in the background. [STYLE] Warm, photorealistic, celebratory atmosphere. [PALETTE] Warm golden tones, deep greens, soft twilight sky in blues and purples. [COMPOSITION] Wide shot showing the audience and stage together, natural lighting with string light accents. [ASPECT] Portrait format. [TEXT CONTROL] No visible text, logos, signage, banners, copyright notices, URLs, or readable content on any surface."*
 
 **Common mistakes:**
 
-- **Too vague.** "A nice booth" gives the model nothing to work with. What makes it nice? What size? What style?
+- **Too vague.** "A nice event flyer" gives the model nothing to work with. What kind of event? What setting? What mood?
 
-- **Too specific on wrong dimensions.** "Exactly 12 feet 4 inches tall" will not produce accurate dimensions. Describe relative scale instead.
+- **Asking for specific Bowie locations by name.** The model will not produce an accurate image of Allen Pond Park. Describe the *type* of setting you want instead.
 
 - **Forgetting text control.** If you do not forbid unwanted text, you will get unwanted text.
 
@@ -405,11 +403,11 @@ The anatomy of an effective visual prompt: Subject → Setting → Style → Pal
 
 :::{figure} ../images/ch15-iteration-ladder.png
 :label: fig-ch15-iteration
-:alt: Vertical workflow diagram showing the iteration ladder — starting at the bottom with "Generate 10 concepts on Nano Banana (fast, cheap)" rising through "Review with team, select 3 directions" then "Refine selected concepts on Nano Banana 2" then "Final concepts on Nano Banana Pro" and ending at the top with "Human designers take over for production"
+:alt: Vertical workflow diagram showing the iteration ladder — starting at the bottom with "Generate 10 concepts on Nano Banana (fast, cheap)" rising through "Review with team, select 3 directions" then "Refine selected concepts on Nano Banana 2" then "Final concepts on Nano Banana Pro" and ending at the top with "Professional designers take over for brand-compliant production"
 :width: 80%
 :align: center
 
-The iteration ladder: start wide and cheap, narrow as you climb, hand off to human designers at the top. The tool accelerates exploration. Humans own execution.
+The iteration ladder: start wide and cheap, narrow as you climb, hand off to professional designers at the top. The tool accelerates exploration. Humans own execution and brand compliance.
 :::
 
 **Step 1: Generate Wide on Nano Banana**
@@ -417,16 +415,16 @@ The iteration ladder: start wide and cheap, narrow as you climb, hand off to hum
 Start with 10-15 concepts on the fast model. Try different directions. Do not self-edit at this stage — the point is volume. A concept that looks strange in your head might look interesting when you see it.
 
 Prompt variations to try:
-- Different color palettes for the same booth concept
-- Different lighting moods (bright and welcoming vs. dramatic and moody)
-- Different central features (product display vs. meeting lounge vs. demonstration area)
-- Different architectural styles (angular and modern vs. organic and curved)
+- Different color palettes for the same event concept
+- Different lighting moods (bright and celebratory vs. warm and intimate)
+- Different central features (stage focus vs. crowd energy vs. community gathering)
+- Different graphic styles (photorealistic vs. illustrated poster vs. clean graphic)
 
 Cost for 15 generations: roughly $0.60. Time: under 10 minutes.
 
 **Step 2: Review and Select**
 
-With your team (or alone if you are the creative lead), review the generated concepts. Most will be wrong. Some will be interesting. A few will spark a direction worth pursuing.
+With your team (or alone if you are the program lead), review the generated concepts. Most will be wrong. Some will be interesting. A few will spark a direction worth pursuing.
 
 Select 2-3 directions to develop further.
 
@@ -436,62 +434,62 @@ For your selected directions, refine the prompts based on what you learned. Be m
 
 **Step 4: Final Concepts on Nano Banana Pro**
 
-For the 1-2 concepts you want to show to the team or use in a pitch, re-generate on Pro for higher quality output. Use the refined prompts from Step 3.
+For the 1-2 concepts you want to show to the team or use in a planning conversation, re-generate on Pro for higher quality output. Use the refined prompts from Step 3.
 
-**Step 5: Human Handoff**
+**Step 5: Professional Designer Handoff**
 
-The winning concept goes to human designers for actual development. The generated image is reference material — visual direction, not production art.
+The winning concept goes to the communications team or a professional designer for actual development. The generated image is reference material — visual direction, not production art. The designer will produce brand-compliant, print-ready materials that go to residents.
 
 **What you have at the end:**
 
 - A clear visual direction agreed upon by the team
 - Reference images that communicate that direction
 - Significantly less time spent on exploration
-- Designers free to focus on execution, not ideation
+- Designers free to focus on execution, not guessing what you meant
 
 **What you do not have:**
 
-- A finished rendering ready for a client deck
-- Production-ready graphics
-- Accurate dimensions or build specifications
-- Work that can be presented as "GES design work"
+- A finished flyer ready to post on the city website
+- Brand-compliant graphics ready for print
+- Materials that can be presented as official City of Bowie communications
 
-The distinction matters. The iteration workflow produces *direction* — the answer to "which way should we go?" It does not produce *deliverables* — the polished work that goes to clients. That gap is filled by human designers, and it is not a small gap. The translation from "AI-generated concept that captures a direction" to "professional rendering that GES stands behind" is where design skill lives.
+The distinction matters. The iteration workflow produces *direction* — the answer to "which way should we go?" It does not produce *deliverables* — the polished, brand-compliant work that serves residents. That gap is filled by professional designers, and it is not a small gap. The translation from "AI-generated concept that captures a direction" to "official city communication that residents trust" is where design skill and brand stewardship live.
 
 ---
 
-## 8. Integrating with the GES Creative Workflow
+## 8. Integrating with the City of Bowie Creative Workflow
 
 :::{figure} ../images/ch15-booth-concept-workflow.png
 :label: fig-ch15-workflow
-:alt: Horizontal workflow diagram showing how Nano Banana integrates with GES creative process — Brief Intake, AI Concept Exploration (10-15 concepts in Nano Banana), Team Review and Direction Selection, Designer Development, Internal Review, Client Presentation, Revision Cycles, Production Art — with the AI phase clearly bounded and labeled as ideation only
+:alt: Horizontal workflow diagram showing how Nano Banana integrates with City of Bowie creative process — Program or Event Brief, AI Concept Exploration (10-15 concepts in Nano Banana), Team Review and Direction Selection, Designer Development with Brand Standards, Internal Review, Resident-Facing Publication — with the AI phase clearly bounded and labeled as ideation only
 :width: 80%
 :align: center
 
-Nano Banana slots into the existing GES creative workflow at the concept exploration phase — after brief intake, before design development. It compresses a days-long exploration into a morning's work.
+Nano Banana slots into the City of Bowie creative workflow at the concept exploration phase — after brief intake, before design development. It compresses a multi-day exploration into a morning's work.
 :::
 
 **Where it fits:**
 
 | Workflow Phase | Who Does It | Nano Banana Role |
 |----------------|-------------|------------------|
-| Brief intake and discovery | Account team, Creative lead | None — understand the ask first |
-| Concept exploration | Creative lead | **Primary use** — generate directions |
-| Direction selection | Creative team | Review generated concepts |
-| Design development | Designers | Reference only — AI concepts as direction |
-| Internal review | Creative director | None — reviewing human work |
-| Client presentation | Account team, Creatives | None — presenting human work |
-| Revision cycles | Designers | Optional — quick visual exploration of revisions |
-| Production art | Graphics, Fabrication | **Never** — production is human work |
+| Brief intake and planning | Program lead, Communications | None — understand the need first |
+| Concept exploration | Program lead, Coordinator | **Primary use** — generate visual directions |
+| Direction selection | Department team | Review generated concepts |
+| Design development | Communications, Professional designer | Reference only — AI concepts as direction |
+| Brand standards review | Communications director | None — reviewing human work |
+| Internal approval | Department director | None — reviewing human work |
+| Resident-facing publication | Communications | None — publishing official materials |
+| Future revision cycles | Designer | Optional — quick visual exploration of new directions |
+| Final production | Print vendor, Web team | **Never** — production is human work |
 
 **Communication conventions:**
 
 When sharing a generated concept internally:
-- "Here's an AI-generated concept for direction — this is ideation, not a deliverable"
+- "Here's an AI-generated concept for visual direction — this is ideation, not a deliverable"
 - Include the prompt used so others can refine it
 - Do not present it as design work — it is exploration work
 
-When using it as reference for designers:
+When using it as reference for professional designers:
 - "Here's the visual direction we're going for"
 - Expect the designer to interpret and improve, not replicate
 - The generated image is a starting point, not a target
@@ -502,55 +500,55 @@ When using it as reference for designers:
 
 :::{figure} ../images/ch15-creative-workflow-integration.png
 :label: fig-ch15-creative-integration
-:alt: Venn diagram showing the overlap and boundaries between AI capabilities and human designer capabilities — AI excels at rapid exploration, volume, and consistent style application; humans excel at judgment, accuracy, production quality, and client relationships; the overlap zone shows direction finding and concept refinement
+:alt: Venn diagram showing the overlap and boundaries between AI capabilities and professional designer capabilities — AI excels at rapid exploration, volume, and visual direction-finding; humans excel at judgment, brand accuracy, production quality, legal compliance, and resident trust; the overlap zone shows direction finding and concept refinement
 :width: 80%
 :align: center
 
-The capabilities Venn diagram: AI tools and human designers have different strengths. Effective creative teams use both — AI for speed and volume in exploration, humans for judgment and quality in execution.
+The capabilities Venn diagram: AI tools and professional designers have different strengths. Effective city communications teams use both — AI for speed and volume in exploration, humans for judgment, brand standards, and quality in execution.
 :::
 
-::::{admonition} 🧭 T.R.U.E. Check — Understanding
+::::{admonition} 🧭 Values Check — Responsiveness
 :class: note
 
-**People come first. Be understanding and compassionate.**
+**We respond to our community's needs with care and accuracy.**
 
-Understanding in the context of AI tools means recognizing that the tool's limitations are not failures to be frustrated by — they are boundaries to be understood. A designer who sees their AI-generated concept fail to render text correctly should not feel like the tool failed them. The tool worked exactly as expected. Understanding its limits is part of using it well.
+Responsiveness in the context of AI tools means recognizing that the tool's limitations are not failures to be frustrated by — they are boundaries to be understood. A coordinator who sees their AI-generated event concept fail to render text correctly should not feel like the tool failed them. The tool worked exactly as expected. Understanding its limits is part of using it well.
 
-More importantly: understanding applies to clients. A client who sees an AI-generated concept and asks "why can't we just use this?" deserves a thoughtful explanation, not dismissal. They are not trying to cut corners — they are trying to understand what is possible. Meet them where they are.
+More importantly: responsiveness applies to residents. A resident who sees an AI-generated image used in an official city communication without professional polish deserves better. The standard for city communications is accuracy and professionalism — and AI ideation tools do not meet that standard on their own.
 ::::
 
 **Cannot do:**
 
-- **Production-ready graphics.** Output is not print-ready and should not go to fabrication. Resolution, color accuracy, and detail quality are insufficient for production work.
-- **Accurate dimensions.** Cannot be trusted for measurements, scale, or build specifications. A "40 by 40 booth" prompt produces an image of indeterminate actual size.
-- **Reliable text.** Long words, technical terms, and industry vocabulary fail frequently. Text rendering remains the model's most consistent weakness.
-- **Client logos.** Cannot reproduce actual brand assets accurately or legally. Even if you could get a logo to render, you should not — it creates attribution confusion.
-- **Structural accuracy.** Generated structures may be physically impossible. Beams that connect to nothing, cantilevers without support, walls that float.
-- **Code compliance.** Cannot know fire code, ADA requirements, or venue regulations. A generated booth may violate every rule in the exhibitor manual.
-- **Photography replacement.** Cannot replace actual photos of actual products. Generated "products" are inventions, not documentation.
-- **Final renderings.** Cannot produce the polished 3D renderings that go in client decks. The quality gap is immediately visible to anyone who has seen professional design work.
+- **Production-ready graphics.** Output is not print-ready and should not go to print vendors, the city website, or any resident-facing channel. Resolution, color accuracy, and detail quality are insufficient for official communications.
+- **Brand standards compliance.** Cannot reproduce the City of Bowie's official colors, fonts, logo, or visual identity standards accurately. Every official city communication must comply with established brand guidelines.
+- **Accurate location representation.** Cannot produce accurate images of Allen Pond Park, the Bowie Community Center, or any specific Bowie facility. Generated images of named locations are inventions, not documentation.
+- **Reliable text.** Long words, government terms, and department names fail frequently. Text rendering remains the model's most consistent weakness.
+- **City logos and seals.** Cannot reproduce the City of Bowie's official seal or logo accurately or appropriately. Generated logo approximations must never appear in shared materials.
+- **Code and policy compliance.** Cannot know ADA requirements, city style guide rules, or communications policy constraints. A generated design may violate requirements the model has no way of knowing.
+- **Photography replacement.** Cannot replace actual photos of Bowie parks, facilities, or community events. Generated "locations" are inventions, not documentation.
+- **Final resident communications.** Cannot produce the polished, brand-compliant materials that residents receive. The quality and accuracy gap is immediately visible to anyone who reviews them professionally.
 
 **Can do, with caveats:**
 
-- **Concept exploration** — but requires review and selection by humans
-- **Mood communication** — but is not a finished mood board
-- **Direction finding** — but the direction must be executed by designers
-- **Rapid iteration** — but quality requires refinement and human polish
-- **Visual brainstorming** — but judgment about what is good still requires humans
+- **Visual concept exploration** — but requires review and selection by communications professionals
+- **Mood and tone communication** — but is not a finished mood board
+- **Direction finding** — but the direction must be executed by designers following brand standards
+- **Rapid iteration** — but quality and compliance require professional polish
+- **Visual brainstorming** — but judgment about what is appropriate for city communications still requires humans
 
-::::{admonition} 🧭 T.R.U.E. Check — Excellence
+::::{admonition} 🧭 Values Check — Pride
 :class: note
 
-**Provide excellent service and execution.**
+**We take pride in serving Bowie with professionalism and excellence.**
 
-Excellence means knowing what each tool is for. Nano Banana is excellent at ideation. Human designers are excellent at execution. Using each for what it does well — that is excellence. Using AI output as a client deliverable is not faster. It is lower quality presented as finished work. That is the opposite of excellence.
+Pride means knowing what each tool is for. Nano Banana is excellent at ideation. Professional designers are excellent at execution and brand stewardship. Using each for what it does well — that is how we serve residents well. Using AI output as a resident-facing deliverable is not faster service. It is lower quality presented as official communication. That is the opposite of the pride we take in representing Bowie.
 ::::
 
 ---
 
 ## 10. Try This — A Complete Ideation Session
 
-::::{admonition} 🧪 Try This: AI-Assisted Booth Concept Exploration
+::::{admonition} 🧪 Try This: AI-Assisted Community Event Concept Exploration
 :class: tip
 
 **Time required:** 30-45 minutes
@@ -562,7 +560,7 @@ Excellence means knowing what each tool is for. Nano Banana is excellent at idea
 
 **Fictional brief:**
 
-*"TechFlow Solutions is exhibiting at CES 2027. They are launching a new smart home hub that integrates all home automation systems. Their brand is modern, approachable, and tech-forward without being cold. Budget supports a 30 by 30 island booth. They want a space that feels like walking into a smart home, not a showroom. Key activities: product demos, private meetings with retail buyers, and a social media photo moment."*
+*"The City of Bowie Parks & Recreation Department is launching its annual Fall Family Festival at Allen Pond Park. The event runs Saturday, October 18, 2025 from 11 a.m. to 5 p.m. Family activities include hayrides, a pumpkin patch area, live music, food vendors, and a kids' craft tent. The visual tone should feel welcoming, community-centered, and distinctly autumnal — not corporate or generic. The communications team needs concept direction before beginning the official flyer design."*
 
 ---
 
@@ -570,17 +568,17 @@ Excellence means knowing what each tool is for. Nano Banana is excellent at idea
 
 Open Google AI Studio. Select the Gemini 2.5 Flash Image model.
 
-Generate 5 different booth concepts using different approaches:
+Generate 5 different concept directions using different approaches:
 
-1. **Living room approach:** *"A 30 by 30 trade show booth designed to look like a modern smart home living room. Warm wood floors, comfortable seating areas, subtle technology integration. Convention center setting, other booths visible in background. Photorealistic rendering, warm color palette with tech blue accents. Three-quarter elevated view. No text, logos, or branding visible."*
+1. **Warm autumn gathering approach:** *"A community fall festival in a suburban park. Families with children near hay bales and pumpkins. Mature trees showing autumn color in the background. Warm afternoon light. Food tents visible in the distance. Festive and welcoming atmosphere. No text, signage, logos, or branding visible."*
 
-2. **Tech showcase approach:** *"A 30 by 30 trade show booth with a dramatic central product display on a glowing pedestal. Curved LED walls showing abstract digital patterns. Modern angular architecture in white and chrome. Dark dramatic lighting with bright accents. Photorealistic, three-quarter view. No text or logos."*
+2. **Kids-centered approach:** *"Children at an outdoor autumn craft activity table under a tent. Parents nearby. Colorful craft supplies and finished crafts on the table. Fall-colored trees in background. Warm, sunny day. Joyful atmosphere. No text or logos."*
 
-3. **Hybrid space approach:** *"A 30 by 30 trade show booth that blends home comfort with technology showcase. Half the space is a warm living environment, half is a sleek product demonstration area. The two zones flow together. Soft and dramatic lighting in different zones. No visible text."*
+3. **Community panorama approach:** *"Wide shot of a fall community festival in a park. Crowd of diverse families on a lawn. A small outdoor stage with musicians at one end, pumpkin and craft activity areas at the other. Fall foliage all around. Aerial perspective showing the whole event layout. No text."*
 
-4. **Immersive tunnel approach:** *"A 30 by 30 trade show booth entered through a short immersive tunnel that leads into an open central space. Projection-mapped walls creating a 'surrounded by technology' feeling. Modern minimal furniture. Cool blue palette. No text or logos."*
+4. **Food and harvest approach:** *"A farmers market and festival vendor row in a fall park setting. Tents with seasonal produce, apple cider, baked goods. Families browsing. Hay bales for seating. Rich autumn colors throughout. No text or logos."*
 
-5. **Modular pod approach:** *"A 30 by 30 trade show booth with multiple small pod-like spaces connected by a central circulation path. Each pod demonstrates a different smart home room type. Consistent modern aesthetic throughout. Bright, welcoming lighting. No text."*
+5. **Illustrated poster style approach:** *"A stylized illustrated poster concept for a fall community festival. Bold autumn colors — deep oranges, reds, and golds. Simple illustrated icons: a pumpkin, a leaf, a family silhouette, a music note. Clean graphic design aesthetic. Vintage Americana poster feel. No text."*
 
 ---
 
@@ -588,9 +586,9 @@ Generate 5 different booth concepts using different approaches:
 
 Look at your five generated concepts. Ask yourself:
 
-- Which one best captures "modern, approachable, tech-forward without being cold"?
-- Which one would work for the three activities (demos, meetings, photo moment)?
-- Which one feels most like "walking into a smart home"?
+- Which one best captures "welcoming, community-centered, and distinctly autumnal"?
+- Which one would work as the visual foundation for an official city flyer?
+- Which one feels most like Bowie — not generic?
 
 Select 2 directions to refine.
 
@@ -603,7 +601,7 @@ For your selected directions, generate 3 variations each, refining the prompt ba
 - Add details that were missing
 - Adjust elements that did not work
 - Try different color variations
-- Explore different camera angles
+- Explore different framing options
 
 ---
 
@@ -618,7 +616,7 @@ If you have access to Nano Banana Pro, re-generate your best 1-2 concepts for hi
 Write a brief note:
 - Which concepts resonated and why
 - What prompt adjustments produced better results
-- What you would hand to a designer as direction
+- What you would hand to the communications team as visual direction
 
 ---
 
@@ -627,7 +625,7 @@ Write a brief note:
 1. How did the AI-generated concepts compare to what you imagined before generating?
 2. Did any concept surprise you in a useful way?
 3. What limitations did you encounter?
-4. How would you describe the "direction" to a designer based on what you generated?
+4. How would you describe the "direction" to a professional designer based on what you generated?
 5. What would you do differently next time?
 ::::
 
@@ -635,29 +633,29 @@ Write a brief note:
 
 ## 11. Productive Struggle Problem
 
-::::{admonition} 🔨 Productive Struggle: The Difficult Client Brief
+::::{admonition} 🔨 Productive Struggle: The Abstract Program Brief
 :class: important
 
 **Scenario:**
 
-A Spiro client has sent a brief that is unusually abstract. They are launching a new brand identity at their industry's largest trade show and want their 50 by 50 booth to "embody transformation." The brief uses words like "metamorphosis," "emergence," and "the moment between what was and what will be."
+The City Manager's office has requested a visual campaign for a new city initiative called "Bowie Forward" — a community engagement effort tied to the city's 2026 strategic planning process. The brief describes the campaign as intended to convey "optimism," "community ownership," and "Bowie's next chapter."
 
-When asked for visual references, the client says: "We don't have any — that's why we're asking you."
+When asked for visual references, the requesting department says: "We don't have any — that's why we're asking you to explore directions."
 
 **Your challenge:**
 
-Using Nano Banana, generate a range of concept directions that might communicate "transformation" and "emergence" in a trade show booth context. You have 45 minutes.
+Using Nano Banana, generate a range of concept directions that might communicate "optimism," "community ownership," and "Bowie's next chapter" in a city communications context. You have 45 minutes.
 
 **The struggle points:**
 
-1. How do you translate abstract concepts into visual prompts?
-2. What physical elements could represent "metamorphosis" in a booth structure?
-3. How do you avoid clichés (butterfly imagery, "before and after" layouts)?
-4. How do you generate enough range that the client sees genuinely different directions?
+1. How do you translate abstract civic concepts into visual prompts?
+2. What visual elements could represent "community ownership" without being clichéd (no generic handshakes or abstract globe imagery)?
+3. How do you generate enough range that decision-makers see genuinely different directions?
+4. How do you avoid generating anything that looks like it belongs to a different city?
 
 **Constraints:**
 
-- Do not use the client's actual brand (they do not have one yet — that is the point)
+- Do not include any city logos, seals, or official marks (the model will garble them)
 - Do not include text in the generated images
 - Generate at least 8 distinct concept directions
 - Document your prompt evolution as you learn what works
@@ -665,15 +663,15 @@ Using Nano Banana, generate a range of concept directions that might communicate
 **What to submit to your team:**
 
 - Your 3 best concepts with the prompts that generated them
-- A brief explanation of how each concept communicates "transformation"
+- A brief explanation of how each concept communicates "Bowie Forward"
 - Notes on what prompt strategies worked and what failed
-- Honest assessment: which concept would you recommend, and why?
+- Honest assessment: which concept would you recommend for the communications team to develop, and why?
 
 **Why this is hard:**
 
-Most briefs are concrete: "we want to showcase these products" or "we need a meeting space for 12." This brief asks you to make an idea visible. That is a translation challenge that AI cannot do alone. You have to figure out what "transformation" might look like, then describe it well enough for the model to generate it, then evaluate whether it actually communicates what the brief asked for.
+Most briefs are concrete: "we need a flyer for the summer concert series" or "we need a graphic for the permit office waiting room." This brief asks you to make an idea visible — to find an image for values and aspirations that different people understand differently. That is a translation challenge that AI cannot do alone. You have to figure out what "Bowie Forward" might look like, then describe it well enough for the model to generate it, then evaluate whether it actually communicates what the brief asked for.
 
-The productive struggle is the translation — from abstract concept to visual prompt to generated image to professional judgment about whether it worked.
+The productive struggle is the translation — from abstract civic concept to visual prompt to generated image to professional judgment about whether it worked.
 ::::
 
 ---
@@ -688,28 +686,28 @@ Google AI Studio
   Browser-based interface for accessing Google's AI models, including the Nano Banana image generation family. Accessible at aistudio.google.com with a Google account.
 
 Ideation
-  The early, exploratory phase of creative work where multiple directions are explored before committing to development. Nano Banana accelerates ideation; it does not replace production.
+  The early, exploratory phase of creative work where multiple directions are explored before committing to development. Nano Banana accelerates ideation; it does not replace professional design and production.
 
 Production Art
-  Finished creative work that goes to clients, to print, or to fabrication. Production art is created by human designers. AI-generated images are never production art.
+  Finished creative work that goes to residents, to print, or to the city website. Production art is created by professional designers following official brand standards. AI-generated images are never production art.
 
 Text Rendering
-  The ability of an image generation model to include readable text in generated images. Nano Banana's text rendering is unreliable, especially for long words and technical terms.
+  The ability of an image generation model to include readable text in generated images. Nano Banana's text rendering is unreliable, especially for long words and government/municipal terms.
 
 Prompt
   The text description given to an image generation model to specify what image should be created. Effective prompts include subject, setting, style, palette, composition, and text control elements.
 
 Character Consistency
-  The ability of an image model to maintain the appearance of a character or object across multiple generated images. Useful for generating consistent booth concepts or design elements.
+  The ability of an image model to maintain the appearance of a character or object across multiple generated images. Useful for generating consistent visual concepts across a campaign.
 
 Multi-Image Fusion
   The capability to combine elements from multiple input images into a single generated output. Useful for placing objects into scenes or combining visual elements.
 
-Grounding
-  The connection between a generative AI model and the source data it draws upon. In image generation, this relates to how well the model follows prompt instructions rather than inventing details.
+Brand Standards
+  The official visual identity guidelines for the City of Bowie, including approved colors, fonts, logo usage, and layout conventions. All resident-facing and official city communications must comply with brand standards. AI-generated images do not comply automatically.
 
 Trust Boundary
-  The security perimeter that defines what data an AI tool can access and what confidentiality protections apply. Google AI Studio operates outside the Microsoft 365 trust boundary that protects GES's Copilot usage.
+  The security perimeter that defines what data an AI tool can access and what confidentiality protections apply. Google AI Studio operates outside the Microsoft 365 trust boundary that protects City of Bowie's Copilot usage.
 
 SynthID
   Google's invisible digital watermarking technology applied to AI-generated images, allowing them to be identified as AI-created or edited.
@@ -731,40 +729,40 @@ SynthID
 
 ## Discussion Questions
 
-1. **The ideation boundary.** Where exactly does ideation end and production begin in your team's workflow? How would you communicate to a new team member that AI-generated images are for exploration, not delivery?
+1. **The ideation boundary.** Where exactly does ideation end and production begin in the City of Bowie's communications workflow? How would you communicate to a new department coordinator that AI-generated images are for exploration, not for distribution to residents?
 
-2. **Confidentiality in practice.** A colleague is rushing to prepare for a pitch and asks if they can "just upload the client's preliminary rendering to get better AI concepts." How do you respond? What is the principle, and how do you make it practical under time pressure?
+2. **Confidentiality in practice.** A colleague is rushing to prepare for a Council presentation and asks if they can "just upload the constituent's permit photos to get better AI concept images." How do you respond? What is the principle, and how do you make it practical under time pressure?
 
-3. **Quality judgment.** You generate a booth concept that looks good, but something feels off. It would take three hours to explain to a designer what you want; the generated image seems close enough. What is the right call? What criteria should guide the decision?
+3. **Quality judgment.** You generate a park signage concept that looks good, but something feels off. It would take time to explain to the communications team what you want; the generated image seems close enough for an internal meeting. What is the right call? What criteria should guide the decision?
 
-4. **Client communication.** A client sees an AI-generated concept you used internally and asks: "Can we just use that? It looks good enough." How do you explain why the final deliverable will be better — and worth the additional time?
+4. **Resident communication.** A resident asks to see what their proposed park improvement would look like, and someone suggests sharing an AI-generated concept to give them an idea. What are the risks? How would you explain why this is not appropriate?
 
-5. **Text failure workarounds.** Your booth concept needs to show "REGISTRATION DESK" on a sign, but Nano Banana keeps garbling it. What options do you have? When is it worth fighting the tool, and when is it better to work around it?
+5. **Text failure workarounds.** Your event concept needs to show "PARKS & RECREATION DEPT" on a sign, but Nano Banana keeps garbling it. What options do you have? When is it worth fighting the tool, and when is it better to work around it?
 
-6. **Cross-client awareness.** You are working on a pitch for Company A. While generating concepts, you accidentally type a prompt that includes details you remember from Company B's booth last year. You did not upload anything, but you drew on your memory. Is this a problem? Where is the line?
+6. **Brand integrity.** You generate a concept that looks like it could represent Bowie — but the generated city seal in the corner is clearly wrong. A colleague thinks it looks "close enough" for an internal slideshow. Where is the line, and why does it matter even for internal use?
 
 ---
 
 ## Leader's Takeaway
 
-Nano Banana gives GES creative teams a powerful new tool for the ideation phase of design work — but only if the boundaries are clear and the discipline is maintained.
+Nano Banana gives City of Bowie staff a valuable new tool for the ideation phase of communications and program planning — but only if the boundaries are clear and the discipline is maintained.
 
 **What leaders need to ensure:**
 
-1. **The ideation/production boundary is understood.** Every creative team member needs to understand that AI-generated images are exploration tools, not deliverables. This is a professional standard, not a guideline.
+1. **The ideation/production boundary is understood.** Every staff member using this tool needs to understand that AI-generated images are exploration tools, not deliverables. This is a professional and legal standard, not a guideline.
 
-2. **Confidentiality discipline is enforced.** Google AI Studio is outside the Microsoft 365 trust boundary. Client IP, unreleased products, and competitor-sensitive designs must never be uploaded. Prompts describe; they do not expose.
+2. **Confidentiality discipline is enforced.** Google AI Studio is outside the Microsoft 365 trust boundary. Resident personal information, confidential planning documents, and internal security materials must never be uploaded or described in detail. Prompts describe general concepts; they do not expose confidential city information.
 
-3. **Designers are not threatened; they are freed.** The value proposition is clear: AI handles rapid exploration so designers can focus on execution. The tool does not replace design skill. It accelerates finding the direction that design skill will develop.
+3. **Professional designers and communications staff are not bypassed.** The value proposition is clear: AI handles rapid visual exploration so the communications team can focus on brand-compliant execution. The tool does not replace professional design skill or brand stewardship. It accelerates finding the direction that those skills will develop.
 
-4. **Prompt skills are developed.** Effective prompting is a learnable skill. Invest in a few hours of experimentation so your team knows what works and what fails.
+4. **Brand standards are non-negotiable.** No AI-generated image goes to residents, print vendors, or the city website without professional review and brand compliance verification. The City of Bowie's communications standards exist to maintain public trust.
 
-5. **Quality gates remain.** The workflow still ends with human review, human judgment, and human accountability. AI accelerates the early stages. It does not change who is responsible for the final work.
+5. **Prompt skills are developed deliberately.** Effective prompting is a learnable skill. Invest in a few hours of experimentation so staff know what works and what fails — before they need the tool for a real project.
 
 **The opportunity:**
 
-A pitch that used to require pulling designers off active projects can now be explored with AI-generated concepts in hours, not days. A creative director can show a client three visual directions before anyone has committed to building them. A mood board that used to require stock image research can be generated directly from a creative brief.
+A Parks & Recreation event that used to require waiting for the communications team's availability can now be explored visually in hours, giving the team a clear direction before the design work begins. A department director can see three concept directions for a new program before anyone has committed design time. A planning conversation that used to involve lengthy verbal descriptions can be anchored in visual references generated in minutes.
 
-The time saved is real. The risk is manageable with clear discipline. The combination gives GES creatives an edge in the RFP process and a faster path from brief to direction.
+The time saved is real. The risk is manageable with clear discipline. The combination gives City of Bowie staff a better path from "we need something visual" to "here's what we're going for" — so the professionals can do their best work.
 
-Use the tool. Respect the boundaries. Keep humans in the loop where humans belong.
+Use the tool. Respect the boundaries. Keep humans in the loop where humans belong — and in city government, that is especially where residents are involved.
