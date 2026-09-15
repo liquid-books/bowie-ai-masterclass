@@ -36,7 +36,7 @@ This book is your master class for understanding it, using it, and — most impo
 
 ## A City Built to Move Forward
 
-:::{figure} ../images/ch00-behmn-message.png
+:::{figure} ../images/ch00-about-program.png
 :label: fig-ch00-city-history
 :alt: Illustration representing the spirit of Bowie, Maryland — from its origins as a railroad junction town to a thriving, proud city of 70,000+ residents leading the way in public service innovation
 :width: 80%
